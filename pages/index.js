@@ -2,8 +2,7 @@ import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 import Typewriter from 'typewriter-effect';
-import MiniStart from '../components/ministart';
-import Timer from '../components/countdown';
+import FlipCountdown from '@rumess/react-flip-countdown';
 
 
 export default function Home() {
@@ -37,8 +36,13 @@ Skillsets Land a job of 22+ LPA Helped 1000+ Students and many more to go...</di
           <div className={styles.rightcol}>
           <div className={styles.countdowner}>
             <h2 className={styles.countdowntext}>Hurry Up! Registration Closing In</h2>
-            <Timer/>
-            <MiniStart/>
+            <FlipCountdown
+            hideYear
+            hideMonth
+            theme='dark' // Options (Default: dark): dark, light.
+            size='medium' // Options (Default: medium): large, medium, small, extra-small.
+                endAt={'2022-12-12 01:26:58'} // Date/Time
+            />
             </div>
           </div>
         </div>
