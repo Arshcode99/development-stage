@@ -47,6 +47,41 @@ Skillsets Land a job of 22+ LPA Helped 1000+ Students and many more to go...</di
           </div>
         </div>
       </section>
+      {/* Main Home Page Ends  */}
+      {/* ============================================ */}
+      {/* Main Training Page Starts  */}
+      <section className={styles.tainingabout}>
+        <div className={styles.trainingaboutmaincontainer}>
+          <div className={styles.leftcol2}>
+            <div className={styles.deem1}>About Our Remote Training</div>
+            <div className={styles.h4}>Develop your Skills, Shine Your Life</div>
+            <p>Learn Advanced React Concepts With Amazing Real World Problems.</p>
+            <button className={styles.btnwithback}>Read More</button>
+          </div>
+          <div className={styles.rightcol2}>
+        <div className={styles.text}>A program for everyone to master in frontend development. You definitely love to learn how professionals work on a real job. You will kick start your journey from very fundamentals, receive support from our mentors and huge community. The best way to learn with hands-on labs, practical projects, and community - done right from your browser. Build software projects like the top 1% developers and learn all the skills you need to land the best frontend developer jobs.</div>
+          </div>
+        </div>
+        <div className={styles.benifits}>
+          <div className={styles.card}>
+            <h1>90%</h1>
+            <p>Placed within 6 months</p>
+          </div>
+          <div className={styles.card}>
+            <h1>200+</h1>
+            <p>hiring companies</p>
+          </div>
+          <div className={styles.card}>
+            <h1>20LPA+</h1>
+            <p>average dreamjob CTC</p>
+          </div>
+          <div className={styles.card}>
+            <h1>92%</h1>
+            <p>average salary hike</p>
+          </div>
+
+        </div>
+      </section>
     </>
   )
 }
