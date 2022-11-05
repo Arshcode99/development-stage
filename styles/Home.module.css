@@ -34,6 +34,8 @@
     height: 100%;
     padding: 10px;
     z-index: 1;
+    background: rgba(225,225,225,0.2);
+    backdrop-filter: blur(10px);
     border-radius: 34px ;
     animation: upperneche 6s ease-in-out infinite;
 }
