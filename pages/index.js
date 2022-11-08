@@ -5,6 +5,7 @@ import Typewriter from 'typewriter-effect';
 import Countdown from '../components/countdown';
 import MiniStart from '../components/ministart';
 import TeamImg from '../public/team.svg'
+import Sec4Img from '../public/working-remote.svg'
 import { FaChalkboardTeacher } from 'react-icons/fa'
 import { MdComputer } from 'react-icons/md'
 import { BiSupport } from 'react-icons/bi'
@@ -126,6 +127,30 @@ Skillsets Land a job of 22+ LPA Helped 1000+ Students and many more to go...</di
         </div>
       </section>
       {/* 3rd section Page Ends  */}
+      {/* ============================================ */}
+      {/* 4th section Page Starts  */}
+      <section className={styles.section4}>
+        <div className={styles.twocol}>
+          <div className={styles.leftcol}>
+            <div className={styles.deem4}>Our Core Values</div>
+            <div className={styles.h3sec4}><Typewriter options={{
+                strings: ['Are You Working Proffesinal Willing To Switch?'],
+                autoStart: true,
+                loop: true,}} /></div>
+            <div className={styles.psec4}>We have invented and perfected the best system to learn React. A dedicated team to help you land the best oppurtunities.</div>
+            <ul className={styles.ul}>
+              <li className={styles.li}>ON-DEMAND REAL-TIME PROJECTS</li>
+              <li className={styles.li}>EXCLUSIVE TEAM FOR PLACEMENT WITH JOB ASSISTANCE</li>
+              <li className={styles.li}>LIVE DEMO INTERVIEW PREPRATION</li>
+              <li className={styles.li}>RESUME BUILDING AND MOCK TEST</li>
+            </ul>
+          </div>
+          <div className={styles.rightcol}>
+          <Image src={Sec4Img} className={styles.TeamImg} />
+          </div>
+        </div>
+      </section>
+      {/* 4th section Page Ends  */}
       {/* ============================================ */}
     </>
   )

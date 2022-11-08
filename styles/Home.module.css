@@ -131,6 +131,7 @@
     color: white;
     width: 290px;
 }
+
 .h3{
     color: white;
     font-size: 36px;
@@ -321,8 +322,8 @@
 .textbox{
     display: grid;
     grid-template-columns: 10% 90%;
-    gap: 4px;
-    place-items: center;
+    gap: 10px;
+    place-items: flex-start;
     padding: 10px;
     width: 100%;
     border-radius: 4px;
@@ -334,7 +335,8 @@
     white-space: pre-wrap;
     word-break: break-word;
     width: 100%;
-    padding: 2px;
+    margin-left: 7px;
+    padding-right: 8px;
 }
 .iconmock1{
     display: flex;
@@ -349,21 +351,82 @@
 }
 .h2text{
     font-size: 19px;
-    font-weight: 600;
+    font-weight: 700;
     text-align: left;
     background: linear-gradient(50deg, #020e4a, #ff3000);
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
     background-clip: text;
-    padding: 2px;
+    word-wrap: break-word;
+    white-space: pre-wrap;
+    word-break: break-word;
 }
 .text2{
     text-align: left;
     padding: 2px;
+    font-weight: 300;
+}
+  /* Styling Of Our Brand New 4th Section 😉 */
+.section4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    background: url(../public/bg-gradient.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.deem4{
+    padding: 5px;
+    border: none;
+    border-radius: 4px;
+    background: rgba(0,0,0,0.1);
+    backdrop-filter: blur(10px);
+    color: white;
+    width: 290px; 
+}
+.h3sec4{
+    color: #020e4a;
+    font-size: 36px;
+    font-weight: 400;
+    font-family: Nunito;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+}
+.psec4{
+    color: #ff3000;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: Nunito;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: left;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.li{
+    padding-top: 10px;
+    font-weight: 500;
+}
+.li::before{
+    content: '🎉';
+    margin-right: 10px;
 }
   /* Styling Of Our Brand New Mobile View 😉 */
 @media only screen and (max-width: 768px) {
-    .home{
+    .home, .section4{
         background-size: cover;
         height: 130vh;
     }
@@ -441,6 +504,9 @@
         height: auto;
     }
     .TeamImg{
+        margin: 0 auto;
+    }
+    .iconmock1{
         margin: 0 auto;
     }
   }
