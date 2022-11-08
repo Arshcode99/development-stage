@@ -88,7 +88,6 @@ Skillsets Land a job of 22+ LPA Helped 1000+ Students and many more to go...</di
             <h1>92%</h1>
             <p>average salary hike</p>
           </div>
-
         </div>
       </section>
       {/* 2nd Section Page Ends  */}
@@ -149,9 +148,31 @@ Skillsets Land a job of 22+ LPA Helped 1000+ Students and many more to go...</di
           <Image src={Sec4Img} className={styles.TeamImg} />
           </div>
         </div>
+        <div className={styles.benifitsmore}>
+          <div className={styles.cardmore}>
+            <h1>100K+<br/>COMMUNITY</h1>
+            <p>Globally Connect through prople with the same goal.</p>
+          </div>
+          <div className={styles.cardmore}>
+            <h1>JOB<br />ASSISTANCE</h1>
+            <p>Exclusive Placement Support Team will you crack job interview.</p>
+          </div>
+          <div className={styles.cardmore}>
+            <h1>CERTIFICATION</h1>
+            <p>Get Course Complition certificate as a full fledged React developer</p>
+          </div>
+          <div className={styles.cardmore}>
+            <h1>DOUBT SOLVING</h1>
+            <p>Getting Stuck While developing? Get all your doubt resolve by our expert.</p>
+          </div>
+        </div>
       </section>
       {/* 4th section Page Ends  */}
       {/* ============================================ */}
+
+      <section className={styles.section5}>
+        
+      </section>
     </>
   )
 }
