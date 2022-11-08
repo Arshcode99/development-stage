@@ -2,7 +2,12 @@ import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 import Typewriter from 'typewriter-effect';
-import FlipCountdown from '@rumess/react-flip-countdown';
+import Countdown from '../components/countdown';
+import MiniStart from '../components/ministart';
+import TeamImg from '../public/team.svg'
+import { FaChalkboardTeacher } from 'react-icons/fa'
+import { MdComputer } from 'react-icons/md'
+import { BiSupport } from 'react-icons/bi'
 
 
 export default function Home() {
@@ -34,31 +39,34 @@ Skillsets Land a job of 22+ LPA Helped 1000+ Students and many more to go...</di
             <button className={styles.btn}>Know More</button>
           </div>
           <div className={styles.rightcol}>
-          <div className={styles.countdowner}>
-            <h2 className={styles.countdowntext}>Hurry Up! Registration Closing In</h2>
-            <FlipCountdown
-            hideYear
-            hideMonth
-            theme='dark' // Options (Default: dark): dark, light.
-            size='medium' // Options (Default: medium): large, medium, small, extra-small.
-                endAt={'2022-12-12 01:26:58'} // Date/Time
-            />
-            </div>
+          <div className={styles.h2}>Hurry Up! Only Few Seats Left.</div>
+          <Countdown/>
+          <MiniStart/>
           </div>
         </div>
       </section>
       {/* Main Home Page Ends  */}
       {/* ============================================ */}
-      {/* Main Training Page Starts  */}
+      {/* 2nd Section Page Starts  */}
       <section className={styles.tainingabout}>
         <div className={styles.trainingaboutmaincontainer}>
           <div className={styles.leftcol2}>
             <div className={styles.deem1}>About Our Remote Training</div>
             <div className={styles.h4}>Develop your Skills, Shine Your Life</div>
-            <p>Learn Advanced React Concepts With Amazing Real World Problems.</p>
+            <p className={styles.p1}>Learn Advanced React Concepts With Amazing Real World Problems.</p>
             <button className={styles.btnwithback}>Read More</button>
           </div>
           <div className={styles.rightcol2}>
+        <div className={styles.text}>A program for everyone to master in frontend development. You definitely love to learn how professionals work on a real job. You will kick start your journey from very fundamentals, receive support from our mentors and huge community. The best way to learn with hands-on labs, practical projects, and community - done right from your browser. Build software projects like the top 1% developers and learn all the skills you need to land the best frontend developer jobs.</div>
+          </div>
+        </div>
+        <div className={styles.trainingaboutmaincontainer}>
+          <div className={styles.leftcol2}>
+            <div className={styles.deem1}>What you would find in the market?</div>
+            <div className={styles.text}>A program for everyone to master in frontend development. You definitely love to learn how professionals work on a real job. You will kick start your journey from very fundamentals, receive support from our mentors and huge community. The best way to learn with hands-on labs, practical projects, and community - done right from your browser. Build software projects like the top 1% developers and learn all the skills you need to land the best frontend developer jobs.</div>
+          </div>
+          <div className={styles.rightcol2}>
+          <div className={styles.deem2}>Why we are unique ?</div>
         <div className={styles.text}>A program for everyone to master in frontend development. You definitely love to learn how professionals work on a real job. You will kick start your journey from very fundamentals, receive support from our mentors and huge community. The best way to learn with hands-on labs, practical projects, and community - done right from your browser. Build software projects like the top 1% developers and learn all the skills you need to land the best frontend developer jobs.</div>
           </div>
         </div>
@@ -82,6 +90,43 @@ Skillsets Land a job of 22+ LPA Helped 1000+ Students and many more to go...</di
 
         </div>
       </section>
+      {/* 2nd Section Page Ends  */}
+      {/* ============================================ */}
+      {/* 3rd section Page Starts  */}
+      <section className={styles.section3}>
+      <div className={styles.h1heading}>How Does Our Memtorship Help You Get 100% Profit?</div>
+      <div className={styles.h3heading}>100% Refund Policy - <b>No Question Asked</b></div>
+        <div className={styles.trainingaboutmaincontainer}>
+        <div className={styles.leftcol2}>
+            <Image src={TeamImg} className={styles.TeamImg} />
+          </div>
+          <div className={styles.rightcol2}>
+          <div className={styles.textbox}>
+            <div className={styles.iconmock1}><FaChalkboardTeacher/></div>
+            <div className={styles.textboxright}>
+            <div className={styles.h2text}>5+ PROFESSIONAL WORK-LIKE PROJECTS WITH MENTORSHIP</div>
+            <div className={styles.text2}>Get support from our mentors and community and build your way to the top through highly responsive and scalable react projects.</div>
+            </div>
+          </div>
+          <div className={styles.textbox}>
+            <div className={styles.iconmock1}><MdComputer/></div>
+            <div className={styles.textboxright}>
+            <div className={styles.h2text}>48 HOURS OF LIVE INSTRUCTOR-LED SESSIONS</div>
+            <div className={styles.text2}>Get 100% one to one session with premium well structure hands-on after every concepts to get your doubt solve instantly.</div>
+            </div>
+          </div>
+          <div className={styles.textbox}>
+            <div className={styles.iconmock1}><BiSupport/></div>
+            <div className={styles.textboxright}>
+            <div className={styles.h2text}>24X7 SUPPORT FROM MENTORS AND EXTRA LIVE SUPPORT WEEKLY</div>
+            <div className={styles.text2}>Getting stuck while coding ?Get your all doubts resolved quickly with our all time support and extra one live session with professionals for extra guidance.</div>
+            </div>
+          </div>
+          </div>
+        </div>
+      </section>
+      {/* 3rd section Page Ends  */}
+      {/* ============================================ */}
     </>
   )
 }

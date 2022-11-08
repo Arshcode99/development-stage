@@ -1,6 +1,6 @@
 /* Styling Of Our Brand New Navbar 😉 */
 .navbar {
-    position: absolute;
+    position: fixed;
     top: 10px;
     left: 0px;
     right: 0px;
@@ -12,6 +12,7 @@
     background: white;
     box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 30px;
     padding: 5px;
+    z-index: 999;
 }
 .logo {
     display: flex;
