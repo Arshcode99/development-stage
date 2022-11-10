@@ -4,11 +4,16 @@ import styles from '../styles/Home.module.css'
 import Typewriter from 'typewriter-effect';
 import Countdown from '../components/countdown';
 import MiniStart from '../components/ministart';
-import TeamImg from '../public/team.svg'
-import Sec4Img from '../public/working-remote.svg'
+import TeamImg from '../public/teamimg.png'
+import Sec4Img from '../public/students.png'
 import { FaChalkboardTeacher } from 'react-icons/fa'
 import { MdComputer } from 'react-icons/md'
 import { BiSupport } from 'react-icons/bi'
+import { RiCommunityFill } from 'react-icons/ri'
+import { FcMoneyTransfer } from 'react-icons/fc'
+import { TbCertificate } from 'react-icons/tb'
+import { MdSupportAgent } from 'react-icons/md'
+
 
 
 export default function Home() {
@@ -94,7 +99,7 @@ Skillsets Land a job of 22+ LPA Helped 1000+ Students and many more to go...</di
       {/* ============================================ */}
       {/* 3rd section Page Starts  */}
       <section className={styles.section3}>
-      <div className={styles.h1heading}>How Does Our Memtorship Help You Get 100% Profit?</div>
+      <div className={styles.h1heading}>How Does Our Mentorship Help You Get 100% Profit?</div>
       <div className={styles.h3heading}>100% Refund Policy - <b>No Question Asked</b></div>
         <div className={styles.trainingaboutmaincontainer}>
         <div className={styles.leftcol2}>
@@ -150,18 +155,22 @@ Skillsets Land a job of 22+ LPA Helped 1000+ Students and many more to go...</di
         </div>
         <div className={styles.benifitsmore}>
           <div className={styles.cardmore}>
+          <div className={styles.iconmock1}><RiCommunityFill/></div>
             <h1>100K+<br/>COMMUNITY</h1>
             <p>Globally Connect through prople with the same goal.</p>
           </div>
           <div className={styles.cardmore}>
+          <div className={styles.iconmock1}><FcMoneyTransfer/></div>
             <h1>JOB<br />ASSISTANCE</h1>
             <p>Exclusive Placement Support Team will you crack job interview.</p>
           </div>
           <div className={styles.cardmore}>
+            <div className={styles.iconmock1}><TbCertificate/></div>
             <h1>CERTIFICATION</h1>
             <p>Get Course Complition certificate as a full fledged React developer</p>
           </div>
           <div className={styles.cardmore}>
+            <div className={styles.iconmock1}><MdSupportAgent/></div>
             <h1>DOUBT SOLVING</h1>
             <p>Getting Stuck While developing? Get all your doubt resolve by our expert.</p>
           </div>
@@ -169,9 +178,38 @@ Skillsets Land a job of 22+ LPA Helped 1000+ Students and many more to go...</di
       </section>
       {/* 4th section Page Ends  */}
       {/* ============================================ */}
-
       <section className={styles.section5}>
-        
+      <h6 className={styles.h6}>How Reactjsofficial Mentorship driven Personalized Learning Work?</h6>
+      <div className={styles.twocol}>
+      <div className={styles.textbox}>
+            <div className={styles.iconmock1}>1</div>
+            <div className={styles.textboxright}>
+            <div className={styles.h2text}>Optimized Your Coding Skills With Personalized Plans.</div>
+            <div className={styles.text2}>Get Live Sessions and weekly plans based on your dream jobs.</div>
+            </div>
+          </div>
+          <div className={styles.textbox}>
+            <div className={styles.iconmock1}>2</div>
+            <div className={styles.textboxright}>
+            <div className={styles.h2text}>Industry-level Coding Assigenment.</div>
+            <div className={styles.text2}>Practice Coding Questions That adopts based on your progress.</div>
+            </div>
+          </div>
+          <div className={styles.textbox}>
+            <div className={styles.iconmock1}>3</div>
+            <div className={styles.textboxright}>
+            <div className={styles.h2text}>Exclusive doubts-solving team.</div>
+            <div className={styles.text2}>Getting stucked while coding? Get All Your Doubts Resolve.</div>
+            </div>
+          </div>
+          <div className={styles.textbox}>
+            <div className={styles.iconmock1}>4</div>
+            <div className={styles.textboxright}>
+            <div className={styles.h2text}>Grow with 100k community strength.</div>
+            <div className={styles.text2}>Get Top level live sessions with industry experts.</div>
+            </div>
+          </div>
+          </div>
       </section>
     </>
   )

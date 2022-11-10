@@ -12,6 +12,7 @@
 .twocol {
   display: grid;
   grid-template-columns: 1fr 1fr;
+  gap: 10px;
   width: 80%;
   height: 70%;
   margin: 20px auto;
@@ -304,7 +305,7 @@
   border-radius: 6px;
 }
 .TeamImg {
-  width: 90%;
+  width: 100%;
   animation: upperneche 2s ease-in-out infinite;
 }
 .h1heading {
@@ -331,9 +332,24 @@
   place-items: flex-start;
   padding: 10px;
   width: 100%;
-  box-shadow: 0 5px 24px hsl(0deg 4% 79% / 48%);
+  box-shadow: 0 5px 24px rgba(188, 187, 187, 0.48);
   margin-top: 10px;
   border-radius: 7px;
+  transition: all 0.6s;
+  cursor: pointer;
+  background: linear-gradient(90deg, #fff, #fff, rgba(0,0,0,0.1), #fff, #fff);
+  animation: bgmove 20s ease-in-out infinite alternate-reverse;
+}
+@keyframes bgmove{
+  0%{
+    background-position: 1500px;
+  }
+  100%{
+    background-position: -1500px;
+  }
+}
+.textbox:hover{
+  transform: translateY(-10px);
 }
 .textboxright {
   word-wrap: break-word;
@@ -390,9 +406,9 @@
   padding: 5px;
   border: none;
   border-radius: 4px;
-  background: rgba(0, 0, 0, 0.1);
+  background: rgba(225, 225, 225, 0.2);
   backdrop-filter: blur(10px);
-  color: white;
+  color: #ff3000;
   width: 290px;
 }
 .h3sec4 {
@@ -460,7 +476,26 @@
   cursor: pointer;
 }
 /* Styling Of Our Brand New Section5 😉 */
-
+.section5{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  height: auto;
+  width: 100%;
+  padding-bottom: 20px;
+}
+.h6{
+  font-size: 35px;
+  font-weight: 700;
+  width: 80%;
+  text-align: center;
+  background: linear-gradient(50deg, #ff3000, gold);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+  transform: translateY(70px);
+}
 /* Styling Of Our Brand New Mobile View 😉 */
 @media only screen and (max-width: 768px) {
   .home,
@@ -473,6 +508,14 @@
   .twocol {
     grid-template-columns: 1fr;
     width: 100%;
+  }
+  .h6{
+    width: 95%;
+    font-size: 25px;
+    transform: translateY(20px);
+  }
+  .h4{
+    font-size: 20px;
   }
   .rightcol {
     animation: none;
@@ -548,6 +591,8 @@
   }
   .TeamImg {
     margin: 0 auto;
+    width: 80%;
+    height: 100%;
   }
   .iconmock1 {
     margin: 0 auto;
