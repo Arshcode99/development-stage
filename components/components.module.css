@@ -115,9 +115,11 @@
     margin: 5px;
     border-radius: 4px;
     font-family: 'Nunito', sans-serif;
+    transition: all 0.6s;
 }
 .a:hover{
     box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
+    background: rgba(225,225,225,0.2);
 }
 /* Styling Of Our Brand New Buttons 😉 */
 .btn{
@@ -138,20 +140,35 @@
     -webkit-background-clip: text;
     border: 0.1px solid silver;
 }
+.btn2{
+  padding: 10px 20px;
+  border: none;
+  border-radius: 25px;
+  background: linear-gradient(90deg, #ff3000, orange);
+  color: white;
+  text-transform: uppercase;
+  cursor: pointer;
+  font-weight: 400;
+  transition: all 0.6s;
+  font-family: 'Nunito', sans-serif;
+}
+.btn2:hover{
+  background: linear-gradient(50deg, yellow, #ff3000);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
 /* Styling Of Our Brand New Bottom 😉 */
 .bottom {
   position: fixed;
   bottom: 20px;
-  left: 0px;
-  right: 0px;
-  margin: 0 auto;
+  right: 10px;
   border-radius: 35px;
-  width: 20%;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  place-items: center;
+  width: 240px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
   background: white;
-  box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 30px;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 10px 30px;
   padding: 5px;
   z-index: 9;
 }
@@ -192,6 +209,18 @@
   background: rgba(0, 0, 0, 0.1);
   -webkit-text-fill-color: #020e4a;
 }
+/* Styling Of Our Brand New Footer Section 😉 */
+.Footer{
+  padding: 10px;
+  background: #ff3000;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  color: #fff;
+  text-align: center;
+}
 /* Styling Of Our Brand New Mobile View 😉 */
 @media only screen and (max-width: 768px) {
   .navbar {
@@ -205,10 +234,24 @@
     z-index: 1000;
   }
   .bottom{
-    width: 100%;
-    bottom: 5px;
+    width: 60%;
+    bottom: 10px;
     left: 0;
     right: 0;
+    margin: 10px auto;
+    border-radius: 10px;
+    justify-content: space-between;
     position: fixed;
+    padding: 10px;
+  }
+  .btn2{
+    width: 46%;
+    margin: 0 auto;
+  }
+  .leftfoot{
+    padding: 10px;
+  }
+  .rightfoot{
+    border-top: 2px solid #020e4a;
   }
 }
