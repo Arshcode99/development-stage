@@ -156,12 +156,12 @@ Skillsets Land a job of 22+ LPA Helped 1000+ Students and many more to go...</di
         <div className={styles.benifitsmore}>
           <div className={styles.cardmore}>
           <div className={styles.iconmock1}><RiCommunityFill/></div>
-            <h1>100K+<br/>COMMUNITY</h1>
+            <h1>100K+ COMMUNITY</h1>
             <p>Globally Connect through prople with the same goal.</p>
           </div>
           <div className={styles.cardmore}>
           <div className={styles.iconmock1}><FcMoneyTransfer/></div>
-            <h1>JOB<br />ASSISTANCE</h1>
+            <h1>JOB ASSISTANCE</h1>
             <p>Exclusive Placement Support Team will you crack job interview.</p>
           </div>
           <div className={styles.cardmore}>
@@ -177,6 +177,8 @@ Skillsets Land a job of 22+ LPA Helped 1000+ Students and many more to go...</di
         </div>
       </section>
       {/* 4th section Page Ends  */}
+      {/* ============================================ */}
+      {/* 5th section Page Starts  */}
       {/* ============================================ */}
       <section className={styles.section5}>
       <h6 className={styles.h6}>How Reactjsofficial Mentorship driven Personalized Learning Work?</h6>
@@ -211,6 +213,8 @@ Skillsets Land a job of 22+ LPA Helped 1000+ Students and many more to go...</di
           </div>
           </div>
       </section>
+      {/* 5th section Page Ends  */}
+      {/* ============================================ */}
     </>
   )
 }
