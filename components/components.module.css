@@ -9,9 +9,10 @@
     width: 80%;
     display: flex;
     justify-content: space-between;
+    align-items: center;
     background: white;
     box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 30px;
-    padding: 5px;
+    padding: 3px;
     z-index: 999;
 }
 .logo {
@@ -62,20 +63,37 @@
   transition: all 0.6s;
 }
 .BsPerson {
+  width: auto;
+  height: 100%;
   font-size: 24px;
   cursor: pointer;
-  margin: 0 5px;
-  display: none;
+  padding: 5px;
+  border-radius: 5%;
 }
 .BsPerson:hover {
-  border-radius: 4px;
+  color: #ff3000;
+  transition: all 0.6s;
+}
+.TbGridDots{
+  width: auto;
+  height: 100%;
+  font-size: 24px;
+  cursor: pointer;
+  padding: 3px;
+  border-radius: 5%;
+  display: none;
+}
+.TbGridDots:hover {
   color: #ff3000;
   transition: all 0.6s;
 }
 .BsLinkedin {
+  width: auto;
+  height: 100%;
   font-size: 24px;
   cursor: pointer;
-  margin: 0 5px;
+  padding: 10px;
+  border-radius: 5%;
 }
 .BsLinkedin:hover {
   border-radius: 4px;
@@ -83,9 +101,12 @@
   transition: all 0.6s;
 }
 .BsInstagram {
+  width: auto;
+  height: 100%;
   font-size: 24px;
   cursor: pointer;
-  margin: 0 5px;
+  padding: 10px;
+  border-radius: 5%;
 }
 .BsInstagram:hover {
   border-radius: 4px;
@@ -93,9 +114,12 @@
   transition: all 0.6s;
 }
 .BsWhatsapp {
+  width: auto;
+  height: 100%;
   font-size: 24px;
   cursor: pointer;
-  margin: 0 5px;
+  padding: 10px;
+  border-radius: 5%;
 }
 .BsWhatsapp:hover {
   border-radius: 4px;
@@ -104,19 +128,25 @@
 }
 /* Styling Of Our Brand New Menu Items 😉 */
 .menubox{
-    display: none;
-    flex-direction: column;
+    display: flex;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
-    position: absolute;
+    width: auto;
+    margin: 0;
+}
+.menubox2{
+  display: flex;
+    flex-direction: column;
+    width: 80%;
+    position: fixed;
     top: 70px;
-    right: 20px;
-    width: 30%;
-    padding: 10px;
-    border-radius: 4px;
-    box-shadow: rgba(0, 0, 0, 0.1) 5px 5px 50px;
-    background: white;
-    z-index: 999;
+    right: 25px;
+    border-radius: 6px;
+    background: #fff;
+    margin: 0 auto;
+    z-index: 1000;
+    display: none;
 }
 /* Styling Of Our Brand New Links 😉 */
 .a{
@@ -129,8 +159,21 @@
     transition: all 0.6s;
 }
 .a:hover{
-    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
-    background: rgba(225,225,225,0.2);
+    color: #ff3000;
+    background: rgba(0, 0, 0, 0.1);
+}
+.a1{
+  padding: 10px;
+  width: 100%;
+  text-align: left;
+  /* margin: 5px; */
+  border-radius: 4px;
+  font-family: 'Nunito', sans-serif;
+  transition: all 0.6s;
+}
+.a1:hover{
+  color: #ff3000;
+  background: rgba(0, 0, 0, 0.1);
 }
 /* Styling Of Our Brand New Buttons 😉 */
 .btn{
@@ -224,13 +267,30 @@
 /* Styling Of Our Brand New Footer Section 😉 */
 .Footer{
   padding: 10px;
-  background: #ff3000;
+  background: lightblue;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  color: #333;
+}
+.leftfoot{
+  padding: 10px;
   display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
-  align-items: center;
-  color: #fff;
+  flex-direction: column;
+  justify-content: left;
+  align-items: left;
+}
+.free{
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  align-items: left;
+  text-align: left;
+  width: 130px;
+}
+.h2{
+  padding-left: 10px;
+}
+.p{
   text-align: center;
 }
 /* Styling Of Our Brand New Mobile View 😉 */
@@ -242,30 +302,41 @@
     font-size: 1rem;
   }
   .menubox{
-    width: 90%;
-    z-index: 1000;
+    display: none;
   }
-  .bottom{
-    width: 60%;
-    bottom: 10px;
-    left: 0;
-    right: 0;
-    margin: 10px auto;
-    border-radius: 10px;
-    justify-content: space-between;
-    position: fixed;
-    padding: 10px;
+  .TbGridDots{
+    display: block;
   }
   .btn2{
     display: none;
   }
   .BsPerson{
     display: block;
+    padding: 5px;
+  }
+  .BsInstagram, .BsLinkedin, .BsWhatsapp{
+    display: none;
+  }
+  .Footer{
+    grid-template-columns: 1fr;
   }
   .leftfoot{
-    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
   }
-  .rightfoot{
-    border-top: 2px solid #020e4a;
+  .h2{
+    text-align: center;
+  }
+  .a1{
+    text-align: center;
+  }
+  .free{
+    width: 50%;
+    margin: 0 auto;
+  }
+  .p{
+    padding-left: 2px;
+    padding-right: 2px;
   }
 }

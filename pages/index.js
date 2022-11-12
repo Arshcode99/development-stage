@@ -68,12 +68,26 @@ Skillsets Land a job of 22+ LPA Helped 1000+ Students and many more to go...</di
         </div>
         <div className={styles.trainingaboutmaincontainer}>
           <div className={styles.leftcol2}>
-            <div className={styles.deem1}>What you would find in the market?</div>
-            <div className={styles.text}>A program for everyone to master in frontend development. You definitely love to learn how professionals work on a real job. You will kick start your journey from very fundamentals, receive support from our mentors and huge community. The best way to learn with hands-on labs, practical projects, and community - done right from your browser. Build software projects like the top 1% developers and learn all the skills you need to land the best frontend developer jobs.</div>
+            <div className={styles.deemtable}>🤔 What you would find in the market?</div>
+            <div className={styles.textborder}>
+              <ul>
+                <li className={styles.li}>UnStructured Learning Paths</li>
+                <li className={styles.li}>Theory Based Learnings</li>
+                <li className={styles.li}>Self Placed/ Recorded Videos</li>
+                <li className={styles.li}>Not Industry Relevent!</li>
+              </ul>
+            </div>
           </div>
           <div className={styles.rightcol2}>
-          <div className={styles.deem2}>Why we are unique ?</div>
-        <div className={styles.text}>A program for everyone to master in frontend development. You definitely love to learn how professionals work on a real job. You will kick start your journey from very fundamentals, receive support from our mentors and huge community. The best way to learn with hands-on labs, practical projects, and community - done right from your browser. Build software projects like the top 1% developers and learn all the skills you need to land the best frontend developer jobs.</div>
+          <div className={styles.deemtable}>😍 Why we are unique ?</div>
+        <div className={styles.textborder}>
+        <ul>
+          <li className={styles.li}>Structured Learning Paths</li>
+          <li className={styles.li}>Hands on align</li>
+          <li className={styles.li}>No Recorded Videos, 100% live Training</li>
+          <li className={styles.li}>Industry Relevent!</li>
+        </ul>
+        </div>
           </div>
         </div>
         <div className={styles.benifits}>
