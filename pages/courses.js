@@ -21,10 +21,28 @@ const courses = () => {
             <div className={styles.blah}>
             <button className={styles.btn}>Explore Now</button>
             <button className={styles.btnwithborder}>Try For Free</button>
+            <div className={styles.Reactaddons}>
+              <div className={styles.box}>
+                <b className={styles.b}>13k+</b><br />
+                Students Enrolled
+              </div>
+              <div className={styles.box}>
+              <b className={styles.b}>8</b><br />
+                Projects
+              </div>
+              <div className={styles.box}>
+              <b className={styles.b}>2.5</b><br />
+                Months
+              </div>
+              <div className={styles.box}>
+              <b className={styles.b}>50+</b><br />
+                Hours Of Content
+              </div>
+            </div>
             </div>
           </div>
           <div className={styles.rightcol}>
-            <Image src={HeroImg} />
+            <Image src={HeroImg} className={styles.HeroImg} alt="Hey There?" />
           </div>
         </div>
       </section>
