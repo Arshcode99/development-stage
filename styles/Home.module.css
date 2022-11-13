@@ -326,9 +326,11 @@
   border-radius: 6px;
 }
 .TeamImg {
-  width: 100%;
+  width: 500px;
+  height: 500px;
   animation: upperneche 2s ease-in-out infinite;
 }
+
 .h1heading {
   font-size: 34px;
   font-weight: 700;
@@ -367,6 +369,14 @@
   }
   100%{
     background-position: -1500px;
+  }
+}
+@keyframes changeborder{
+  0%{
+    border-radius: 84% 16% 70% 30% / 30% 30% 70% 70%;
+  }
+  100%{
+    border-radius: 30% 70% 70% 30% / 30% 50% 70% 90%;
   }
 }
 .textbox:hover{
