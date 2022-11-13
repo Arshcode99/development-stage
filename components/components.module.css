@@ -267,7 +267,9 @@
 /* Styling Of Our Brand New Footer Section 😉 */
 .Footer{
   padding: 10px;
-  background: lightblue;
+  background: rgb(244, 244, 244);
+  border-top: 4px solid #ff3000;
+  border-bottom: 0.1px solid silver;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   color: #333;
