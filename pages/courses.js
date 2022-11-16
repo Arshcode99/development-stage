@@ -8,12 +8,44 @@ import hashedin from '../public/hashedin.png'
 import No1Img from '../public/apps-with-reactjs.png'
 import Typewriter from 'typewriter-effect';
 import { BsMusicPlayer } from 'react-icons/bs'
-import { RiTimerFlashFill } from 'react-icons/ri'
+import { AiOutlineDown } from 'react-icons/ai'
 import { BsCart4 } from 'react-icons/bs'
 import { BiMoviePlay } from 'react-icons/bi'
 import styles from '../styles/courses.module.css';
 
 const courses = () => {
+  function RunOutFunction() {
+    var x = document.getElementById("hidethis");
+    if (x.style.display === "flex") {
+      x.style.display = "none";
+    } else {
+      x.style.display = "flex";
+    }
+  }
+  function Another2(){
+    var x = document.getElementById("hidethis2");
+    if (x.style.display === "flex") {
+      x.style.display = "none";
+    } else {
+      x.style.display = "flex";
+    }
+  }
+  function Another3(){
+    var x = document.getElementById("hidethis3");
+    if (x.style.display === "flex") {
+      x.style.display = "none";
+    } else {
+      x.style.display = "flex";
+    }
+  }
+  function Another4(){
+    var x = document.getElementById("hidethis4");
+    if (x.style.display === "flex") {
+      x.style.display = "none";
+    } else {
+      x.style.display = "flex";
+    }
+  }
   return (
     <>
      {/* Main Courses Page Starts  */}
@@ -118,10 +150,9 @@ const courses = () => {
         </div>
       </div>
       </div>
-      <div className={styles.twocol}>
       <div className={styles.purchase}>
+      <h1 className={styles.h2purchase}>Select a plan based on your needs</h1>
           <div className={styles.purchaseleft}>
-            <h1 className={styles.h2purchase}>Select a plan based on your needs</h1>
             <div className={styles.purchasetopcard}>
               <div className={styles.topcardbox}>
                 <div className={styles.topcardboximg}></div>
@@ -144,36 +175,38 @@ const courses = () => {
                 <span>400+<br />Doubts</span>
               </div>
             </div>
+            <div className={styles.grid3}>
             <div className={styles.basicfeatures}>
-              <h1 className={styles.justatext}>Bonus Features</h1>
+              <h1 className={styles.justatext}>Additional Benefits</h1>
               <ul className={styles.ul}>
-                <li className={styles.li}>Premium Hirist Account</li>
-                <li className={styles.li}>NASSCOM Certificate</li>
-                <li className={styles.li}>Dedicated Placement Cell with curated job opening</li>
+                <li className={styles.li}>Live doubts sessions</li>
+                <li className={styles.li}>Certificate of completion</li>
+                <li className={styles.li}>Exclusive Placement Cell</li>
               </ul>
             </div>
             <div className={styles.basicfeatures}>
-              <h1 className={styles.justatext}>Modules Covered</h1>
+              <h1 className={styles.justatext}>Favourite Topics</h1>
               <ul className={styles.ul}>
-                <li className={styles.li}>Introduction to Programming</li>
-                <li className={styles.li}>Data Structures and Algorithms</li>
-                <li className={styles.li}>Frontend web development - HTML/CSS/Javascript</li>
-                <li className={styles.li}>Advanced frontend with React.js </li>
+                <li className={styles.li}>Advanced understanding of javascript</li>
+                <li className={styles.li}>Data fetching using APIs</li>
+                <li className={styles.li}>Redux & Redux thunk</li>
+                <li className={styles.li}>Build industry level projects with yourself</li>
               </ul>
             </div>
             <div className={styles.basicfeatures}>
-              <h1 className={styles.justatext}>Modules Covered</h1>
+              <h1 className={styles.justatext}>Why Only Reactjsofficial?</h1>
               <ul className={styles.ul}>
+                <li className={styles.li}>Unlike the market 100% live sessions</li>
                 <li className={styles.li}>1:1 Mock-Interview & Guidance-session with Industry Mentors</li>
-                <li className={styles.li}>Workshops for building your resume and
-                  Linkedin/Github profiles</li>
                 <li className={styles.li}>Curated interview problems</li>
-                <li className={styles.li}>DSA based product companies Mock Test Series</li>
-                <li className={styles.li}>2 months Free Course Extension</li>
+                <li className={styles.li}>Weekly live doubts sessions</li>
+                <li className={styles.li}>Backup available</li>
                 <li className={styles.li}>120 Days Course Pause</li>
-                <li className={styles.li}>1:1 Doubt support with Teaching Assistants </li>
+                <li className={styles.li}>1:1 Doubt support with Teaching Assistants  for live classes</li>
               </ul>
             </div>
+            </div>
+            <div className={styles.grid2}>
             <div className={styles.basicfeatures}>
               <span className={styles.smalltext2}>Earliest Batch</span><br />
               <b className={styles.b}>5th Dec</b>
@@ -190,6 +223,7 @@ const courses = () => {
               Weekend's Batch: Mon-Thu: 1.5hours
               </div>
             </div>
+            </div>
             <div className={styles.bottompurchase}>
               <div className={styles.h1blow}>₹44,071/-
               <p className={styles.psmall}>OR EMI ₹3,333/mon*</p></div>
@@ -197,164 +231,126 @@ const courses = () => {
             </div>
           </div>
           </div>
-          <div className={styles.purchaseright}>
-            <h1 className={styles.h2purchaseright}>Program Syllabus & Projects</h1>
-            <p>We have reverse engineered our syllabus by talking to the best
-              companies and understanding what skills the industry needs the most right now.</p>
-            <div className={styles.purchaserightbox1}>
-              <span className={styles.righttextbox}>Web Development Basics & Javascript Deep Dive</span>
-              <p className={styles.p5}>Get to learn how websites work. Start your web development journey with the basics of JavaScript and learn how to create impressive websites.</p>
-              <div className={styles.kuchnahi}>
-                <div className="accordion" id="accordionExample">
-                  <div className="accordion-item">
-                    <h2 className="accordion-header" id="headingTwo">
-                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne"><h2 class={styles.h2nox}>Week 1-2</h2></button>
-                    </h2>
-                    <div id="collapseOne" className="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
-                      <div className="accordion-body">
-                      <ul>
-                        <li>Introduction to Javascript</li>
-                        <li>Variables, scoping, Data type</li>
-                        <li>Strings and Numbers</li>
-                        <li>Operators and loops</li>
-                        <li>Functions</li>
-                        <li>Arrays and Objects</li>
-                        <li>Understanding and working with DOM</li>
-                        <li>Developer tools in Browsers</li>
-                        <li>Prototypes</li>
-                        <li>Closures</li>
-                        <li>Rest and Spread</li>
-                        <li>Promises</li>
-                        <li>ES5 vs ES6 vs ES7</li>
-                        <li>Eventloop in Javascript</li>
-                        <li>Something Amazing!</li>
-                      </ul>
-                      </div>
-                    </div>
-                  </div>
-                </div>
+          <div className={styles.purchase}>
+          <div className={styles.purchaseleft}>
+            <div className={styles.purchasetopcard3}>
+            <h1 className={styles.h2}>Program Syllabus & Projects</h1>
+            <p>We have reverse engineered our syllabus by talking to the best companies and understanding what skills the industry needs the most right now.</p>
+            </div>
+            <div className={styles.grid4}>
+            <div className={styles.basicfeatures}>
+              <h1 className={styles.justatext}>Web Development Basics & Javascript Deep Dive</h1>
+              <p>Get to learn how websites work. Start your web development journey with the basics of JavaScript and learn how to create impressive websites.</p>
+              <button className={styles.black} onClick={RunOutFunction}>Week 1-2 <AiOutlineDown/></button>
+              <div className={styles.hidecorosl} id='hidethis'>
+              <ul className={styles.ul}>
+              <li className={styles.li}>Introduction to Javascript</li>
+              <li className={styles.li}>Variables, scoping, Data type</li>
+              <li className={styles.li}>Strings and Numbers</li>
+              <li className={styles.li}>Operators and loops</li>
+              <li className={styles.li}>Functions</li>
+              <li className={styles.li}>Arrays and Objects</li>
+              <li className={styles.li}>Understanding and working with DOM</li>
+              <li className={styles.li}>Developer tools in Browsers</li>
+              <li className={styles.li}>Prototypes</li>
+              <li className={styles.li}>Closures</li>
+              <li className={styles.li}>Rest and Spread</li>
+              <li className={styles.li}>Promises</li>
+              <li className={styles.li}>ES5 vs ES6 vs ES7</li>
+              <li className={styles.li}>Eventloop in Javascript</li>
+              <li className={styles.li}>Something Amazing!</li>
+              </ul>
               </div>
             </div>
-            <div className={styles.purchaserightbox1}>
-              <span className={styles.righttextbox}>ReactJs</span>
-              <p className={styles.p5}>ReactJS has become highly popular because of its extra simplicity and flexibility.Learn the Basics understanding of React.</p>
-
-              <div className={styles.kuchnahi}>
-                <div className="accordion" id="accordionExampleTwo">
-                  <div className="accordion-item">
-                    <h2 className="accordion-header" id="headingTwo">
-                      <button className="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseOne">
-                        <h2 className={styles.h2nox}>Week 4-6</h2>
-                      </button>
-                    </h2>
-                    <div id="collapseTwo" className="accordion-collapse collapse show" aria-labelledby="headingTwo" data-bs-parent="#accordionExampleTwo">
-                      <div className="accordion-body">
-                      <ul>
-                        <li>Create an app using create-react-app</li>
-                        <li>Understanding the basics of react app</li>
-                        <li>Understanding JSX</li>
-                        <li>Understanding virtual DOMS, Single page apps</li>
-                        <li>React Lifecycle</li>
-                        <li>React Intro</li>
-                        <li>States, class components vs functional components</li>
-                        <li>React hooks</li>
-                        <li>Event handling, props</li>
-                        <li>Building forms in React</li>
-                        <li>React-Router</li>
-                        <li>Conditional Rendering</li>
-                        <li>Pure Components</li>
-                        <li>High order components</li>
-                        <li>Why Node & Babel? (installation)</li>
-                        <li>Controlled vs Uncontrolled components.</li>
-                      </ul>
-                      </div>
-                    </div>
-                  </div>
-                </div>
+            <div className={styles.basicfeatures}>
+              <h1 className={styles.justatext}>ReactJs</h1>
+              <p>ReactJS has become highly popular because of its extra simplicity and flexibility.Learn the Basics understanding of React.</p>
+              <button className={styles.black} onClick={Another2}>Week 3-5 <AiOutlineDown/></button>
+              <div className={styles.hidecorosl} id='hidethis2'>
+              <ul className={styles.ul}>
+              <li className={styles.li}>Create an app using create-react-app</li>
+              <li className={styles.li}>Understanding the basics of react app</li>
+              <li className={styles.li}>Understanding JSX</li>
+              <li className={styles.li}>Understanding virtual DOMS, Single page apps</li>
+              <li className={styles.li}>React Lifecycle</li>
+              <li className={styles.li}>React Intro</li>
+              <li className={styles.li}>States, class components vs functional components</li>
+              <li className={styles.li}>React hooks</li>
+              <li className={styles.li}>Event handling, props</li>
+              <li className={styles.li}>Building forms in React</li>
+              <li className={styles.li}>React-Router</li>
+              <li className={styles.li}>Conditional Rendering</li>
+              <li className={styles.li}>Pure Components</li>
+              <li className={styles.li}>High order components</li>
+              <li className={styles.li}>Why Node & Babel? (installation)</li>
+              <li className={styles.li}>Controlled vs Uncontrolled components.</li>
+              </ul>
               </div>
             </div>
-            <div className={styles.purchaserightbox1}>
-              <span className={styles.righttextbox}>ReactJS Advanced</span>
-              <p className={styles.p5}>Uncover some interesting things about React which you, as a React developer would find fascinating.learn why they are used and what problems they came to solve.</p>
-              <div className={styles.kuchnahi}>
-                <div className="accordion" id="accordionExampleThree">
-                  <div className="accordion-item">
-                    <h2 className="accordion-header" id="headingThree">
-                      <button className="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                        <h2 className={styles.h2nox}>Week 6-8</h2>
-                      </button>
-                    </h2>
-                    <div id="collapseThree" className="accordion-collapse collapse show" aria-labelledby="headingThree" data-bs-parent="#accordionExampleThree">
-                      <div className="accordion-body">
-                      <ul>
-                        <li>Deal with APIs</li>
-                        <li>GET Requests, POST & DELETE Requests</li>
-                        <li>Redux</li>
-                        <li>Core Concepts of Redux</li>
-                        <li>Redux Thunk & HTTP</li>
-                        <li>Git & GitHub</li>
-                        <li>Deployment</li>
-                      </ul>
-                      </div>
-                    </div>
-                  </div>
-                </div>
+            <div className={styles.basicfeatures}>
+              <h1 className={styles.justatext}>ReactJS Advanced</h1>
+              <p>Uncover some interesting things about React which you, as a React developer would find fascinating.learn why they are used and what problems they came to solve.</p>
+              <button className={styles.black} onClick={Another3}>Week 6-8 <AiOutlineDown/></button>
+              <div className={styles.hidecorosl} id='hidethis3'>
+              <ul className={styles.ul}>
+              <li className={styles.li}>Deal with APIs</li>
+              <li className={styles.li}>GET Requests, POST & DELETE Requests</li>
+              <li className={styles.li}>Redux</li>
+              <li className={styles.li}>Core Concepts of Redux</li>
+              <li className={styles.li}>Redux Thunk & HTTP</li>
+              <li className={styles.li}>Git & GitHub</li>
+              <li className={styles.li}>Deployment</li>
+              </ul>
               </div>
             </div>
-            <div className={styles.purchaserightbox1}>
-              <span className={styles.righttextbox}>Projects</span>
-              <p className={styles.p5}>Overall training will be very interactive with 5+ Projects undergoing towards this journey. Starting from building simple ReactJs app to building a real world application.</p>
-              <div className={styles.kuchnahi}>
-                <div className="accordion" id="accordionExampleFour">
-                  <div className="accordion-item">
-                    <h2 className="accordion-header" id="headingFour">
-                      <button className="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseOne">
-                        <h2 className={styles.h2nox}>Week 9</h2>
-                      </button>
-                    </h2>
-                    <div id="collapseFour" className="accordion-collapse collapse show" aria-labelledby="headingFour" data-bs-parent="#accordionExampleFour">
-                      <div className="accordion-body">
-                        <ul>
-                          <li>Social Media Platform</li>
-                          <li>E-commerce Platform</li>
-                          <li>Netflix</li>
-                        </ul>
-                      </div>
-                    </div>
-                  </div>
-                </div>
+            <div className={styles.basicfeatures}>
+              <h1 className={styles.justatext}>Projects</h1>
+              <p>Overall training will be very interactive with 5+ Projects undergoing towards this journey. Starting from building simple ReactJs app to building a real world application.</p>
+              <button className={styles.black} onClick={Another4}>Week 1-8 <AiOutlineDown/></button>
+              <div className={styles.hidecorosl} id='hidethis4'>
+              <ul className={styles.ul}>
+              <li className={styles.li}>Social Media Platform</li>
+              <li className={styles.li}>E-commerce Platform</li>
+              <li className={styles.li}>Netflix</li>
+              </ul>
               </div>
             </div>
-            <div className={styles.nox}>
-              <button className={styles.noxbtn} data-bs-toggle="modal" data-bs-target="#exampleModal">Download Syllabus</button>
-              <div className="modal fade" id="exampleModal" tabIndex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                <div className="modal-dialog">
-                  <div className="modal-content">
-                    <div className="modal-header">
-                      <h5 className="modal-title" id="exampleModalLabel">Just One Step To Go...</h5>
-                      <button type="button" className="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                    </div>
-                    <div className="modal-body">
-                      <div className={styles.courseheroright}>
-                        <h4 className={styles.h4}>Let's Know Each Other</h4>
-                        <p className={styles.p}>Don't Worry We Don't Spam!</p>
-                        <form>
-                        <input className={styles.input} type="text" placeholder='First Name' required />
-                        <input className={styles.input} type="email" placeholder='Email' required />
-                        <input className={styles.input} type="number" placeholder='Contact Number' required />
-                        <input className={styles.input} type="text" placeholder='Graduation Year' required />
-                        <input type="submit" className={styles.btn} value="Download Syllabus" />
-                        </form>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
             </div>
-        </div>
-        </div>
+            </div>
+          </div>
       </section>
       {/* Main Courses 3rd section Page Ends  */}
+      {/* Main Courses 4th section Page Starts  */}
+     <section className={styles.coursesFourth}>
+      <div className={styles.topcoursesThird}>
+      <div className={styles.deem3}>FeedBacks</div>
+      <div className={styles.thirdh1}>What our students say about this course?</div>
+      <div className={styles.projectsbox}>
+      <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <h1>Hello World</h1>
+    </div>
+    <div class="carousel-item">
+      <h1>Hello World 2</h1>
+    </div>
+    <div class="carousel-item">
+      <h1>Hello World 3</h1>
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+      </div>
+      </div>
+      </section>
+      {/* Main Courses 4th section Page Ends  */}
     </>
   );
 }
