@@ -4,6 +4,7 @@ import HeroImg from '../public/Graphics4.png'
 import airbnb from '../public/airbnb.png'
 import cisco from '../public/cisco.png'
 import facebook from '../public/facebook.png'
+import Harshita from '../public/Harshita.jpeg'
 import hashedin from '../public/hashedin.png'
 import No1Img from '../public/apps-with-reactjs.png'
 import Typewriter from 'typewriter-effect';
@@ -11,6 +12,8 @@ import { BsMusicPlayer } from 'react-icons/bs'
 import { AiOutlineDown } from 'react-icons/ai'
 import { BsCart4 } from 'react-icons/bs'
 import { BiMoviePlay } from 'react-icons/bi'
+import { useState } from 'react';
+import ReactSimplyCarousel from 'react-simply-carousel';
 import styles from '../styles/courses.module.css';
 
 const courses = () => {
@@ -46,6 +49,8 @@ const courses = () => {
       x.style.display = "flex";
     }
   }
+  const [activeSlideIndex, setActiveSlideIndex] = useState(0);
+  
   return (
     <>
      {/* Main Courses Page Starts  */}
@@ -325,27 +330,175 @@ const courses = () => {
       <div className={styles.topcoursesThird}>
       <div className={styles.deem3}>FeedBacks</div>
       <div className={styles.thirdh1}>What our students say about this course?</div>
-      <div className={styles.projectsbox}>
-      <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <h1>Hello World</h1>
-    </div>
-    <div class="carousel-item">
-      <h1>Hello World 2</h1>
-    </div>
-    <div class="carousel-item">
-      <h1>Hello World 3</h1>
+      <div className={styles.projectsbox5}>
+      <ReactSimplyCarousel
+        activeSlideIndex={activeSlideIndex}
+        onRequestChange={setActiveSlideIndex}
+        itemsToShow={1}
+        itemsToScroll={1}
+        forwardBtnProps={{
+          //here you can also pass className, or any other button element attributes
+          style: {
+            display: 'none',
+            alignSelf: 'center',
+            background: 'black',
+            border: 'none',
+            borderRadius: '50%',
+            color: 'white',
+            cursor: 'pointer',
+            fontSize: '20px',
+            height: 30,
+            lineHeight: 1,
+            textAlign: 'center',
+            width: 30,
+          },
+          children: <span>{`>`}</span>,
+        }}
+        backwardBtnProps={{
+          //here you can also pass className, or any other button element attributes
+          style: {
+            display: 'none',
+            alignSelf: 'center',
+            background: 'black',
+            border: 'none',
+            borderRadius: '50%',
+            color: 'white',
+            cursor: 'pointer',
+            fontSize: '20px',
+            height: 30,
+            lineHeight: 1,
+            textAlign: 'center',
+            width: 30,
+          },
+          children: <span>{`<`}</span>,
+        }}
+        responsiveProps={[
+          {
+            itemsToShow: 1,
+            itemsToScroll: 1,
+            minWidth: 768,
+          },
+        ]}
+        speed={400}
+        easing="linear"
+      >
+        <div className={styles.feedbackbox}>
+          <div className={styles.picandtittle}>
+            <div className={styles.ImagePic}>
+            </div>
+            <div className={styles.abouttext}>
+              <h5>Harshita Khare</h5>
+              <p>Recommends Reactjsofficial</p>
+            </div>
+          </div>
+          <div className='textaboutfeed'>Absolutely! I've trired learning it from multiple sources, YouTube being one of them but then a friend told me about Reactjsofficial and I started following them on instagram. Later, I enrolled myself with their training program and I must say, it is totally worth it. Go for it guys, without any doubt. 👍</div>
+          </div>
+          <div className={styles.feedbackbox}>
+          <div className={styles.picandtittle}>
+            <div className={styles.ImagePic2}>
+            </div>
+            <div className={styles.abouttext}>
+              <h5>Ashraf Husain</h5>
+              <p>Recommends Reactjsofficial</p>
+            </div>
+          </div>
+          <div className='textaboutfeed'>Hi guys, I was trying to learn react by watching youtube or others sources but I was not getting core concepts of react. One day i came across this reactjsofficial instagram page and joined thier training program. The way they teact really inspire me and the way they explain each n every concept was amazing. Thanks to Rajeev</div>
+          </div>
+          <div className={styles.feedbackbox}>
+          <div className={styles.picandtittle}>
+            <div className={styles.ImagePic3}>
+            </div>
+            <div className={styles.abouttext}>
+              <h5>Raushan Choudhary</h5>
+              <p>Recommends Reactjsofficial</p>
+            </div>
+          </div>
+          <div className='textaboutfeed'>Absolutely.. If you want to learn each and every concept then you can refer there.. there are so much channels on YouTube on which they will try to teach you while building an application but i think this is not the right way ,as the viewer is not getting the basic concept. I will refer Reactjsofficial if an individual seriously wants to make a career in React.</div>
+          </div>
+      </ReactSimplyCarousel>
+      </div>
+      </div>
+      </section>
+      {/* Main Courses 4th section Page Ends  */}
+      {/* Main Courses 4th section Page Starts  */}
+     <section className={styles.coursesFourth}>
+      <div className={styles.topcoursesThird}>
+      <div className={styles.deem3}>Got a question in mind?</div>
+      <div className={styles.thirdh1}>Frequently Asked Questions</div>
+      <div className={styles.projectsbox5}>
+      <div class="accordion" id="accordionPanelsStayOpenExample">
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+      <button class="accordion-button h6" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+      Is there any pre-requisite for this program?
+      </button>
+    </h2>
+    <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingOne">
+      <div class="accordion-body">
+      Basically one should have only basic knowledge of HTML and CSS can join this training program.
+      </div>
     </div>
   </div>
-  <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="sr-only">Previous</span>
-  </a>
-  <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="sr-only">Next</span>
-  </a>
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+      <button class="accordion-button h6 collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+      How much time will it take to learn React JS?
+      </button>
+    </h2>
+    <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwo">
+      <div class="accordion-body">
+      Duration of this training is 2-3 months but most learners can complete the training with projects in months and that is enough to learn ReactJs.
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+      <button class="accordion-button h6 collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+      Can I get certificate ?
+      </button>
+    </h2>
+    <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
+      <div class="accordion-body">
+      On passing the React training Program at Reactjsofficial, you’ll receive a signed certificate of completion. Several thousands of Reactjsofficial alumni use their course certificates to demonstrate skills to employers and their networks. But more important part is skills that you will get in the training by working on real-world projects and showcasing this to your portfolio are unmatched in the market.
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="panelsStayOpen-headingFour">
+      <button class="accordion-button h6 collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseFour" aria-expanded="false" aria-controls="panelsStayOpen-collapseFour">
+      Are all classes will be Live session? What are the training timings?
+      </button>
+    </h2>
+    <div id="panelsStayOpen-collapseFour" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingFour">
+      <div class="accordion-body">
+      The training will be 100% one-to-one live session conducted online only. You will get all classes access for lifetime. Total Training hours are 50+.
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="panelsStayOpen-headingFive">
+      <button class="accordion-button h6 collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseFive" aria-expanded="false" aria-controls="panelsStayOpen-collapseFive">
+      What if I miss the training session?
+      </button>
+    </h2>
+    <div id="panelsStayOpen-collapseFive" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingFive">
+      <div class="accordion-body">
+      Please do not miss the sessions but in case if missed recording of the session would be available for you.
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="panelsStayOpen-headingSix">
+      <button class="accordion-button h6 collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseSix" aria-expanded="false" aria-controls="panelsStayOpen-collapseSix">
+      Can I pay using EMIs?
+      </button>
+    </h2>
+    <div id="panelsStayOpen-collapseSix" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingSix">
+      <div class="accordion-body">
+      Yes you can pay with EMIs you can choose to avail 0% EMI option through one of our payment partners (currently ZestMoney), the details of which are available at the checkout page.
+      </div>
+    </div>
+  </div>
 </div>
       </div>
       </div>
