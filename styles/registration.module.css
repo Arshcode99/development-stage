@@ -1,0 +1,124 @@
+.Registration{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url(../public/animated-bg.gif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.twocol{
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    place-content: center;
+    padding: 10px 100px;
+    background: rgba(225,225,225,0.1);
+    backdrop-filter: blur(10px);
+    box-shadow: -1px -1px 20px 2px rgba(0,0,0,0.1);
+    border-radius: 7px;
+    margin: 20px auto;
+    color: #fff;
+}
+.h1{
+    font-size: 48px;
+  font-weight: 700;
+  font-family: Nunito;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: normal;
+ color: aliceblue;
+}
+.h2{
+    font-size: 28px;
+  font-weight: 700;
+  font-family: Nunito;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: normal;
+ color: mediumseagreen;
+ text-align: center;
+}
+.btn{
+    padding: 10px 40px;
+    border-radius: 34px;
+    cursor: pointer;
+    border: none;
+    background: linear-gradient(90deg, orange, #ff3300);
+    transition: all 0.6s;
+}
+.btn:hover, .btn:active{
+    background: #000;
+    color: #fff;
+}
+.leftside{
+    padding: 10px;
+}
+.rightside{
+    background: rgba(225,225,225,0.1);
+    backdrop-filter: blur(10px);
+    box-shadow: -1px -1px 20px 2px rgba(0,0,0,0.1);
+    border: none;
+    border-radius: 7px;
+    width: 80%;
+    margin: 0 auto;
+    height: auto;
+}
+.alignequal{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px;
+}
+.input{
+    padding: 10px;
+    border-radius: 7px;
+    border: 0.1px solid silver;
+    outline: none;
+    width: 100%;
+}
+.google{
+    padding: 10px 40px;
+    border-radius: 7px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background: rgb(29, 29, 123);
+    color: #fff;
+}
+.google:active{
+    background: rgba(225,225,225,0.1);
+    color: mediumspringgreen;
+}
+.forgot{
+    border-radius: 7px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background: transparent;
+    color: mediumaquamarine;
+    text-decoration: underline;
+}
+@media only screen and (max-width: 768px) {
+    .Registration{
+        height: auto;
+    }
+    .twocol{
+        grid-template-columns: 1fr;
+        padding: 50px 0px;
+        height: auto;
+    }
+    .leftside{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .rightside{
+        width: 90%;
+    }
+}

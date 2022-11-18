@@ -1,4 +1,5 @@
 import Image from 'next/image'
+// import Demovid from '../public/demovid.mp4'
 import styles from '../styles/Home.module.css'
 import Typewriter from 'typewriter-effect';
 import Countdown from '../components/countdown';
@@ -6,6 +7,7 @@ import MiniStart from '../components/ministart';
 import TeamImg from '../public/Graphics5.png'
 import Sec4Img from '../public/Graphics2.png'
 import { FaChalkboardTeacher } from 'react-icons/fa'
+import Link from 'next/link'
 import { MdComputer } from 'react-icons/md'
 import { BiSupport } from 'react-icons/bi'
 import { RiCommunityFill } from 'react-icons/ri'
@@ -32,7 +34,9 @@ export default function Home() {
             <div className={styles.h1}>Become A React.js Developer!</div>
             <div className={styles.p}>Personalized Training - Guidance from top-notch faculities - job Assistance - Internship Programs - Enhance
 Skillsets Land a job of 22+ LPA Helped 1000+ Students and many more to go...</div>
+            <Link href="/registration">
             <button className={styles.btn}>Know More</button>
+            </Link>
           </div>
           <div className={styles.rightcol}>
           <div className={styles.h2}>Hurry Up! Only Few Seats Left.</div>
@@ -216,6 +220,7 @@ Skillsets Land a job of 22+ LPA Helped 1000+ Students and many more to go...</di
             </div>
           </div>
           </div>
+          <div className="vid"></div>
       </section>
       {/* 5th section Page Ends  */}
       {/* ============================================ */}
