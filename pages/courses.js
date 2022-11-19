@@ -339,7 +339,6 @@ const courses = () => {
         forwardBtnProps={{
           //here you can also pass className, or any other button element attributes
           style: {
-            display: 'none',
             alignSelf: 'center',
             background: 'black',
             border: 'none',
@@ -357,7 +356,6 @@ const courses = () => {
         backwardBtnProps={{
           //here you can also pass className, or any other button element attributes
           style: {
-            display: 'none',
             alignSelf: 'center',
             background: 'black',
             border: 'none',
