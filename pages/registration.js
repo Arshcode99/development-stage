@@ -4,36 +4,46 @@ import { AiOutlineGoogle } from 'react-icons/ai';
 import styles from '../styles/registration.module.css';
 
 const Registration = () => {
-
-
-  const [studentsData, setStudentsData] = useState({
+  const [userData, setuserData] = useState({
     fullName: "",
     email: "",
     phone: "",
     country: "",
     collage: "",
   });
+  let name, value;
+  const postUserData = (event) =>{
+    name = event.target.name;
+    value = event.target.value;
 
-  const PostStudentsData = async(e)=>{
-    e.preventDefault()
-    const{fullName, email, phone, country, collage} = studentsData;
-
-    const res = await fetch('https://nextdb-simplifed-default-rtdb.firebaseio.com/newstudents.json',
-    {
-      method:'POST',
-      headers:{
-        'Content-Type':'application/json'
-      },
-      body:JSON.stringify({
-        fullName,
-        email,
-        phone,
-        country,
-        collage,
-      })
+    setuserData({ ...userData, [name]:value});
+  }
+  // Connecting With Firebase DB 
+const handleForm = async(event) =>{
+  event.preventDefault();
+  const { fullName, email, phone, country, collage } = userData;
+  const res = await fetch(
+    "https://nextdb-simplifed-default-rtdb.firebaseio.com//NewStudents.json",{
+    method: "POST",
+    headers: {
+      "Content-Type" : "application/json",
+    },
+    body: JSON.stringify({
+      fullName:"",
+      email:"",
+      phone:"",
+      country:"",
+      collage:"",
+    }),
+  }
+    );
+    if (res){
+      alert("Thank You! Our Team will Contact You Soon... 😉")
     }
-    )}
-
+    else{
+      alert("Maybe Something went wrong! Try Again... 🤔")
+    }
+}
   return (
     <>
       <section className={styles.Registration}>
@@ -58,9 +68,8 @@ const Registration = () => {
                     type="text" 
                     placeholder='Your Name'
                     name='fullName'
-                    onChange={(e)=>{
-                      setStudentsData({ ...studentsData, fullName:e.target.value})
-                    }}
+                    value={userData.fullName}
+                    onChange={postUserData}
                     required />
 
 
@@ -71,9 +80,8 @@ const Registration = () => {
                     type="email" 
                     placeholder='Your Email'
                     name='email'
-                    onChange={(e)=>{
-                      setStudentsData({ ...studentsData, email:e.target.value})
-                    }}
+                    value={userData.email}
+                    onChange={postUserData}
                     required />
 
 
@@ -84,9 +92,8 @@ const Registration = () => {
                     type="tel" 
                     placeholder='Your Phone No.'
                     name='phone'
-                    onChange={(e)=>{
-                      setStudentsData({ ...studentsData, phone:e.target.value})
-                    }}
+                    value={userData.phone}
+                    onChange={postUserData}
                     required />
 
 
@@ -98,9 +105,8 @@ const Registration = () => {
                     type="text" 
                     placeholder='Your Country'
                     name='country'
-                    onChange={(e)=>{
-                      setStudentsData({ ...studentsData, country:e.target.value})
-                    }}
+                    value={userData.country}
+                    onChange={postUserData}
                     required />
 
 
@@ -111,9 +117,8 @@ const Registration = () => {
                     type="text" 
                     placeholder='Your Collage Name'
                     name='collage'
-                    onChange={(e)=>{
-                      setStudentsData({ ...studentsData, collage:e.target.value})
-                    }}
+                    value={userData.collage}
+                    onChange={postUserData} 
                     required />
                     
                     <br />
@@ -121,7 +126,7 @@ const Registration = () => {
                     <button 
                     type="submit" 
                     className={styles.btn}
-                    onSubmit={PostStudentsData}>
+                    onClick={handleForm}>
                     Submit
                     </button>
                 </form>
