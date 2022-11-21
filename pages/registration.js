@@ -1,9 +1,39 @@
 import Link from 'next/link';
-import React from 'react';
+import React, { useState } from 'react';
 import { AiOutlineGoogle } from 'react-icons/ai';
-import styles from '../styles/registration.module.css'
+import styles from '../styles/registration.module.css';
 
 const Registration = () => {
+
+
+  const [studentsData, setStudentsData] = useState({
+    fullName: "",
+    email: "",
+    phone: "",
+    country: "",
+    collage: "",
+  });
+
+  const PostStudentsData = async(e)=>{
+    e.preventDefault()
+    const{fullName, email, phone, country, collage} = studentsData;
+
+    const res = await fetch('https://nextdb-simplifed-default-rtdb.firebaseio.com/newstudents.json',
+    {
+      method:'POST',
+      headers:{
+        'Content-Type':'application/json'
+      },
+      body:JSON.stringify({
+        fullName,
+        email,
+        phone,
+        country,
+        collage,
+      })
+    }
+    )}
+
   return (
     <>
       <section className={styles.Registration}>
@@ -21,19 +51,79 @@ const Registration = () => {
                 <button className={styles.google}>Countinue With <AiOutlineGoogle/>oogle</button>
             </div>
             <div className={styles.rightside}>
-                <form className={styles.alignequal}>
-                    <label htmlFor="Name">Name*</label>
-                    <input className={styles.input} type="text" name="Name" id="Name" required />
-                    <label htmlFor="Email">Email Id*</label>
-                    <input className={styles.input} type="email" name="Email" id="Email" required />
-                    <label htmlFor="Contact">Contact No*</label>
-                    <input className={styles.input} type="tel" name="Contact" id="Contact" required />
+                <form className={styles.alignequal} method="POST">
+                    <label htmlFor="fullname">name*</label>
+                    <input 
+                    className={styles.input} 
+                    type="text" 
+                    placeholder='Your Name'
+                    name='fullName'
+                    onChange={(e)=>{
+                      setStudentsData({ ...studentsData, fullName:e.target.value})
+                    }}
+                    required />
+
+
+
+                    <label htmlFor="email">email Id*</label>
+                    <input 
+                    className={styles.input} 
+                    type="email" 
+                    placeholder='Your Email'
+                    name='email'
+                    onChange={(e)=>{
+                      setStudentsData({ ...studentsData, email:e.target.value})
+                    }}
+                    required />
+
+
+
+                    <label htmlFor="phone">Phone No*</label>
+                    <input 
+                    className={styles.input} 
+                    type="tel" 
+                    placeholder='Your Phone No.'
+                    name='phone'
+                    onChange={(e)=>{
+                      setStudentsData({ ...studentsData, phone:e.target.value})
+                    }}
+                    required />
+
+
+
+
                     <label htmlFor="country">country*</label>
-                    <input className={styles.input} type="text" name="country" id="country" required />
-                    <label htmlFor="Collage/Company">Collage/Company Name*</label>
-                    <input className={styles.input} type="text" name="Collage/Company" id="Collage/Company" required />
+                    <input 
+                    className={styles.input} 
+                    type="text" 
+                    placeholder='Your Country'
+                    name='country'
+                    onChange={(e)=>{
+                      setStudentsData({ ...studentsData, country:e.target.value})
+                    }}
+                    required />
+
+
+
+                    <label htmlFor="collage">collage name*</label>
+                    <input 
+                    className={styles.input} 
+                    type="text" 
+                    placeholder='Your Collage Name'
+                    name='collage'
+                    onChange={(e)=>{
+                      setStudentsData({ ...studentsData, collage:e.target.value})
+                    }}
+                    required />
+                    
                     <br />
-                    <button type="submit" className={styles.btn}>Submit</button>
+
+                    <button 
+                    type="submit" 
+                    className={styles.btn}
+                    onSubmit={PostStudentsData}>
+                    Submit
+                    </button>
                 </form>
             </div>
         </div>

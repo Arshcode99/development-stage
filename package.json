@@ -12,6 +12,7 @@
     "@rumess/react-flip-countdown": "^1.2.6",
     "eslint": "8.26.0",
     "eslint-config-next": "13.0.1",
+    "firebase": "^9.14.0",
     "flipdown": "^0.3.2",
     "next": "13.0.1",
     "react": "18.2.0",

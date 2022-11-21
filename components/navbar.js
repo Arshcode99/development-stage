@@ -32,19 +32,16 @@ const Navbar = () => {
       <Link className={styles.a} href="/">Home</Link>
       <Link className={styles.a} href="/courses">Courses</Link>
       <Link className={styles.a} href="/career">Careers</Link>
-      <Link className={styles.a} href="/">Community</Link>
+      <Link className={styles.a} href="/community">Community</Link>
       </div>
       <div className={styles.menubox2} id='menu'>
       <Link className={styles.a} href="/">Home</Link>
       <Link className={styles.a} href="/courses">Courses</Link>
       <Link className={styles.a} href="/career">Careers</Link>
-      <Link className={styles.a} href="/">Community</Link>
+      <Link className={styles.a} href="/community">Community</Link>
       </div>
       <div className={styles.topicons}>
-      <GrLinkedinOption className={styles.BsLinkedin} />
-        <FaWhatsapp className={styles.BsWhatsapp} />
-        <FaInstagram className={styles.BsInstagram} />
-        <Link href="/login"><BsPerson className={styles.BsPerson} /></Link>
+      <Link className={styles.a} href="/">Login</Link>
         <TbGridDots className={styles.TbGridDots} onClick={myFunction} />
         </div>
       </div>
