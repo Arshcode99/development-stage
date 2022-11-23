@@ -5,8 +5,10 @@ const Careers = () => {
   return (
     <>
     <section className={styles.Careers}>
-    <h1>Join | Learn | Grow </h1>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias ea beatae minima<br /> tempora in quidem ipsa quia unde obcaecati?</p>
+    <h1 className={styles.colorblack}>Join | Learn | Grow </h1>
+    <p className={styles.white}>Join the team where you can learn and grow with different peoples and earn at the same time. <br />
+    Learn more about your skills from others in the team and have a good lifestyle with us.
+    </p>
     <button className={styles.btn}>Open Position</button>   
     </section> 
     </>

@@ -10,8 +10,10 @@ const MiniStart = () => {
             <div className={styles.formtittle}>Join Now</div>
             <div className={styles.box5}>
                 <form className={styles.form}>
-                    <input type="text" name='email' className={styles.input} placeholder='Email*' required />
-                    <button className={styles.btn}>Get Started</button>
+                    <input type="text" name='fullName' className={styles.input} placeholder='Your Name*' required />
+                    <input type="email" name='email' className={styles.input} placeholder='Your Email*' required />
+                    <input type="tel" name='phone' className={styles.input} placeholder='Your Phone no.*' required />
+                    <button className={styles.btn}>Get Call Back</button>
                 </form>
             </div>
         </div>

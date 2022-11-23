@@ -54,7 +54,7 @@ Skillsets Land a job of 22+ LPA Helped 1000+ Students and many more to go...</di
             <div className={styles.deem1}>About Our Remote Training</div>
             <div className={styles.h4}>Develop your Skills, Shine Your Life</div>
             <p className={styles.p1}>Learn Advanced React Concepts With Amazing Real World Problems.</p>
-            <button className={styles.btnwithback}>Read More</button>
+            <Link href="/community"><button className={styles.btnwithback}>Read More</button></Link>
           </div>
           <div className={styles.rightcol2}>
         <div className={styles.text}>A program for everyone to master in frontend development. You definitely love to learn how professionals work on a real job. You will kick start your journey from very fundamentals, receive support from our mentors and huge community. The best way to learn with hands-on labs, practical projects, and community - done right from your browser. Build software projects like the top 1% developers and learn all the skills you need to land the best frontend developer jobs.</div>
@@ -64,7 +64,7 @@ Skillsets Land a job of 22+ LPA Helped 1000+ Students and many more to go...</di
           <div className={styles.leftcol2}>
             <div className={styles.deemtable}>🤔 What you would find in the market?</div>
             <div className={styles.textborder}>
-              <ul>
+              <ul className={styles.ul}>
                 <li className={styles.li}>UnStructured Learning Paths</li>
                 <li className={styles.li}>Theory Based Learnings</li>
                 <li className={styles.li}>Self Placed/ Recorded Videos</li>
@@ -75,7 +75,7 @@ Skillsets Land a job of 22+ LPA Helped 1000+ Students and many more to go...</di
           <div className={styles.rightcol2}>
           <div className={styles.deemtable}>😍 Why we are unique ?</div>
         <div className={styles.textborder}>
-        <ul>
+        <ul className={styles.ul}>
           <li className={styles.li}>Structured Learning Paths</li>
           <li className={styles.li}>Hands on align</li>
           <li className={styles.li}>No Recorded Videos, 100% live Training</li>
@@ -164,22 +164,22 @@ Skillsets Land a job of 22+ LPA Helped 1000+ Students and many more to go...</di
         <div className={styles.benifitsmore}>
           <div className={styles.cardmore}>
           <div className={styles.iconmock1}><RiCommunityFill/></div>
-            <h1>100K+ COMMUNITY</h1>
+            <h1 className={styles.hmocks}>100K+ COMMUNITY</h1>
             <p>Globally Connect through prople with the same goal.</p>
           </div>
           <div className={styles.cardmore}>
           <div className={styles.iconmock1}><FcMoneyTransfer/></div>
-            <h1>JOB ASSISTANCE</h1>
+            <h1 className={styles.hmocks}>JOB ASSISTANCE</h1>
             <p>Exclusive Placement Support Team will you crack job interview.</p>
           </div>
           <div className={styles.cardmore}>
             <div className={styles.iconmock1}><TbCertificate/></div>
-            <h1>CERTIFICATION</h1>
+            <h1 className={styles.hmocks}>CERTIFICATION</h1>
             <p>Get Course Complition certificate as a full fledged React developer</p>
           </div>
           <div className={styles.cardmore}>
             <div className={styles.iconmock1}><MdSupportAgent/></div>
-            <h1>DOUBT SOLVING</h1>
+            <h1 className={styles.hmocks}>DOUBT SOLVING</h1>
             <p>Getting Stuck While developing? Get all your doubt resolve by our expert.</p>
           </div>
         </div>

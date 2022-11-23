@@ -4,6 +4,7 @@ import HeroImg from '../public/Graphics4.png'
 import airbnb from '../public/airbnb.png'
 import cisco from '../public/cisco.png'
 import facebook from '../public/facebook.png'
+import Link from 'next/link';
 import Harshita from '../public/Harshita.jpeg'
 import hashedin from '../public/hashedin.png'
 import No1Img from '../public/apps-with-reactjs.png'
@@ -15,6 +16,7 @@ import { BiMoviePlay } from 'react-icons/bi'
 import { useState } from 'react';
 import ReactSimplyCarousel from 'react-simply-carousel';
 import styles from '../styles/courses.module.css';
+
 
 const courses = () => {
   function RunOutFunction() {
@@ -65,8 +67,8 @@ const courses = () => {
             <div className={styles.h1}>FRONTEND DEVELOPMENT WITH REACT SPECIALIZATION - TRANING PROGRAM</div>
             <div className={styles.p}>Build real-world projects by mastering React & javascript. Learn the essential frontend development concepts from scratch.</div>
             <div className={styles.blah}>
-            <button className={styles.btn}>Explore Now</button>
-            <button className={styles.btnwithborder}>Try For Free</button>
+            <a href="#Knowmore"><button className={styles.btn}>Explore Now</button></a>
+            <Link href="/registration"><button className={styles.btnwithborder}>Try For Free</button></Link>
             <div className={styles.Reactaddons}>
               <div className={styles.box}>
                 <b className={styles.b}>13k+</b><br />
@@ -127,7 +129,7 @@ const courses = () => {
       {/* Main Courses 2nd Section Page Ends  */}
       {/* ============================================ */}
       {/* Main Courses 3rd section Page Starts  */}
-     <section className={styles.coursesThird}>
+     <section id='Knowmore' className={styles.coursesThird}>
       <div className={styles.topcoursesThird}>
       <div className={styles.deem3}>Web Development</div>
       <div className={styles.thirdh1}>Projects That You Will Build!</div>
@@ -321,6 +323,18 @@ const courses = () => {
               </div>
             </div>
             </div>
+            <div className={styles.grid2}>
+              <div className={styles.basicfeatures}>
+                <h2>Download Syllabus!</h2>
+                <p>Don't worry! We will not spam your Inbox. we will use this data to provide personlized lerning experience for students</p>
+              </div>
+              <div className={styles.basicfeatures}>
+                <form className={styles.alignequal} method="POST">
+                  <input type="email" placeholder='Enter Your Email' className={styles.input} required />
+                  <button className={styles.btn2} type="submit">Download</button>
+                </form>
+              </div>
+            </div>
             </div>
           </div>
       </section>
@@ -339,34 +353,14 @@ const courses = () => {
         forwardBtnProps={{
           //here you can also pass className, or any other button element attributes
           style: {
-            alignSelf: 'center',
-            background: 'black',
-            border: 'none',
-            borderRadius: '50%',
-            color: 'white',
-            cursor: 'pointer',
-            fontSize: '20px',
-            height: 30,
-            lineHeight: 1,
-            textAlign: 'center',
-            width: 30,
+            display: 'none',
           },
           children: <span>{`>`}</span>,
         }}
         backwardBtnProps={{
           //here you can also pass className, or any other button element attributes
           style: {
-            alignSelf: 'center',
-            background: 'black',
-            border: 'none',
-            borderRadius: '50%',
-            color: 'white',
-            cursor: 'pointer',
-            fontSize: '20px',
-            height: 30,
-            lineHeight: 1,
-            textAlign: 'center',
-            width: 30,
+            display: 'none',
           },
           children: <span>{`<`}</span>,
         }}
@@ -379,6 +373,8 @@ const courses = () => {
         ]}
         speed={400}
         easing="linear"
+        autoplay= 'true'
+        autoplayDirection='forward'
       >
         <div className={styles.feedbackbox}>
           <div className={styles.picandtittle}>

@@ -331,6 +331,32 @@
   width: 100%;
   margin: 0 auto;
 }
+.alignequal{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 10px;
+}
+.input{
+  padding: 10px;
+  border-radius: 7px;
+  border: 0.1px solid silver;
+  outline: none;
+  width: 100%;
+}
+.btn2{
+  padding: 10px;
+  width: 50%;
+  margin: 10px auto;
+  background: linear-gradient(90deg, gold, #ff3000);
+  color: #fff;
+  border: none;
+  border-radius: 34px;
+}
+.btn2:hover{
+  background: #ff3000;
+  color: #020e4a;
+}
 .projectsbox5{
   display: grid;
   grid-template-columns: 1fr;

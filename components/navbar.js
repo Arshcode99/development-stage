@@ -2,9 +2,9 @@ import React from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
 import styles from './components.module.css'
-import { GrLinkedinOption } from 'react-icons/gr'
-import { FaWhatsapp } from 'react-icons/fa'
-import { FaInstagram } from 'react-icons/fa'
+import { BsLinkedin } from 'react-icons/bs'
+import { BsWhatsapp } from 'react-icons/bs'
+import { BsInstagram } from 'react-icons/bs'
 import { TbGridDots } from 'react-icons/Tb'
 import { BsPerson } from 'react-icons/bs'
 import logo from '../public/favicon.png'
@@ -41,7 +41,10 @@ const Navbar = () => {
       <Link className={styles.a} href="/community">Community</Link>
       </div>
       <div className={styles.topicons}>
-      <Link className={styles.a} href="/">Login</Link>
+        <BsInstagram className={styles.BsInstagram} />
+        <BsWhatsapp className={styles.BsWhatsapp} />
+        <BsLinkedin className={styles.BsLinkedin} />
+        <Link href="/registration"><BsPerson className={styles.BsPerson} /></Link>
         <TbGridDots className={styles.TbGridDots} onClick={myFunction} />
         </div>
       </div>

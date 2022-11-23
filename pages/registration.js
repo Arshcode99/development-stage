@@ -1,39 +1,44 @@
 import Link from 'next/link';
 import React, { useState } from 'react';
-import { AiOutlineGoogle } from 'react-icons/ai';
+import { AiFillInstagram } from 'react-icons/ai';
+import { AiFillFacebook } from 'react-icons/ai';
+import { BsLinkedin } from 'react-icons/bs';
 import styles from '../styles/registration.module.css';
 
 const Registration = () => {
-  const [userData, setuserData] = useState({
+
+  const [userData, setUserData] = useState({
     fullName: "",
     email: "",
     phone: "",
     country: "",
     collage: "",
   });
+
   let name, value;
+
   const postUserData = (event) =>{
     name = event.target.name;
     value = event.target.value;
 
-    setuserData({ ...userData, [name]:value});
+    setUserData({ ...userData, [name]:value});
   }
+
   // Connecting With Firebase DB 
-const handleForm = async(event) =>{
-  event.preventDefault();
+  const handleForm = async(event) =>{
   const { fullName, email, phone, country, collage } = userData;
   const res = await fetch(
-    "https://nextdb-simplifed-default-rtdb.firebaseio.com//NewStudents.json",{
+    "https://nextdb-simplifed-default-rtdb.firebaseio.com/NewStudents.json",{
     method: "POST",
     headers: {
       "Content-Type" : "application/json",
     },
-    body: JSON.stringify({
-      fullName:"",
-      email:"",
-      phone:"",
-      country:"",
-      collage:"",
+    body:JSON.stringify({
+      fullName:fullName,
+      email:email,
+      phone:phone,
+      country:country,
+      collage:collage,
     }),
   }
     );
@@ -43,6 +48,7 @@ const handleForm = async(event) =>{
     else{
       alert("Maybe Something went wrong! Try Again... 🤔")
     }
+    event.preventDefault();
 }
   return (
     <>
@@ -50,15 +56,16 @@ const handleForm = async(event) =>{
         <div className={styles.twocol}>
             <div className={styles.leftside}>
                 <h1 className={styles.h1}>Take a flight with React.js Today!</h1>
-                <p>Step 1 is to create a free account on Reactjsofficial, Don't Worry We will not share your data with anyone.
-                  your data is safe and secure!, We will not spam your Inbox. 🔗😉
+                <p>🔗😉
                 </p>
                 <hr />
-                <p>Already a STUDENT?</p>
-                <Link href="/login" className={styles.btn}>Login</Link>
-                <hr />
-                <h4>OR</h4>
-                <button className={styles.google}>Countinue With <AiOutlineGoogle/>oogle</button>
+                <p>Follow us on: <br />
+                <AiFillInstagram className={styles.icons}/>
+                {'\u00A0'}
+                <AiFillFacebook className={styles.icons}/>
+                {'\u00A0'}
+                <BsLinkedin className={styles.icons}/>
+                </p>
             </div>
             <div className={styles.rightside}>
                 <form className={styles.alignequal} method="POST">

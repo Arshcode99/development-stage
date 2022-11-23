@@ -80,16 +80,11 @@
     outline: none;
     width: 100%;
 }
-.google{
-    padding: 10px 40px;
-    border-radius: 7px;
-    border: none;
-    outline: none;
+.icons{
+    font-size: 1.4rem;
     cursor: pointer;
-    background: rgb(29, 29, 123);
-    color: #fff;
 }
-.google:active{
+.icons:active{
     background: rgba(225,225,225,0.1);
     color: mediumspringgreen;
 }
