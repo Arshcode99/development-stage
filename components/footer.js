@@ -38,10 +38,10 @@ const Footer = () => {
         <h2 className={styles.h2}>Usefull Links</h2>
         <div className={styles.free}>
           <Link className={styles.a1} href="/">Home</Link>
-          <Link className={styles.a1} href="/">React Training</Link>
-          <Link className={styles.a1} href="/">Community</Link>
-          <Link className={styles.a1} href="/">Careers</Link>
-          <Link className={styles.a1} href="/">Legal</Link>
+          <Link className={styles.a1} href="/courses">React Training</Link>
+          <Link className={styles.a1} href="/community">Community</Link>
+          <Link className={styles.a1} href="/career">Careers</Link>
+          <Link className={styles.a1} href="/legal">Legal</Link>
           </div>
         </div>
         </div>

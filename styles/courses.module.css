@@ -344,6 +344,14 @@
   outline: none;
   width: 100%;
 }
+.select{
+  padding: 10px;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  position: relative;
+  left: 450px;
+}
 .btn2{
   padding: 10px;
   width: 50%;

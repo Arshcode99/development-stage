@@ -26,9 +26,10 @@ const Registration = () => {
 
   // Connecting With Firebase DB 
   const handleForm = async(event) =>{
+  event.preventDefault();
   const { fullName, email, phone, country, collage } = userData;
   const res = await fetch(
-    "https://nextdb-simplifed-default-rtdb.firebaseio.com/NewStudents.json",{
+    "https://nextdb-bfcfc-default-rtdb.firebaseio.com/NewStudents.json",{
     method: "POST",
     headers: {
       "Content-Type" : "application/json",
@@ -48,7 +49,6 @@ const Registration = () => {
     else{
       alert("Maybe Something went wrong! Try Again... 🤔")
     }
-    event.preventDefault();
 }
   return (
     <>

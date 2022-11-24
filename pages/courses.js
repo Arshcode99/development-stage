@@ -19,6 +19,7 @@ import styles from '../styles/courses.module.css';
 
 
 const courses = () => {
+
   function RunOutFunction() {
     var x = document.getElementById("hidethis");
     if (x.style.display === "flex") {
@@ -51,8 +52,62 @@ const courses = () => {
       x.style.display = "flex";
     }
   }
+  function SelectThis(){
+    var x = document.getElementById("select");
+    if (x.style.border === "1px solid #ff3000") {
+      x.style.border = "none";
+    } else {
+      x.style.border = "1px solid #ff3000";
+    }
+  }
+  function SelectThisagain(){
+    var x = document.getElementById("select2");
+    if (x.style.border === "1px solid #ff3000") {
+      x.style.border = "none";
+    } else {
+      x.style.border = "1px solid #ff3000";
+    }
+  }
   const [activeSlideIndex, setActiveSlideIndex] = useState(0);
-  
+  //FireBase DB:
+
+  const [userData, setUserData] = useState({
+    syllabusemail: "",
+  });
+
+  let name, value;
+
+  const postUserData = (event) =>{
+    name = event.target.name;
+    value = event.target.value;
+
+    setUserData({ ...userData, [name]:value});
+  }
+
+  // Connecting With Firebase DB 
+  const handleForm = async(event) =>{
+  event.preventDefault();
+  const { syllabusemail } = userData;
+  const res = await fetch(
+    "https://nextdb-bfcfc-default-rtdb.firebaseio.com/Syllabus-Download-and-course-selected-NewStudents.json",{
+    method: "POST",
+    headers: {
+      "Content-Type" : "application/json",
+    },
+    body:JSON.stringify({
+      email:syllabusemail,
+    }),
+  }
+    );
+    if (res){
+      alert("Thank You! Our Team will Contact You Soon... 😉")
+    }
+    else{
+      alert("Maybe Something went wrong! Try Again... 🤔")
+    }
+}
+
+
   return (
     <>
      {/* Main Courses Page Starts  */}
@@ -160,6 +215,7 @@ const courses = () => {
       <div className={styles.purchase}>
       <h1 className={styles.h2purchase}>Select a plan based on your needs</h1>
           <div className={styles.purchaseleft}>
+            <form method='POST'>
             <div className={styles.purchasetopcard}>
               <div className={styles.topcardbox}>
                 <div className={styles.topcardboximg}></div>
@@ -214,16 +270,20 @@ const courses = () => {
             </div>
             </div>
             <div className={styles.grid2}>
-            <div className={styles.basicfeatures}>
-              <span className={styles.smalltext2}>Earliest Batch</span><br />
+            <div className={styles.basicfeatures} id="select">
+              <span className={styles.smalltext2}>Earliest Batch</span>
+              <input type="radio" name="select" className={styles.select} onClick={SelectThis} required />
+              <br />
               <b className={styles.b}>5th Dec</b>
               <p>10% Discount on early registraion</p>
               <div className={styles.batchinfo}>
               Weekday's Batch: Sat-Sun:3hours
               </div>
             </div>
-            <div className={styles.basicfeatures}>
-              <span className={styles.smalltext2}>Next Batch</span><br />
+            <div className={styles.basicfeatures} id="select2">
+              <span className={styles.smalltext2}>Next Batch</span>
+              <input type="radio" name="select" id="select" className={styles.select} onClick={SelectThisagain} required />
+              <br />
               <b className={styles.b}>10th Dec</b>
               <p>10% Discount on early registraion</p>
               <div className={styles.batchinfo}>
@@ -236,7 +296,8 @@ const courses = () => {
               <p className={styles.psmall}>OR EMI ₹3,333/mon*</p></div>
               <button className={styles.buybtn}>Enroll Now</button>
             </div>
-          </div>
+            </form>
+            </div>
           </div>
           <div className={styles.purchase}>
           <div className={styles.purchaseleft}>
@@ -330,8 +391,11 @@ const courses = () => {
               </div>
               <div className={styles.basicfeatures}>
                 <form className={styles.alignequal} method="POST">
-                  <input type="email" placeholder='Enter Your Email' className={styles.input} required />
-                  <button className={styles.btn2} type="submit">Download</button>
+                  <input type="email" name='syllabusemail' placeholder='Enter Your Email' className={styles.input}
+                  value={userData.syllabusemail}
+                  onChange={postUserData}
+                  required />
+                  <button className={styles.btn2} type="submit" onClick={handleForm}>Download</button>
                 </form>
               </div>
             </div>
@@ -344,11 +408,11 @@ const courses = () => {
       <div className={styles.topcoursesThird}>
       <div className={styles.deem3}>FeedBacks</div>
       <div className={styles.thirdh1}>What our students say about this course?</div>
-      <div className={styles.projectsbox5}>
+      <div className={styles.projectsbox6}>
       <ReactSimplyCarousel
         activeSlideIndex={activeSlideIndex}
         onRequestChange={setActiveSlideIndex}
-        itemsToShow={1}
+        itemsToShow={3}
         itemsToScroll={1}
         forwardBtnProps={{
           //here you can also pass className, or any other button element attributes
@@ -371,10 +435,11 @@ const courses = () => {
             minWidth: 768,
           },
         ]}
-        speed={400}
+        speed={2000}
         easing="linear"
         autoplay= 'true'
         autoplayDirection='forward'
+        infinite= 'true'
       >
         <div className={styles.feedbackbox}>
           <div className={styles.picandtittle}>

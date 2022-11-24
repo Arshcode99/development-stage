@@ -1,5 +1,4 @@
 import Image from 'next/image'
-// import Demovid from '../public/demovid.mp4'
 import styles from '../styles/Home.module.css'
 import Typewriter from 'typewriter-effect';
 import Countdown from '../components/countdown';
@@ -18,8 +17,10 @@ import { MdSupportAgent } from 'react-icons/md'
 
 
 export default function Home() {
-  //Logic For Our CountDown Timer:
-  //---------------------------------
+  
+
+
+
   return (
     <>
       {/* Main Home Page Starts  */}

@@ -1,0 +1,110 @@
+.contact{
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 10px;
+        text-align: center;
+        background: url(../public/blue-background-abstract-background-windows-11-3840x2160-8846.jpg);
+        background-position: -80%;
+}
+.twocol{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 80%;
+    padding: 10px;
+}
+.left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    text-align: left;
+    color: aliceblue;
+}
+.contactIMG{
+    width: 300px;
+    height: 300px;
+}
+.right{
+    width: 100%;
+    height: 100%;
+    color: aliceblue;
+}
+.form{
+    width: 80%;
+    margin: 0 auto;
+    padding: 10px;
+    border-radius: 12px;
+    background: rgba(225,225,225,0.1);
+    backdrop-filter: blur(10px);
+    text-align: left;
+    color: #fff;
+}
+.input{
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 7px;
+    background: #fff;
+    color: #333;
+    outline: none;
+    margin-top: 4px;
+    margin-bottom: 4px;
+}
+.textarea{
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 7px;
+    background: #fff;
+    color: #333;
+    outline: none;
+    margin-top: 4px;
+    margin-bottom: 4px;
+}
+.btn {
+    padding: 10px 20px;
+    width: 200px;
+    border: none;
+    border-radius: 5px;
+    background: linear-gradient(50deg, yellow, #ff3000);
+    color: white;
+    text-transform: uppercase;
+    cursor: pointer;
+    font-weight: 400;
+    transition: all 0.6s;
+    margin: 0 auto;
+    font-family: "Nunito", sans-serif;
+  }
+  .btn:hover {
+    backdrop-filter: blur(10px);
+    background: linear-gradient(50deg, yellow, #ff3000);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+  }
+  @media only screen and (max-width: 768px) {
+    .contact{
+        height: auto;
+    }
+    .twocol{
+        grid-template-columns: 1fr;
+        width: 100%;
+    }
+    .form{
+        width: 100%;
+    }
+    .btn{
+        width: 100%;
+    }
+    .left{
+        text-align: center;
+    }
+    .contactIMG{
+        margin: 10px auto;
+    }
+}

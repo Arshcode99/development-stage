@@ -25,7 +25,7 @@ const Community = () => {
     </section> 
     <section className={styles.Careersnext}>
     <h1>Our Community will Help you in Your Journey!</h1>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus ipsum nemo <br /> nostrum expedita! Minima enim, quae beatae sapiente iste, quidem fugiat aliquid, ad sunt necessitatibus aliquam. Doloremque veniam mollitia eligendi.</p>
+    <p>May be you stuck in a problem and not able to find the solution, RIGHT? <br /> Don't Worry! We have our Big Community To Help You in every problems and grab your hand for your Ideas.</p>
       <div className={styles.twocol}>
       <div className={styles.left}>
       <h1 className={styles.block}>Instagram Community!</h1>
