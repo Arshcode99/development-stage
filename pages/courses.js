@@ -215,7 +215,6 @@ const courses = () => {
       <div className={styles.purchase}>
       <h1 className={styles.h2purchase}>Select a plan based on your needs</h1>
           <div className={styles.purchaseleft}>
-            <form method='POST'>
             <div className={styles.purchasetopcard}>
               <div className={styles.topcardbox}>
                 <div className={styles.topcardboximg}></div>
@@ -270,6 +269,7 @@ const courses = () => {
             </div>
             </div>
             <div className={styles.grid2}>
+            <form method='POST'>
             <div className={styles.basicfeatures} id="select">
               <span className={styles.smalltext2}>Earliest Batch</span>
               <input type="radio" name="select" className={styles.select} onClick={SelectThis} required />
@@ -290,13 +290,13 @@ const courses = () => {
               Weekend's Batch: Mon-Thu: 1.5hours
               </div>
             </div>
+            </form>
             </div>
             <div className={styles.bottompurchase}>
               <div className={styles.h1blow}>₹44,071/-
               <p className={styles.psmall}>OR EMI ₹3,333/mon*</p></div>
               <button className={styles.buybtn}>Enroll Now</button>
             </div>
-            </form>
             </div>
           </div>
           <div className={styles.purchase}>
