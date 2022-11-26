@@ -269,10 +269,8 @@ const courses = () => {
             </div>
             </div>
             <div className={styles.grid2}>
-            <form method='POST'>
             <div className={styles.basicfeatures} id="select">
               <span className={styles.smalltext2}>Earliest Batch</span>
-              <input type="radio" name="select" className={styles.select} onClick={SelectThis} required />
               <br />
               <b className={styles.b}>5th Dec</b>
               <p>10% Discount on early registraion</p>
@@ -282,7 +280,6 @@ const courses = () => {
             </div>
             <div className={styles.basicfeatures} id="select2">
               <span className={styles.smalltext2}>Next Batch</span>
-              <input type="radio" name="select" id="select" className={styles.select} onClick={SelectThisagain} required />
               <br />
               <b className={styles.b}>10th Dec</b>
               <p>10% Discount on early registraion</p>
@@ -290,7 +287,6 @@ const courses = () => {
               Weekend's Batch: Mon-Thu: 1.5hours
               </div>
             </div>
-            </form>
             </div>
             <div className={styles.bottompurchase}>
               <div className={styles.h1blow}>₹44,071/-
