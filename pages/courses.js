@@ -481,75 +481,75 @@ const courses = () => {
       <div className={styles.deem3}>Got a question in mind?</div>
       <div className={styles.thirdh1}>Frequently Asked Questions</div>
       <div className={styles.projectsbox5}>
-      <div class="accordion" id="accordionPanelsStayOpenExample">
-  <div class="accordion-item">
-    <h2 class="accordion-header" id="panelsStayOpen-headingOne">
-      <button class="accordion-button h6" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+      <div className="accordion" id="accordionPanelsStayOpenExample">
+  <div className="accordion-item">
+    <h2 className="accordion-header" id="panelsStayOpen-headingOne">
+      <button className="accordion-button h6" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
       Is there any pre-requisite for this program?
       </button>
     </h2>
-    <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingOne">
-      <div class="accordion-body">
+    <div id="panelsStayOpen-collapseOne" className="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingOne">
+      <div className="accordion-body">
       Basically one should have only basic knowledge of HTML and CSS can join this training program.
       </div>
     </div>
   </div>
-  <div class="accordion-item">
-    <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
-      <button class="accordion-button h6 collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+  <div className="accordion-item">
+    <h2 className="accordion-header" id="panelsStayOpen-headingTwo">
+      <button className="accordion-button h6 collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
       How much time will it take to learn React JS?
       </button>
     </h2>
-    <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwo">
-      <div class="accordion-body">
+    <div id="panelsStayOpen-collapseTwo" className="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwo">
+      <div className="accordion-body">
       Duration of this training is 2-3 months but most learners can complete the training with projects in months and that is enough to learn ReactJs.
       </div>
     </div>
   </div>
-  <div class="accordion-item">
-    <h2 class="accordion-header" id="panelsStayOpen-headingThree">
-      <button class="accordion-button h6 collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+  <div className="accordion-item">
+    <h2 className="accordion-header" id="panelsStayOpen-headingThree">
+      <button className="accordion-button h6 collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
       Can I get certificate ?
       </button>
     </h2>
-    <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
-      <div class="accordion-body">
+    <div id="panelsStayOpen-collapseThree" className="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
+      <div className="accordion-body">
       On passing the React training Program at Reactjsofficial, you’ll receive a signed certificate of completion. Several thousands of Reactjsofficial alumni use their course certificates to demonstrate skills to employers and their networks. But more important part is skills that you will get in the training by working on real-world projects and showcasing this to your portfolio are unmatched in the market.
       </div>
     </div>
   </div>
-  <div class="accordion-item">
-    <h2 class="accordion-header" id="panelsStayOpen-headingFour">
-      <button class="accordion-button h6 collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseFour" aria-expanded="false" aria-controls="panelsStayOpen-collapseFour">
+  <div className="accordion-item">
+    <h2 className="accordion-header" id="panelsStayOpen-headingFour">
+      <button className="accordion-button h6 collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseFour" aria-expanded="false" aria-controls="panelsStayOpen-collapseFour">
       Are all classes will be Live session? What are the training timings?
       </button>
     </h2>
-    <div id="panelsStayOpen-collapseFour" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingFour">
-      <div class="accordion-body">
+    <div id="panelsStayOpen-collapseFour" className="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingFour">
+      <div className="accordion-body">
       The training will be 100% one-to-one live session conducted online only. You will get all classes access for lifetime. Total Training hours are 50+.
       </div>
     </div>
   </div>
-  <div class="accordion-item">
-    <h2 class="accordion-header" id="panelsStayOpen-headingFive">
-      <button class="accordion-button h6 collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseFive" aria-expanded="false" aria-controls="panelsStayOpen-collapseFive">
+  <div className="accordion-item">
+    <h2 className="accordion-header" id="panelsStayOpen-headingFive">
+      <button className="accordion-button h6 collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseFive" aria-expanded="false" aria-controls="panelsStayOpen-collapseFive">
       What if I miss the training session?
       </button>
     </h2>
-    <div id="panelsStayOpen-collapseFive" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingFive">
-      <div class="accordion-body">
+    <div id="panelsStayOpen-collapseFive" className="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingFive">
+      <div className="accordion-body">
       Please do not miss the sessions but in case if missed recording of the session would be available for you.
       </div>
     </div>
   </div>
-  <div class="accordion-item">
-    <h2 class="accordion-header" id="panelsStayOpen-headingSix">
-      <button class="accordion-button h6 collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseSix" aria-expanded="false" aria-controls="panelsStayOpen-collapseSix">
+  <div className="accordion-item">
+    <h2 className="accordion-header" id="panelsStayOpen-headingSix">
+      <button className="accordion-button h6 collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseSix" aria-expanded="false" aria-controls="panelsStayOpen-collapseSix">
       Can I pay using EMIs?
       </button>
     </h2>
-    <div id="panelsStayOpen-collapseSix" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingSix">
-      <div class="accordion-body">
+    <div id="panelsStayOpen-collapseSix" className="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingSix">
+      <div className="accordion-body">
       Yes you can pay with EMIs you can choose to avail 0% EMI option through one of our payment partners (currently ZestMoney), the details of which are available at the checkout page.
       </div>
     </div>

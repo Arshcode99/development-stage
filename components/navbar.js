@@ -43,9 +43,9 @@ const Navbar = () => {
       <Link className={styles.a} href="/contact">Contact</Link>
       </div>
       <div className={styles.topicons}>
-        <BsInstagram className={styles.BsInstagram} />
-        <BsWhatsapp className={styles.BsWhatsapp} />
-        <BsLinkedin className={styles.BsLinkedin} />
+        <a href="https://www.instagram.com/reactjsofficial/"><BsInstagram className={styles.BsInstagram} /></a>
+        <a href="https://chat.whatsapp.com/FWRWiR3mtH49DusKSmDX6"><BsWhatsapp className={styles.BsWhatsapp} /></a>
+        <a href='https://www.linkedin.com/company/reactjsofficial/'><BsLinkedin className={styles.BsLinkedin} /></a>
         <Link href="join/registration"><BsPerson className={styles.BsPerson} /></Link>
         <TbGridDots className={styles.TbGridDots} onClick={myFunction} />
         </div>

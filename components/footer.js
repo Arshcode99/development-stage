@@ -27,11 +27,11 @@ const Footer = () => {
         <div className={styles.centerfoot}>
           <h2 className={styles.h2}>Free Resourses</h2>
           <div className={styles.free}>
-          <Link className={styles.a1} href="/">Blogs</Link>
-          <Link className={styles.a1} href="/">Cheatsheets</Link>
-          <Link className={styles.a1} href="/">Instagram</Link>
-          <Link className={styles.a1} href="/">Linkedin</Link>
-          <Link className={styles.a1} href="/">Community</Link>
+          <a className={styles.a1} href="https://blogs.reactjsofficial.com/">Blogs</a>
+          <a className={styles.a1} href="https://www.instagram.com/reactjsofficial/">Cheatsheets</a>
+          <a className={styles.a1} href="https://www.instagram.com/reactjsofficial/">Instagram</a>
+          <a className={styles.a1} href="https://www.linkedin.com/company/reactjsofficial/">Linkedin</a>
+          <Link className={styles.a1} href="/community">Community</Link>
           </div>
         </div>
         <div className={styles.rightfoot}>

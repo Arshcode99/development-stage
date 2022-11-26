@@ -6,108 +6,225 @@ const Legal = () => {
     <>
       <section className={styles.legal}>
         <div className={styles.straight}>
-          <h1>Terms of Services</h1>
-          <p>Welcome to reactjsofficial.com!
-
-These terms and conditions outline the rules and regulations for the use of Reactjsofficial's Website, located at https://www.reactjsofficial.com.
-
-By accessing this website we assume you accept these terms and conditions. Do not continue to use reactjsofficial.com if you do not agree to take all of the terms and conditions stated on this page.
-
-The following terminology applies to these Terms and Conditions, Privacy Statement and Disclaimer Notice and all Agreements: "Client", "You" and "Your" refers to you, the person log on this website and compliant to the Company’s terms and conditions. "The Company", "Ourselves", "We", "Our" and "Us", refers to our Company. "Party", "Parties", or "Us", refers to both the Client and ourselves. All terms refer to the offer, acceptance and consideration of payment necessary to undertake the process of our assistance to the Client in the most appropriate manner for the express purpose of meeting the Client’s needs in respect of provision of the Company’s stated services, in accordance with and subject to, prevailing law of Netherlands. Any use of the above terminology or other words in the singular, plural, capitalization and/or he/she or they, are taken as interchangeable and therefore as referring to same.
-
-Cookies
-We employ the use of cookies. By accessing reactjsofficial.com, you agreed to use cookies in agreement with the Reactjsofficial's Privacy Policy.
-
-Most interactive websites use cookies to let us retrieve the user’s details for each visit. Cookies are used by our website to enable the functionality of certain areas to make it easier for people visiting our website. Some of our affiliate/advertising partners may also use cookies.
-
-License
-Unless otherwise stated, Reactjsofficial and/or its licensors own the intellectual property rights for all material on reactjsofficial.com. All intellectual property rights are reserved. You may access this from reactjsofficial.com for your own personal use subjected to restrictions set in these terms and conditions.
-
-You must not:
-
-Republish material from reactjsofficial.com
-Sell, rent or sub-license material from reactjsofficial.com
-Reproduce, duplicate or copy material from reactjsofficial.com
-Redistribute content from reactjsofficial.com
-This Agreement shall begin on the date hereof. Our Terms and Conditions were created with the help of the Free Terms and Conditions Generator.
-
-Parts of this website offer an opportunity for users to post and exchange opinions and information in certain areas of the website. Reactjsofficial does not filter, edit, publish or review Comments prior to their presence on the website. Comments do not reflect the views and opinions of Reactjsofficial,its agents and/or affiliates. Comments reflect the views and opinions of the person who post their views and opinions. To the extent permitted by applicable laws, Reactjsofficial shall not be liable for the Comments or for any liability, damages or expenses caused and/or suffered as a result of any use of and/or posting of and/or appearance of the Comments on this website.
-
-Reactjsofficial reserves the right to monitor all Comments and to remove any Comments which can be considered inappropriate, offensive or causes breach of these Terms and Conditions.
-
-You warrant and represent that:
-
-You are entitled to post the Comments on our website and have all necessary licenses and consents to do so;
-The Comments do not invade any intellectual property right, including without limitation copyright, patent or trademark of any third party;
-The Comments do not contain any defamatory, libelous, offensive, indecent or otherwise unlawful material which is an invasion of privacy
-The Comments will not be used to solicit or promote business or custom or present commercial activities or unlawful activity.
-You hereby grant Reactjsofficial a non-exclusive license to use, reproduce, edit and authorize others to use, reproduce and edit any of your Comments in any and all forms, formats or media.
-
-Hyperlinking to our Content
-The following organizations may link to our Website without prior written approval:
-
-Government agencies;
-Search engines;
-News organizations;
-Online directory distributors may link to our Website in the same manner as they hyperlink to the Websites of other listed businesses; and
-System wide Accredited Businesses except soliciting non-profit organizations, charity shopping malls, and charity fundraising groups which may not hyperlink to our Web site.
-These organizations may link to our home page, to publications or to other Website information so long as the link: (a) is not in any way deceptive; (b) does not falsely imply sponsorship, endorsement or approval of the linking party and its products and/or services; and (c) fits within the context of the linking party’s site.
-
-We may consider and approve other link requests from the following types of organizations:
-
-commonly-known consumer and/or business information sources;
-dot.com community sites;
-associations or other groups representing charities;
-online directory distributors;
-internet portals;
-accounting, law and consulting firms; and
-educational institutions and trade associations.
-We will approve link requests from these organizations if we decide that: (a) the link would not make us look unfavorably to ourselves or to our accredited businesses; (b) the organization does not have any negative records with us; (c) the benefit to us from the visibility of the hyperlink compensates the absence of Reactjsofficial; and (d) the link is in the context of general resource information.
-
-These organizations may link to our home page so long as the link: (a) is not in any way deceptive; (b) does not falsely imply sponsorship, endorsement or approval of the linking party and its products or services; and (c) fits within the context of the linking party’s site.
-
-If you are one of the organizations listed in paragraph 2 above and are interested in linking to our website, you must inform us by sending an e-mail to Reactjsofficial. Please include your name, your organization name, contact information as well as the URL of your site, a list of any URLs from which you intend to link to our Website, and a list of the URLs on our site to which you would like to link. Wait 2-3 weeks for a response.
-
-Approved organizations may hyperlink to our Website as follows:
-
-By use of our corporate name; or
-By use of the uniform resource locator being linked to; or
-By use of any other description of our Website being linked to that makes sense within the context and format of content on the linking party’s site.
-No use of Reactjsofficial's logo or other artwork will be allowed for linking absent a trademark license agreement.
-
-iFrames
-Without prior approval and written permission, you may not create frames around our Webpages that alter in any way the visual presentation or appearance of our Website.
-
-Content Liability
-We shall not be hold responsible for any content that appears on your Website. You agree to protect and defend us against all claims that is rising on your Website. No link(s) should appear on any Website that may be interpreted as libelous, obscene or criminal, or which infringes, otherwise violates, or advocates the infringement or other violation of, any third party rights.
-
-Your Privacy
-Please read Privacy Policy
-
-Reservation of Rights
-We reserve the right to request that you remove all links or any particular link to our Website. You approve to immediately remove all links to our Website upon request. We also reserve the right to amen these terms and conditions and it’s linking policy at any time. By continuously linking to our Website, you agree to be bound to and follow these linking terms and conditions.
-
-Removal of links from our website
-If you find any link on our Website that is offensive for any reason, you are free to contact and inform us any moment. We will consider requests to remove links but we are not obligated to or so or to respond to you directly.
-
-We do not ensure that the information on this website is correct, we do not warrant its completeness or accuracy; nor do we promise to ensure that the website remains available or that the material on the website is kept up to date.
-
-Disclaimer
-To the maximum extent permitted by applicable law, we exclude all representations, warranties and conditions relating to our website and the use of this website. Nothing in this disclaimer will:
-
-limit or exclude our or your liability for death or personal injury;
-limit or exclude our or your liability for fraud or fraudulent misrepresentation;
-limit any of our or your liabilities in any way that is not permitted under applicable law; or
-exclude any of our or your liabilities that may not be excluded under applicable law.
-The limitations and prohibitions of liability set in this Section and elsewhere in this disclaimer: (a) are subject to the preceding paragraph; and (b) govern all liabilities arising under the disclaimer, including liabilities arising in contract, in tort and for breach of statutory duty.
-
-As long as the website and the information and services on the website are provided free of charge, we will not be liable for any loss or damage of any nature.</p>
-          <h1>Privacy Policy</h1>
-          <p> recusandae dolore. Maxime quod ex aliquid, veritatis rem blanditiis nihil! Pariatur beatae eius quia culpa tenetur quisquam ipsam ducimus esse ad commodi, vitae magni molestias nisi alias omnis odio expedita tempore velit, laborum sint? Dolore ipsum sed velit quas ratione voluptate magni neque quis voluptatem culpa expedita nesciunt exercitationem est soluta, iste, vitae, ipsa incidunt officiis quos voluptatibus? Placeat quod ex fugiat velit, recusandae, quo, quos doloremque autem non possimus veritatis animi a! Non suscipit eligendi eaque vero earum laborum ducimus accusantium fuga qui est, minima molestias, officiis impedit! Officia maiores ea aut optio? Nihil dignissimos ducimus nisi cupiditate ipsum numquam non, sapiente laudantium quae vero est consectetur, placeat nesciunt, vitae eius eos quia nulla rerum quis fugit ea corrupti! Quod dignissimos quidem fuga magnam veniam dolorum odio. Eaque aut ipsa temporibus quo facere quisquam voluptatem sunt adipisci architecto natus cumque officia nam dolorem, quia suscipit aspernatur dignissimos repellendus qui distinctio cupiditate quos a earum. Perferendis, aspernatur. Dignissimos distinctio ab temporibus harum sint neque, ducimus non error ipsa alias omnis, perferendis nesciunt officia nam aut aperiam unde mollitia eveniet! Laudantium hic, ut error ad omnis, accusantium maxime rerum nihil id esse earum voluptatum suscipit beatae fuga fugiat non, incidunt aut eaque voluptatem quasi dolore expedita dolor voluptates? Tempore, repudiandae quisquam! Debitis aliquid laboriosam quasi soluta, dicta nemo fuga nisi vero autem fugit voluptas temporibus in! Placeat facilis nemo adipisci ducimus vitae quisquam ab, voluptate dolorum maiores aliquam. Hic alias nemo harum odio qui numquam? Blanditiis ipsa amet eaque, incidunt quisquam odio nesciunt ipsum, quasi velit quia atque. Quidem, quisquam obcaecati quis nostrum repellendus mollitia consequuntur voluptatibus molestiae nemo ipsam quas eligendi delectus est temporibus vero? Modi accusamus ad assumenda repudiandae porro harum accusantium, quisquam amet voluptas non hic obcaecati. Fugit in, accusamus aut, quod mollitia eius nobis optio voluptate, voluptatem ipsum error modi iure earum quasi qui? Ducimus quasi nulla quibusdam corrupti commodi, ad cumque aspernatur magni provident in repellat magnam reprehenderit minima voluptate, rerum officiis sint esse alias laudantium repellendus ullam non rem itaque sit! Architecto cum officiis porro obcaecati. Similique, minus. Vel, fuga quo labore corporis nobis consequuntur earum eveniet voluptate. Placeat, eligendi reprehenderit fuga voluptatibus praesentium libero ipsum. Possimus enim minus, quo magni quos, quod voluptas, ducimus totam dignissimos delectus vel molestias? Quas, ea cumque soluta eos, aspernatur ducimus distinctio unde ipsa ex similique molestiae asperiores sapiente. Odio, sit beatae velit iusto nemo dignissimos aspernatur? Nemo cumque saepe molestiae quisquam dicta quidem corporis inventore harum neque omnis amet excepturi dolorem, minima blanditiis iure nobis veritatis quasi eum quaerat! Distinctio!</p>
-          <h1>Refund Policy</h1>
-          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempora velit sed vitae eaque saepe dignissimos unde esse delectus cum soluta, vel pariatur ut similique iste commodi praesentium quae. Libero, animi consequuntur. Sed ipsa odit quis officiis quod, incidunt veritatis ad quae ducimus! Autem obcaecati, hic excepturi beatae alias, odit quisquam dolorem voluptates enim ipsum, tenetur perspiciatis animi voluptatem dolorum repudiandae? Nihil, commodi eos, nam omnis placeat officia sequi odio est quis minima repudiandae odit veritatis quod, perferendis nostrum ipsum. Labore hic quia corrupti voluptatibus impedit esse, sit quae tempora explicabo eligendi commodi facilis veritatis doloremque dicta assumenda amet reprehenderit aut ratione quis, provident id odio obcaecati! Laboriosam laudantium hic perspiciatis nihil inventore ut sint aliquam adipisci aperiam accusamus. Dolores ex consectetur odio quae aliquid commodi ducimus repellat quod deserunt libero similique autem soluta amet accusantium iste rem ullam, optio eveniet. Eligendi dolore dicta quos consequuntur, dolores delectus ea amet laborum? Deleniti soluta maiores possimus quo asperiores error distinctio repellendus facilis sapiente. Distinctio ad illum eligendi, aut sequi nam! Modi quasi quidem dolorum voluptate sequi molestiae qui voluptas ipsum dolore repellendus officia commodi recusandae tempore expedita ducimus, libero alias. Doloribus, quia animi tenetur dolorem nobis omnis possimus. Facere, ea cumque delectus, id laborum, veniam quidem dignissimos quia ipsam ex molestiae? Temporibus in quod explicabo repellat itaque perspiciatis magni odit facilis distinctio, reprehenderit nobis quibusdam et vel accusamus! Illo odit neque, eveniet ullam voluptatem reiciendis quia? Facere temporibus optio vitae commodi libero suscipit cumque reiciendis obcaecati illo, dolores dolore. Iste excepturi aspernatur officiis facilis non aut sunt inventore impedit alias accusamus, odio consectetur porro magni quibusdam, magnam a adipisci sequi. Exercitationem voluptates dolor quisquam ratione atque mollitia, doloremque accusantium doloribus perferendis eum quidem explicabo porro repellendus assumenda ut excepturi. At, esse eum. Cupiditate, pariatur non nihil quis voluptate ea sapiente quas quos. Eos, sit, placeat tenetur quidem veniam adipisci inventore quo ullam fugiat pariatur molestias, quae laborum earum? A voluptates eveniet, laudantium velit tempore beatae placeat eum sit ducimus minima in quasi delectus itaque dignissimos illo dolorum reiciendis quis tenetur pariatur repellat minus? Veniam, natus dolorum ipsa architecto commodi atque reiciendis vel facilis molestias nesciunt aperiam, repellendus nostrum perferendis et minima. Laborum modi sapiente impedit aliquam sint, numquam suscipit blanditiis cum dicta in. Debitis commodi totam quasi optio odit assumenda necessitatibus maiores impedit quos non vel pariatur velit ipsam corporis perspiciatis qui, accusantium magnam aperiam deserunt dolor esse cumque? Eius ad voluptatum, a nobis temporibus, obcaecati sint delectus aperiam possimus cumque accusantium eaque perspiciatis et optio dolorum consectetur nemo officia autem sed repellat facere? In aut impedit eligendi tempore maiores perferendis modi voluptates voluptatem illum sapiente, eum repellendus. Molestiae blanditiis error ab vero a cupiditate sit ratione autem aut nam harum consequatur aliquam architecto fugiat pariatur accusamus quam perferendis, unde ullam impedit. Ad inventore, facere itaque nihil exercitationem odio blanditiis. Eos quisquam, aperiam, sit sint enim, perferendis praesentium reiciendis dolorem rem ullam laudantium ut. Ducimus nisi illum nam perferendis quia at quo nihil iusto! Fuga tempora nisi numquam accusamus facere! Earum ipsum molestiae alias, ab, cupiditate amet repellat quis esse, sit accusantium repudiandae tenetur voluptas. Excepturi tempore alias dicta possimus ea quam officiis nulla beatae enim ad. Mollitia dignissimos pariatur inventore quaerat voluptates quisquam veniam enim dolores iste eligendi nulla, nemo adipisci at odio? Provident neque soluta iste obcaecati perferendis eum voluptate corporis, assumenda dolores, est amet ex facere quas? Debitis quia unde, adipisci praesentium consequatur illum quam. Vero repellat dignissimos, commodi ex dolorum impedit quidem molestiae id fuga, velit ullam magni obcaecati aliquam. Ea iste repellat minus quia saepe, maxime inventore delectus ratione, ad temporibus quasi totam beatae modi illo veritatis perspiciatis nesciunt provident corporis odit! Repellendus, voluptatem. Dolores quam ipsa repellat, praesentium nesciunt illo natus? Officia accusamus in consequuntur quis nesciunt, numquam, architecto tempora maiores animi incidunt alias culpa tempore mollitia quaerat, autem harum ratione voluptatibus. Nam quis quia deserunt cum praesentium placeat commodi nesciunt! Quae error exercitationem a ea assumenda sed rem? Magnam, quis asperiores impedit deserunt, id aliquam ipsa ea, sequi quam delectus non natus unde quos cupiditate! Facere praesentium at consequuntur ipsa eveniet odit, consequatur cumque laboriosam esse quibusdam velit deserunt quidem sit aliquam eaque inventore cum repellat? Accusantium, atque? Dolores, ea libero dolore sit eius asperiores architecto sunt sed impedit velit atque. Ipsa perferendis vitae reprehenderit? Est accusamus maxime odio quam mollitia saepe veritatis culpa quae impedit placeat eligendi, corrupti sed repudiandae quos voluptatem iure reiciendis facere aut autem alias perspiciatis excepturi nam illum recusandae? Tempore exercitationem earum officia dolores odit! Soluta fugit distinctio aliquid saepe explicabo debitis sunt, iste eius officiis sequi quam quidem nobis id, voluptatem possimus harum magnam? Fugiat consectetur accusamus aliquid ad ratione sunt neque quae saepe dolore odit! Totam, temporibus praesentium unde fuga libero recusandae corporis. Quaerat, recusandae vel odio non nulla nobis quos sint ullam ratione excepturi distinctio cum ex dignissimos consectetur saepe eaque nisi ab mollitia perferendis reprehenderit, facere illum sit! Incidunt distinctio omnis neque hic dignissimos, dolorem voluptatibus veniam debitis unde deleniti! Tempore dolores illum architecto quam, aliquid nostrum possimus provident veniam error aliquam magnam ad inventore ab repudiandae magni debitis veritatis! Repellat deserunt necessitatibus tempore iusto totam doloremque vitae natus consequatur expedita saepe neque ad reiciendis dolorum velit cum nesciunt minus a est, officia cupiditate recusandae labore veritatis, deleniti rem! Vero assumenda iusto nulla doloremque, quia eligendi possimus et nihil, saepe voluptas natus, officiis autem enim temporibus ab minima odio laboriosam quo aspernatur sequi rem quis. Officia quo nam quia magnam laboriosam consequatur culpa perspiciatis, ex eum, aut cupiditate, repellendus consectetur accusamus adipisci nisi id praesentium esse eveniet consequuntur. Voluptates soluta vero modi perferendis blanditiis, illo aperiam impedit doloribus eveniet, alias, repudiandae laboriosam molestiae enim ut maxime delectus quos optio labore sequi recusandae quod error. Tenetur quisquam quidem consequuntur repellat corporis quos perferendis labore rerum totam aperiam nesciunt quasi nostrum eius accusantium impedit, asperiores, dolores, illo suscipit odit. Assumenda, molestiae placeat officia rem sit ad quidem hic, tempora minus labore dolorum dignissimos facilis inventore fugit autem pariatur. Et, temporibus eos alias quis vitae porro ducimus voluptas quod.</p>
-          <h1>Copyright Infragment</h1>
-          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem magni nisi blanditiis quam, fugiat, soluta voluptatibus doloribus culpa id rerum necessitatibus et. Mollitia expedita asperiores nihil deleniti iusto. Vel enim nostrum veniam dolore earum minus architecto dicta dolor quibusdam est quis nihil, ratione at! Ad ducimus tempore placeat voluptas quas corporis sint ipsam aliquid assumenda aliquam nihil temporibus repudiandae, vel corrupti molestias quasi doloremque mollitia sequi, debitis obcaecati accusamus exercitationem! Facere error, eius, ea architecto magnam suscipit exercitationem soluta culpa, nobis itaque deleniti reiciendis nihil aspernatur quisquam dolore adipisci nesciunt. Tempore id maxime error eos ad ex, blanditiis harum perferendis non voluptatem inventore eligendi impedit amet saepe ea quae laborum facilis officia, ipsa animi. Quod voluptatem sequi aliquam modi enim aperiam itaque facilis nisi. Debitis quidem vitae ipsam adipisci ullam est dolores doloremque cupiditate non impedit minus iste, fugit omnis earum, repellendus quibusdam! Voluptatibus, facere aliquid maxime eos quod quasi quidem corrupti repellat illum et animi assumenda dignissimos tempora cumque reprehenderit molestiae? Dolore aperiam repellat laboriosam quos nemo dignissimos quibusdam ad expedita, voluptatem sint perspiciatis, doloribus libero itaque numquam deserunt blanditiis explicabo tenetur. Dignissimos obcaecati praesentium esse est. Facilis dolores consequatur, quibusdam corporis totam possimus obcaecati neque commodi aliquid non maiores velit. Itaque impedit eaque, accusantium accusamus magni, quas earum fugit fugiat ipsam soluta, modi sint? Labore nemo dolores hic neque possimus porro, unde nobis assumenda. Tenetur, sint? Natus non incidunt suscipit fugiat saepe. Voluptate officiis similique non error repellat consequuntur sint quia, facere earum modi, aliquam accusantium aspernatur laboriosam natus architecto voluptates itaque? Minus sunt libero dolor soluta. Vel voluptas nulla rem delectus? Dolore modi, eaque provident neque voluptatem dignissimos maiores nesciunt ad sit magni inventore tempora sint fugiat quaerat beatae exercitationem ea laboriosam quam quod ratione. Dolores aperiam quidem maiores voluptatibus natus modi beatae accusamus id nulla neque, saepe numquam omnis eum quos consequatur necessitatibus velit sequi, tempore laborum ab! Eligendi temporibus porro repudiandae consequatur asperiores suscipit voluptate velit itaque odio nam voluptatibus id ut vel facere eum dolore, quas quisquam vero eos commodi, est, perferendis iste. Doloremque quia assumenda animi expedita soluta ut dicta qui a provident, illo perspiciatis molestias sit neque quibusdam vitae. Laboriosam ratione aperiam sed quibusdam soluta quasi cupiditate architecto magnam inventore? Id hic, excepturi, minus esse quidem rerum velit tempore placeat fugit iusto temporibus doloribus officiis reprehenderit in consequuntur quas, commodi nobis aperiam at quibusdam autem ad. Repellat tempora harum expedita obcaecati excepturi maiores alias quaerat ut molestiae, quae praesentium atque distinctio voluptatem saepe, possimus repellendus quis voluptates voluptatibus cum natus laudantium corporis. Unde harum error expedita fugiat esse officia aut, fuga dicta odio dolor minima iure nam et doloremque debitis, at hic eveniet maxime cum temporibus impedit asperiores quasi quam? Error corporis sit reiciendis esse voluptate, cupiditate eveniet unde, nemo est, animi sint architecto laborum quas nobis molestiae? Eaque illo, qui, sed necessitatibus dolorum eveniet in magni placeat voluptates distinctio repudiandae consequuntur iste alias quia possimus temporibus, corporis explicabo expedita aliquam eum nostrum error. Tenetur quaerat autem amet necessitatibus, quasi odit odio sunt nobis delectus vero, magnam quia error eligendi voluptatum laboriosam beatae doloribus neque temporibus nulla quos suscipit recusandae adipisci? Eveniet cum aperiam, nobis tenetur rerum sunt laudantium delectus tempore debitis iste nihil ab alias, consectetur expedita consequatur repellendus, ad maiores animi ipsum laboriosam! Quam ratione sint soluta. Esse officiis odio rerum eum, non, ipsa saepe libero culpa, a fugit nesciunt debitis hic quos provident aspernatur. Quisquam praesentium dignissimos asperiores nihil fugiat sit, quod voluptate vitae! Aspernatur quod repellat, consectetur quo officiis, explicabo placeat, asperiores delectus aliquam dicta alias fugit quibusdam quisquam sequi blanditiis doloribus tempore mollitia magni. Atque ratione voluptatum distinctio ab provident excepturi minus eaque, explicabo voluptate veniam praesentium non? A, officiis laborum. Quibusdam numquam quos ullam cupiditate iste nam veniam itaque expedita hic sapiente? Sed accusamus soluta maiores excepturi molestias distinctio id libero adipisci fuga quam ipsa est unde corrupti, voluptate necessitatibus inventore delectus quis tenetur sapiente sit, sint ad? Error rem reiciendis maxime eveniet laboriosam suscipit quis adipisci. Rem quam exercitationem delectus, temporibus et adipisci est provident labore maxime, molestias omnis eaque sunt unde error ipsam at aliquam id eveniet. Ea cum suscipit ut beatae. Cupiditate a consequuntur quod perspiciatis hic id beatae autem magni. Eaque, nostrum!</p>
+          <h1><strong>Terms and Conditions</strong></h1>
+          <div className="col-md-12">
+            <p>Welcome to reactjsofficial.com!</p>
+            <p>These terms and conditions outline the rules and regulations for the use of Reactjsofficial's Website, located at https://www.reactjsofficial.com.</p>
+            <p>By accessing this website we assume you accept these terms and conditions. Do not continue to use reactjsofficial.com if you do not agree to take all of the terms and conditions stated on this page.</p>
+            <p>The following terminology applies to these Terms and Conditions, Privacy Statement and Disclaimer Notice and all Agreements: "Client", "You" and "Your" refers to you, the person log on this website and compliant to the Company’s terms and conditions. "The Company", "Ourselves", "We", "Our" and "Us", refers to our Company. "Party", "Parties", or "Us", refers to both the Client and ourselves. All terms refer to the offer, acceptance and consideration of payment necessary to undertake the process of our assistance to the Client in the most appropriate manner for the express purpose of meeting the Client’s needs in respect of provision of the Company’s stated services, in accordance with and subject to, prevailing law of Netherlands. Any use of the above terminology or other words in the singular, plural, capitalization and/or he/she or they, are taken as interchangeable and therefore as referring to same.</p>
+            <h3><strong>Cookies</strong></h3>
+            <p>We employ the use of cookies. By accessing reactjsofficial.com, you agreed to use cookies in agreement with the Reactjsofficial's Privacy Policy. </p>
+            <p>Most interactive websites use cookies to let us retrieve the user’s details for each visit. Cookies are used by our website to enable the functionality of certain areas to make it easier for people visiting our website. Some of our affiliate/advertising partners may also use cookies.</p>
+            <h3><strong>License</strong></h3>
+            <p>Unless otherwise stated, Reactjsofficial and/or its licensors own the intellectual property rights for all material on reactjsofficial.com. All intellectual property rights are reserved. You may access this from reactjsofficial.com for your own personal use subjected to restrictions set in these terms and conditions.</p>
+            <p>You must not:</p>
+            <ul>
+              <li>Republish material from reactjsofficial.com</li>
+              <li>Sell, rent or sub-license material from reactjsofficial.com</li>
+              <li>Reproduce, duplicate or copy material from reactjsofficial.com</li>
+              <li>Redistribute content from reactjsofficial.com</li>
+            </ul>
+            <p>This Agreement shall begin on the date hereof. Our Terms and Conditions were created with the help of the <a href="https://www.termsandconditionsgenerator.com/">Free Terms and Conditions Generator</a>.</p>
+            <p>Parts of this website offer an opportunity for users to post and exchange opinions and information in certain areas of the website. Reactjsofficial does not filter, edit, publish or review Comments prior to their presence on the website. Comments do not reflect the views and opinions of Reactjsofficial,its agents and/or affiliates. Comments reflect the views and opinions of the person who post their views and opinions. To the extent permitted by applicable laws, Reactjsofficial shall not be liable for the Comments or for any liability, damages or expenses caused and/or suffered as a result of any use of and/or posting of and/or appearance of the Comments on this website.</p>
+            <p>Reactjsofficial reserves the right to monitor all Comments and to remove any Comments which can be considered inappropriate, offensive or causes breach of these Terms and Conditions.</p>
+            <p>You warrant and represent that:</p>
+            <ul>
+              <li>You are entitled to post the Comments on our website and have all necessary licenses and consents to do so;</li>
+              <li>The Comments do not invade any intellectual property right, including without limitation copyright, patent or trademark of any third party;</li>
+              <li>The Comments do not contain any defamatory, libelous, offensive, indecent or otherwise unlawful material which is an invasion of privacy</li>
+              <li>The Comments will not be used to solicit or promote business or custom or present commercial activities or unlawful activity.</li>
+            </ul>
+            <p>You hereby grant Reactjsofficial a non-exclusive license to use, reproduce, edit and authorize others to use, reproduce and edit any of your Comments in any and all forms, formats or media.</p>
+            <h3><strong>Hyperlinking to our Content</strong></h3>
+            <p>The following organizations may link to our Website without prior written approval:</p>
+            <ul>
+              <li>Government agencies;</li>
+              <li>Search engines;</li>
+              <li>News organizations;</li>
+              <li>Online directory distributors may link to our Website in the same manner as they hyperlink to the Websites of other listed businesses; and</li>
+              <li>System wide Accredited Businesses except soliciting non-profit organizations, charity shopping malls, and charity fundraising groups which may not hyperlink to our Web site.</li>
+            </ul>
+            <p>These organizations may link to our home page, to publications or to other Website information so long as the link: (a) is not in any way deceptive; (b) does not falsely imply sponsorship, endorsement or approval of the linking party and its products and/or services; and (c) fits within the context of the linking party’s site.</p>
+            <p>We may consider and approve other link requests from the following types of organizations:</p>
+            <ul>
+              <li>commonly-known consumer and/or business information sources;</li>
+              <li>dot.com community sites;</li>
+              <li>associations or other groups representing charities;</li>
+              <li>online directory distributors;</li>
+              <li>internet portals;</li>
+              <li>accounting, law and consulting firms; and</li>
+              <li>educational institutions and trade associations.</li>
+            </ul>
+            <p>We will approve link requests from these organizations if we decide that: (a) the link would not make us look unfavorably to ourselves or to our accredited businesses; (b) the organization does not have any negative records with us; (c) the benefit to us from the visibility of the hyperlink compensates the absence of Reactjsofficial; and (d) the link is in the context of general resource information.</p>
+            <p>These organizations may link to our home page so long as the link: (a) is not in any way deceptive; (b) does not falsely imply sponsorship, endorsement or approval of the linking party and its products or services; and (c) fits within the context of the linking party’s site.</p>
+            <p>If you are one of the organizations listed in paragraph 2 above and are interested in linking to our website, you must inform us by sending an e-mail to Reactjsofficial. Please include your name, your organization name, contact information as well as the URL of your site, a list of any URLs from which you intend to link to our Website, and a list of the URLs on our site to which you would like to link. Wait 2-3 weeks for a response.</p>
+            <p>Approved organizations may hyperlink to our Website as follows:</p>
+            <ul>
+              <li>By use of our corporate name; or</li>
+              <li>By use of the uniform resource locator being linked to; or</li>
+              <li>By use of any other description of our Website being linked to that makes sense within the context and format of content on the linking party’s site.</li>
+            </ul>
+            <p>No use of Reactjsofficial's logo or other artwork will be allowed for linking absent a trademark license agreement.</p>
+            <h3><strong>iFrames</strong></h3>
+            <p>Without prior approval and written permission, you may not create frames around our Webpages that alter in any way the visual presentation or appearance of our Website.</p>
+            <h3><strong>Content Liability</strong></h3>
+            <p>We shall not be hold responsible for any content that appears on your Website. You agree to protect and defend us against all claims that is rising on your Website. No link(s) should appear on any Website that may be interpreted as libelous, obscene or criminal, or which infringes, otherwise violates, or advocates the infringement or other violation of, any third party rights.</p>
+            <h3><strong>Your Privacy</strong></h3>
+            <p>Please read Privacy Policy</p>
+            <h3><strong>Reservation of Rights</strong></h3>
+            <p>We reserve the right to request that you remove all links or any particular link to our Website. You approve to immediately remove all links to our Website upon request. We also reserve the right to amen these terms and conditions and it’s linking policy at any time. By continuously linking to our Website, you agree to be bound to and follow these linking terms and conditions.</p>
+            <h3><strong>Removal of links from our website</strong></h3>
+            <p>If you find any link on our Website that is offensive for any reason, you are free to contact and inform us any moment. We will consider requests to remove links but we are not obligated to or so or to respond to you directly.</p>
+            <p>We do not ensure that the information on this website is correct, we do not warrant its completeness or accuracy; nor do we promise to ensure that the website remains available or that the material on the website is kept up to date.</p>
+            <h3><strong>Disclaimer</strong></h3>
+            <p>To the maximum extent permitted by applicable law, we exclude all representations, warranties and conditions relating to our website and the use of this website. Nothing in this disclaimer will:</p>
+            <ul>
+              <li>limit or exclude our or your liability for death or personal injury;</li>
+              <li>limit or exclude our or your liability for fraud or fraudulent misrepresentation;</li>
+              <li>limit any of our or your liabilities in any way that is not permitted under applicable law; or</li>
+              <li>exclude any of our or your liabilities that may not be excluded under applicable law.</li>
+            </ul>
+            <p>The limitations and prohibitions of liability set in this Section and elsewhere in this disclaimer: (a) are subject to the preceding paragraph; and (b) govern all liabilities arising under the disclaimer, including liabilities arising in contract, in tort and for breach of statutory duty.</p>
+            <p>As long as the website and the information and services on the website are provided free of charge, we will not be liable for any loss or damage of any nature.</p>
+            <hr />
+          </div>
+          <h1><strong>Privacy Policy</strong></h1>
+          <div className="col-md-12">
+            <p>At reactjsofficial.com, accessible from https://www.reactjsofficial.com, one of our main priorities is the privacy of our visitors. This Privacy Policy document contains types of information that is collected and recorded by reactjsofficial.com and how we use it.</p>
+            <p>If you have additional questions or require more information about our Privacy Policy, do not hesitate to contact us.</p>
+            <p>This Privacy Policy applies only to our online activities and is valid for visitors to our website with regards to the information that they shared and/or collect in reactjsofficial.com. This policy is not applicable to any information collected offline or via channels other than this website.</p>
+            <h2>Consent</h2>
+            <p>By using our website, you hereby consent to our Privacy Policy and agree to its terms.</p>
+            <h2>Information we collect</h2>
+            <p>The personal information that you are asked to provide, and the reasons why you are asked to provide it, will be made clear to you at the point we ask you to provide your personal information.</p>
+            <p>If you contact us directly, we may receive additional information about you such as your name, email address, phone number, the contents of the message and/or attachments you may send us, and any other information you may choose to provide.</p>
+            <p>When you register for an Account, we may ask for your contact information, including items such as name, company name, address, email address, and telephone number.</p>
+            <h2>How we use your information</h2>
+            <p>We use the information we collect in various ways, including to:</p>
+            <ul>
+              <li>Provide, operate, and maintain our website</li>
+              <li>Improve, personalize, and expand our website</li>
+              <li>Understand and analyze how you use our website</li>
+              <li>Develop new products, services, features, and functionality</li>
+              <li>Communicate with you, either directly or through one of our partners, including for customer service, to provide you with updates and other information relating to the website, and for marketing and promotional purposes</li>
+              <li>Send you emails</li>
+              <li>Find and prevent fraud</li>
+            </ul>
+            <h2>Log Files</h2>
+            <p>reactjsofficial.com follows a standard procedure of using log files. These files log visitors when they visit websites. All hosting companies do this and a part of hosting services' analytics. The information collected by log files include internet protocol (IP) addresses, browser type, Internet Service Provider (ISP), date and time stamp, referring/exit pages, and possibly the number of clicks. These are not linked to any information that is personally identifiable. The purpose of the information is for analyzing trends, administering the site, tracking users' movement on the website, and gathering demographic information.</p>
+            <h2>Cookies and Web Beacons</h2>
+            <p>Like any other website, reactjsofficial.com uses 'cookies'. These cookies are used to store information including visitors' preferences, and the pages on the website that the visitor accessed or visited. The information is used to optimize the users' experience by customizing our web page content based on visitors' browser type and/or other information.</p>
+            <h2>Advertising Partners Privacy Policies</h2>
+            <p>You may consult this list to find the Privacy Policy for each of the advertising partners of reactjsofficial.com.</p>
+            <p>Third-party ad servers or ad networks uses technologies like cookies, JavaScript, or Web Beacons that are used in their respective advertisements and links that appear on reactjsofficial.com, which are sent directly to users' browser. They automatically receive your IP address when this occurs. These technologies are used to measure the effectiveness of their advertising campaigns and/or to personalize the advertising content that you see on websites that you visit.</p>
+            <p>Note that reactjsofficial.com has no access to or control over these cookies that are used by third-party advertisers.</p>
+            <h2>Third Party Privacy Policies</h2>
+            <p>reactjsofficial.com's Privacy Policy does not apply to other advertisers or websites. Thus, we are advising you to consult the respective Privacy Policies of these third-party ad servers for more detailed information. It may include their practices and instructions about how to opt-out of certain options. </p>
+            <p>You can choose to disable cookies through your individual browser options. To know more detailed information about cookie management with specific web browsers, it can be found at the browsers' respective websites.</p>
+            <h2>CCPA Privacy Rights (Do Not Sell My Personal Information)</h2>
+            <p>Under the CCPA, among other rights, California consumers have the right to:</p>
+            <p>Request that a business that collects a consumer's personal data disclose the categories and specific pieces of personal data that a business has collected about consumers.</p>
+            <p>Request that a business delete any personal data about the consumer that a business has collected.</p>
+            <p>Request that a business that sells a consumer's personal data, not sell the consumer's personal data.</p>
+            <p>If you make a request, we have one month to respond to you. If you would like to exercise any of these rights, please contact us.</p>
+            <h2>GDPR Data Protection Rights</h2>
+            <p>We would like to make sure you are fully aware of all of your data protection rights. Every user is entitled to the following:</p>
+            <p>The right to access – You have the right to request copies of your personal data. We may charge you a small fee for this service.</p>
+            <p>The right to rectification – You have the right to request that we correct any information you believe is inaccurate. You also have the right to request that we complete the information you believe is incomplete.</p>
+            <p>The right to erasure – You have the right to request that we erase your personal data, under certain conditions.</p>
+            <p>The right to restrict processing – You have the right to request that we restrict the processing of your personal data, under certain conditions.</p>
+            <p>The right to object to processing – You have the right to object to our processing of your personal data, under certain conditions.</p>
+            <p>The right to data portability – You have the right to request that we transfer the data that we have collected to another organization, or directly to you, under certain conditions.</p>
+            <p>If you make a request, we have one month to respond to you. If you would like to exercise any of these rights, please contact us.</p>
+            <h2>Children's Information</h2>
+            <p>Another part of our priority is adding protection for children while using the internet. We encourage parents and guardians to observe, participate in, and/or monitor and guide their online activity.</p>
+            <p>reactjsofficial.com does not knowingly collect any Personal Identifiable Information from children under the age of 13. If you think that your child provided this kind of information on our website, we strongly encourage you to contact us immediately and we will do our best efforts to promptly remove such information from our records.</p>
+            <hr />
+            <h1><strong>Refund Policy</strong></h1>
+            <div className="tab-content translations-content-item en visible" id="en">
+              <h1>Return and Refund Policy</h1>
+              <p>Last updated: September 25, 2022</p>
+              <p>Thank you for shopping at Reactjsofficial.</p>
+              <p>If, for any reason, You are not completely satisfied with a purchase We invite You to review our policy on refunds and returns. This Return and Refund Policy has been created with the help of the <a href="https://www.privacypolicies.com/return-refund-policy-generator/" target="_blank">Return and Refund Policy Generator</a>.</p>
+              <p>The following terms are applicable for any products that You purchased with Us.</p>
+              <h1>Interpretation and Definitions</h1>
+              <h2>Interpretation</h2>
+              <p>The words of which the initial letter is capitalized have meanings defined under the following conditions. The following definitions shall have the same meaning regardless of whether they appear in singular or in plural.</p>
+              <h2>Definitions</h2>
+              <p>For the purposes of this Return and Refund Policy:</p>
+              <ul>
+                <li>
+                  <p><strong>Company</strong> (referred to as either "the Company", "We", "Us" or "Our" in this Agreement) refers to Reactjsofficial, Deep Niwas, Hari jee ka hata, Ara, Park view karkhana gali.</p>
+                </li>
+                <li>
+                  <p><strong>Goods</strong> refer to the items offered for sale on the Service.</p>
+                </li>
+                <li>
+                  <p><strong>Orders</strong> mean a request by You to purchase Goods from Us.</p>
+                </li>
+                <li>
+                  <p><strong>Service</strong> refers to the Website.</p>
+                </li>
+                <li>
+                  <p><strong>Website</strong> refers to Reactjsofficial, accessible from <a href="https://www.reactjsofficial.com" rel="external nofollow noopener" target="_blank">https://www.reactjsofficial.com</a></p>
+                </li>
+                <li>
+                  <p><strong>You</strong> means the individual accessing or using the Service, or the company, or other legal entity on behalf of which such individual is accessing or using the Service, as applicable.</p>
+                </li>
+              </ul>
+              <h1>Your Order Cancellation Rights</h1>
+              <p>You are entitled to cancel Your Order within 14 days without giving any reason for doing so.</p>
+              <p>The deadline for cancelling an Order is 14 days from the date on which You received the Goods or on which a third party you have appointed, who is not the carrier, takes possession of the product delivered.</p>
+              <p>In order to exercise Your right of cancellation, You must inform Us of your decision by means of a clear statement. You can inform us of your decision by:</p>
+              <ul>
+                <li>
+                  <p>By email: support@reactjsofficial.com</p>
+                </li>
+                <li>
+                  <p>By visiting this page on our website: <a href="https://reactjsofficial.com/#contact" rel="external nofollow noopener" target="_blank">https://reactjsofficial.com/#contact</a></p>
+                </li>
+                <li>
+                  <p>By phone number: 7209236123</p>
+                </li>
+              </ul>
+              <p>We will reimburse You no later than 14 days from the day on which We receive the returned Goods. We will use the same means of payment as You used for the Order, and You will not incur any fees for such reimbursement.</p>
+              <h1>Conditions for Returns</h1>
+              <p>In order for the Goods to be eligible for a return, please make sure that:</p>
+              <ul>
+                <li>The Goods were purchased in the last 14 days</li>
+                <li>The Goods are in the original packaging</li>
+              </ul>
+              <p>The following Goods cannot be returned:</p>
+              <ul>
+                <li>The supply of Goods made to Your specifications or clearly personalized.</li>
+                <li>The supply of Goods which according to their nature are not suitable to be returned, deteriorate rapidly or where the date of expiry is over.</li>
+                <li>The supply of Goods which are not suitable for return due to health protection or hygiene reasons and were unsealed after delivery.</li>
+                <li>The supply of Goods which are, after delivery, according to their nature, inseparably mixed with other items.</li>
+              </ul>
+              <p>We reserve the right to refuse returns of any merchandise that does not meet the above return conditions in our sole discretion.</p>
+              <p>Only regular priced Goods may be refunded. Unfortunately, Goods on sale cannot be refunded. This exclusion may not apply to You if it is not permitted by applicable law.</p>
+              <h1>Returning Goods</h1>
+              <p>You are responsible for the cost and risk of returning the Goods to Us. You should send the Goods at the following address:</p>
+              <p>Online</p>
+              <p>We cannot be held responsible for Goods damaged or lost in return shipment. Therefore, We recommend an insured and trackable mail service. We are unable to issue a refund without actual receipt of the Goods or proof of received return delivery.</p>
+              <h1>Gifts</h1>
+              <p>If the Goods were marked as a gift when purchased and then shipped directly to you, You'll receive a gift credit for the value of your return. Once the returned product is received, a gift certificate will be mailed to You.</p>
+              <p>If the Goods weren't marked as a gift when purchased, or the gift giver had the Order shipped to themselves to give it to You later, We will send the refund to the gift giver.</p>
+              <h2>Contact Us</h2>
+              <p>If you have any questions about our Returns and Refunds Policy, please contact us:</p>
+              <ul>
+                <li>
+                  <p>By email: support@reactjsofficial.com</p>
+                </li>
+                <li>
+                  <p>By visiting this page on our website: <a href="https://reactjsofficial.com/#contact" rel="external nofollow noopener" target="_blank">https://reactjsofficial.com/#contact</a></p>
+                </li>
+                <li>
+                  <p>By phone number: 7209236123</p>
+                </li>
+              </ul>
+            </div>
+          </div>
           <b>Thank You!</b>
         </div>
       </section>
