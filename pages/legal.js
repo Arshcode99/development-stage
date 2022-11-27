@@ -7,11 +7,11 @@ const Legal = () => {
       <section className={styles.legal}>
         <div className={styles.straight}>
           <h1><strong>Terms and Conditions</strong></h1>
-          <div className="col-md-12">
+          <div className='col-md-12'>
             <p>Welcome to reactjsofficial.com!</p>
             <p>These terms and conditions outline the rules and regulations for the use of Reactjsofficial's Website, located at https://www.reactjsofficial.com.</p>
             <p>By accessing this website we assume you accept these terms and conditions. Do not continue to use reactjsofficial.com if you do not agree to take all of the terms and conditions stated on this page.</p>
-            <p>The following terminology applies to these Terms and Conditions, Privacy Statement and Disclaimer Notice and all Agreements: "Client", "You" and "Your" refers to you, the person log on this website and compliant to the Companys terms and conditions. "The Company", "Ourselves", "We", "Our" and "Us", refers to our Company. "Party", "Parties", or "Us", refers to both the Client and ourselves. All terms refer to the offer, acceptance and consideration of payment necessary to undertake the process of our assistance to the Client in the most appropriate manner for the express purpose of meeting the Clients needs in respect of provision of the Companys stated services, in accordance with and subject to, prevailing law of Netherlands. Any use of the above terminology or other words in the singular, plural, capitalization and/or he/she or they, are taken as interchangeable and therefore as referring to same.</p>
+            <p>The following terminology applies to these Terms and Conditions, Privacy Statement and Disclaimer Notice and all Agreements: 'Client', 'You' and 'Your' refers to you, the person log on this website and compliant to the Companys terms and conditions. 'The Company', 'Ourselves', 'We', 'Our' and 'Us', refers to our Company. 'Party', 'Parties', or 'Us', refers to both the Client and ourselves. All terms refer to the offer, acceptance and consideration of payment necessary to undertake the process of our assistance to the Client in the most appropriate manner for the express purpose of meeting the Clients needs in respect of provision of the Companys stated services, in accordance with and subject to, prevailing law of Netherlands. Any use of the above terminology or other words in the singular, plural, capitalization and/or he/she or they, are taken as interchangeable and therefore as referring to same.</p>
             <h3><strong>Cookies</strong></h3>
             <p>We employ the use of cookies. By accessing reactjsofficial.com, you agreed to use cookies in agreement with the Reactjsofficial's Privacy Policy. </p>
             <p>Most interactive websites use cookies to let us retrieve the users details for each visit. Cookies are used by our website to enable the functionality of certain areas to make it easier for people visiting our website. Some of our affiliate/advertising partners may also use cookies.</p>
@@ -24,7 +24,7 @@ const Legal = () => {
               <li>Reproduce, duplicate or copy material from reactjsofficial.com</li>
               <li>Redistribute content from reactjsofficial.com</li>
             </ul>
-            <p>This Agreement shall begin on the date hereof. Our Terms and Conditions were created with the help of the <a href="https://www.termsandconditionsgenerator.com/">Free Terms and Conditions Generator</a>.</p>
+            <p>This Agreement shall begin on the date hereof. Our Terms and Conditions were created with the help of the <a href='https://www.termsandconditionsgenerator.com/'>Free Terms and Conditions Generator</a>.</p>
             <p>Parts of this website offer an opportunity for users to post and exchange opinions and information in certain areas of the website. Reactjsofficial does not filter, edit, publish or review Comments prior to their presence on the website. Comments do not reflect the views and opinions of Reactjsofficial,its agents and/or affiliates. Comments reflect the views and opinions of the person who post their views and opinions. To the extent permitted by applicable laws, Reactjsofficial shall not be liable for the Comments or for any liability, damages or expenses caused and/or suffered as a result of any use of and/or posting of and/or appearance of the Comments on this website.</p>
             <p>Reactjsofficial reserves the right to monitor all Comments and to remove any Comments which can be considered inappropriate, offensive or causes breach of these Terms and Conditions.</p>
             <p>You warrant and represent that:</p>
@@ -89,7 +89,7 @@ const Legal = () => {
             <hr />
           </div>
           <h1><strong>Privacy Policy</strong></h1>
-          <div className="col-md-12">
+          <div className='col-md-12'>
             <p>At reactjsofficial.com, accessible from https://www.reactjsofficial.com, one of our main priorities is the privacy of our visitors. This Privacy Policy document contains types of information that is collected and recorded by reactjsofficial.com and how we use it.</p>
             <p>If you have additional questions or require more information about our Privacy Policy, do not hesitate to contact us.</p>
             <p>This Privacy Policy applies only to our online activities and is valid for visitors to our website with regards to the information that they shared and/or collect in reactjsofficial.com. This policy is not applicable to any information collected offline or via channels other than this website.</p>
@@ -141,11 +141,11 @@ const Legal = () => {
             <p>reactjsofficial.com does not knowingly collect any Personal Identifiable Information from children under the age of 13. If you think that your child provided this kind of information on our website, we strongly encourage you to contact us immediately and we will do our best efforts to promptly remove such information from our records.</p>
             <hr />
             <h1><strong>Refund Policy</strong></h1>
-            <div className="tab-content translations-content-item en visible" id="en">
+            <div className='tab-content translations-content-item en visible' id='en'>
               <h1>Return and Refund Policy</h1>
               <p>Last updated: September 25, 2022</p>
               <p>Thank you for shopping at Reactjsofficial.</p>
-              <p>If, for any reason, You are not completely satisfied with a purchase We invite You to review our policy on refunds and returns. This Return and Refund Policy has been created with the help of the <a href="https://www.privacypolicies.com/return-refund-policy-generator/" target="_blank">Return and Refund Policy Generator</a>.</p>
+              <p>If, for any reason, You are not completely satisfied with a purchase We invite You to review our policy on refunds and returns. This Return and Refund Policy has been created with the help of the <a href='https://www.privacypolicies.com/return-refund-policy-generator/' >Return and Refund Policy Generator</a>.</p>
               <p>The following terms are applicable for any products that You purchased with Us.</p>
               <h1>Interpretation and Definitions</h1>
               <h2>Interpretation</h2>
@@ -154,7 +154,7 @@ const Legal = () => {
               <p>For the purposes of this Return and Refund Policy:</p>
               <ul>
                 <li>
-                  <p><strong>Company</strong> (referred to as either "the Company", "We", "Us" or "Our" in this Agreement) refers to Reactjsofficial, Deep Niwas, Hari jee ka hata, Ara, Park view karkhana gali.</p>
+                  <p><strong>Company</strong> (referred to as either 'the Company', 'We', 'Us' or 'Our' in this Agreement) refers to Reactjsofficial, Deep Niwas, Hari jee ka hata, Ara, Park view karkhana gali.</p>
                 </li>
                 <li>
                   <p><strong>Goods</strong> refer to the items offered for sale on the Service.</p>
@@ -166,7 +166,7 @@ const Legal = () => {
                   <p><strong>Service</strong> refers to the Website.</p>
                 </li>
                 <li>
-                  <p><strong>Website</strong> refers to Reactjsofficial, accessible from <a href="https://www.reactjsofficial.com" rel="external nofollow noopener" target="_blank">https://www.reactjsofficial.com</a></p>
+                  <p><strong>Website</strong> refers to Reactjsofficial, accessible from <a href='https://www.reactjsofficial.com' rel='external nofollow noopener' >https://www.reactjsofficial.com</a></p>
                 </li>
                 <li>
                   <p><strong>You</strong> means the individual accessing or using the Service, or the company, or other legal entity on behalf of which such individual is accessing or using the Service, as applicable.</p>
@@ -181,7 +181,7 @@ const Legal = () => {
                   <p>By email: support@reactjsofficial.com</p>
                 </li>
                 <li>
-                  <p>By visiting this page on our website: <a href="https://reactjsofficial.com/#contact" rel="external nofollow noopener" target="_blank">https://reactjsofficial.com/#contact</a></p>
+                  <p>By visiting this page on our website: <a href='https://reactjsofficial.com/#contact' rel='external nofollow noopener' >https://reactjsofficial.com/#contact</a></p>
                 </li>
                 <li>
                   <p>By phone number: 7209236123</p>
@@ -217,7 +217,7 @@ const Legal = () => {
                   <p>By email: support@reactjsofficial.com</p>
                 </li>
                 <li>
-                  <p>By visiting this page on our website: <a href="https://reactjsofficial.com/#contact" rel="external nofollow noopener" target="_blank">https://reactjsofficial.com/#contact</a></p>
+                  <p>By visiting this page on our website: <a href='https://reactjsofficial.com/#contact' rel='external nofollow noopener'>https://reactjsofficial.com/#contact</a></p>
                 </li>
                 <li>
                   <p>By phone number: 7209236123</p>
