@@ -5,7 +5,7 @@ import styles from './components.module.css'
 import { BsLinkedin } from 'react-icons/bs'
 import { BsWhatsapp } from 'react-icons/bs'
 import { BsInstagram } from 'react-icons/bs'
-import { TbGridDots } from 'react-icons/Tb'
+import { TbGridDots } from 'react-icons/tb'
 import { BsPerson } from 'react-icons/bs'
 import logo from '../public/favicon.png'
 
