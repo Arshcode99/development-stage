@@ -35,7 +35,7 @@ export default function Home() {
             <div className={styles.h1}>Become A React.js Developer!</div>
             <div className={styles.p}>Personalized Training - Guidance from top-notch faculities - job Assistance - Internship Programs - Enhance
 Skillsets Land a job of 22+ LPA Helped 1000+ Students and many more to go...</div>
-            <Link href="/registration">
+            <Link href="/join/registration">
             <button className={styles.btn}>Know More</button>
             </Link>
           </div>
@@ -112,7 +112,7 @@ Skillsets Land a job of 22+ LPA Helped 1000+ Students and many more to go...</di
       <div className={styles.h3heading}>100% Refund Policy - <b>No Question Asked</b></div>
         <div className={styles.trainingaboutmaincontainer}>
         <div className={styles.leftcol2}>
-            <Image src={TeamImg} className={styles.TeamImg} />
+            <Image alt="Reactjsofficial" src={TeamImg} className={styles.TeamImg} />
           </div>
           <div className={styles.rightcol2}>
           <div className={styles.textbox}>
@@ -147,7 +147,7 @@ Skillsets Land a job of 22+ LPA Helped 1000+ Students and many more to go...</di
           <div className={styles.leftcol}>
             <div className={styles.deem4}>Our Core Values</div>
             <div className={styles.h3sec4}><Typewriter options={{
-                strings: ['Are You Working Proffesinal Willing To Switch?'],
+                strings: ['Are You Working Professional Willing To Switch?'],
                 autoStart: true,
                 loop: true,}} /></div>
             <div className={styles.psec4}>We have invented and perfected the best system to learn React. A dedicated team to help you land the best oppurtunities.</div>
@@ -159,7 +159,7 @@ Skillsets Land a job of 22+ LPA Helped 1000+ Students and many more to go...</di
             </ul>
           </div>
           <div className={styles.rightcol}>
-          <Image src={Sec4Img} className={styles.TeamImg} />
+          <Image alt="Reactjsofficial" src={Sec4Img} className={styles.TeamImg} />
           </div>
         </div>
         <div className={styles.benifitsmore}>
@@ -221,7 +221,26 @@ Skillsets Land a job of 22+ LPA Helped 1000+ Students and many more to go...</di
             </div>
           </div>
           </div>
-          <div className="vid"></div>
+          <hr />
+          <h2>Our Leatest Blogs</h2>
+          <hr />
+          <div className={styles.blogsection}>
+            <div className={styles.blogcard}>
+              <h4><b>TOP 5 PROJECTS TO BUILD IN REACTJS THAT WILL HELP YOU LAND JOBS</b></h4>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil soluta doloremque nesciunt hic, iure tempore aperiam voluptatem deleniti ullam. Doloremque eos eius quam soluta aut! Vel doloremque numquam error quidem!</p>
+              <button className={styles.btnwithback}>Read More</button>
+              </div>
+            <div className={styles.blogcard}>
+            <h4><b>TOP 5 REASONS WHY YOU SHOULD LEARN REACTJS TODAY!</b></h4>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil soluta doloremque nesciunt hic, iure tempore aperiam voluptatem deleniti ullam. Doloremque eos eius quam soluta aut! Vel doloremque numquam error quidem!</p>
+              <button className={styles.btnwithback}>Read More</button>
+            </div>
+            <div className={styles.blogcard}>
+            <h4><b>THE BEST WAY TO LEARN REACTJS IN 2022 - COMPLETE ROADMAP</b></h4>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil soluta doloremque nesciunt hic, iure tempore aperiam voluptatem deleniti ullam. Doloremque eos eius quam soluta aut! Vel doloremque numquam error quidem!</p>
+              <button className={styles.btnwithback}>Read More</button>
+            </div>
+          </div>
       </section>
       {/* 5th section Page Ends  */}
       {/* ============================================ */}

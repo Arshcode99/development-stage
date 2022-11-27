@@ -18,7 +18,9 @@ const Footer = () => {
         </div>
         </Link>
         <p className={styles.text}>
-          <b>Give Us A Ring!(IST 10:00AM To 06:00PM Only!):</b> <br /> +91 7209236123 | +91 7764056669
+          <b>Give Us A Ring!
+            <br />
+          (IST 10:00AM To 06:00PM Only):</b> <br /> +91 7209236123 | +91 7764056669
           <br />
           <br />
           <b>Find Us At This Address:</b> <br /> Gurugram, Southwest of New Delhi in Northen India.
@@ -35,7 +37,7 @@ const Footer = () => {
           </div>
         </div>
         <div className={styles.rightfoot}>
-        <h2 className={styles.h2}>Usefull Links</h2>
+        <h2 className={styles.h2}>Quick Links</h2>
         <div className={styles.free}>
           <Link className={styles.a1} href="/">Home</Link>
           <Link className={styles.a1} href="/courses">React Training</Link>

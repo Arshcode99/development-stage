@@ -18,6 +18,9 @@ const Navbar = () => {
       x.style.display = "flex";
     }
   }
+  function disable(){
+    document.getElementById('menu').style.display="none";
+  }
   return (
     <>
       <div className={styles.navbar}>
@@ -36,17 +39,17 @@ const Navbar = () => {
       <Link className={styles.a} href="/contact">Contact</Link>
       </div>
       <div className={styles.menubox2} id='menu'>
-      <Link className={styles.a} href="/">Home</Link>
-      <Link className={styles.a} href="/courses">Courses</Link>
-      <Link className={styles.a} href="/career">Careers</Link>
-      <Link className={styles.a} href="/community">Community</Link>
-      <Link className={styles.a} href="/contact">Contact</Link>
+      <Link className={styles.a} onClick={disable} href="/">Home</Link>
+      <Link className={styles.a} onClick={disable} href="/courses">Courses</Link>
+      <Link className={styles.a} onClick={disable} href="/career">Careers</Link>
+      <Link className={styles.a} onClick={disable} href="/community">Community</Link>
+      <Link className={styles.a} onClick={disable} href="/contact">Contact</Link>
       </div>
       <div className={styles.topicons}>
         <a href="https://www.instagram.com/reactjsofficial/"><BsInstagram className={styles.BsInstagram} /></a>
-        <a href="https://chat.whatsapp.com/FWRWiR3mtH49DusKSmDX6"><BsWhatsapp className={styles.BsWhatsapp} /></a>
+        <a href="https://chat.whatsapp.com/FWRWiR3mtH49DusKSmDgX6"><BsWhatsapp className={styles.BsWhatsapp} /></a>
         <a href='https://www.linkedin.com/company/reactjsofficial/'><BsLinkedin className={styles.BsLinkedin} /></a>
-        <Link href="join/registration"><BsPerson className={styles.BsPerson} /></Link>
+        <Link href="join/selectbatch" className={styles.a}>Enroll Now</Link>
         <TbGridDots className={styles.TbGridDots} onClick={myFunction} />
         </div>
       </div>

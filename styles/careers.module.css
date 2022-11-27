@@ -9,6 +9,18 @@
     text-align: center;
     background: url(../public/blue-background-abstract-background-windows-11-3840x2160-8846.jpg);
 }
+.h1 {
+    font-size: 38px;
+    font-weight: 700;
+    font-family: Nunito;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    background: linear-gradient(50deg, yellow, #ff3000);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+  }
 .Careersnext{
     width: 100%;
     height: auto;
@@ -129,8 +141,13 @@
         width: 100%;
         text-align: center;
     }
+    .twocol{
+        border: 0.2px solid #333;
+        border-radius: 7px;
+        margin: 10px auto;
+    }
     .btn{
-        width: 80%;
+        width: 100%;
         margin: 10px auto;
     }
     .right{

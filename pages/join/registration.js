@@ -44,7 +44,7 @@ const Registration = () => {
     }
     );
     if (res) {
-      Router.push('/join/selectbatch')
+      alert("Thank You! Our Team will contact You Soon 😉🎉")
     }
     else {
       alert("Maybe Something went wrong! Try Again... 🤔")
@@ -56,7 +56,7 @@ const Registration = () => {
         <div className={styles.twocol}>
           <div className={styles.leftside}>
             <h1 className={styles.h1}>Take a flight with React.js Today!</h1>
-            <p>🔗😉, 1st Step, Provide us your Information.
+            <p>🔗😉, Provide us your Information to connect with you.
             </p>
             <hr />
             <p>Follow us on: <br />

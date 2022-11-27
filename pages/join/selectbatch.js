@@ -25,7 +25,7 @@ const SelectBatch = () => {
     }
     );
     if (res) {
-      window.location.href = "https://pages.rozarpay.com/reactjsofficial-payment";
+      window.location.href = "https://pages.razorpay.com/reactjsofficial-payment";
     }
     else {
       alert("Maybe Something went wrong! Try Again... 🤔")
@@ -38,7 +38,7 @@ const SelectBatch = () => {
         <div className={styles.twocol}>
           <div className={styles.leftside}>
             <h1 className={styles.h1}>Take a flight with React.js Today!</h1>
-            <p>🔗😉, 2nd Step and everything will be setup for you!
+            <p>🔗😉, 1st Step is to choose a batch that fit's your timming and everything will be setup for you!
             </p>
             <hr />
             <p>Follow us on: <br />
@@ -49,7 +49,7 @@ const SelectBatch = () => {
               <BsLinkedin className={styles.icons} />
             </p>
             <br />
-            <Link href="/join/registration"><button className={styles.btn}>GO BACK</button></Link>
+            <Link href="/courses"><button className={styles.btn}>Know More About Current Batch's</button></Link>
             <br />
             <br />
             <h4>You selcted: {batch}</h4>

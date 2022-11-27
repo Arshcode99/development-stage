@@ -9,7 +9,7 @@ const Careers = () => {
     <p className={styles.white}>Join the team where you can learn and grow with different peoples and earn at the same time. <br />
     Learn more about your skills from others in the team and have a good lifestyle with us.
     </p>
-    <button className={styles.btn}>Open Position</button>   
+    <a href="https://blogs.reactjsofficial.com/index.php/carrers-2/"><button className={styles.btn}>Explore</button></a>
     </section> 
     </>
   )

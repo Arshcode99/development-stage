@@ -537,13 +537,33 @@
   background-clip: text;
   transform: translateY(20px);
 }
+.blogsection{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  width: 80%;
+  padding: 10px;
+}
+.blogcard{
+  width: 90%;
+  margin: 0 auto;
+  height: 100%;
+  padding: 10px;
+  border-radius: 7px;
+  box-shadow: 0 5px 24px hsl(0deg 4% 79% / 48%);
+  transition: all 1s;
+  background: linear-gradient(90deg, #fff, #fff, rgba(225,225,225,0.9), #fff, #fff);
+  animation: bgmove 20s ease-in-out infinite alternate-reverse;
+}
+.blogcard:hover{
+  transform: scale(1.2);
+}
 /* Styling Of Our Brand New Mobile View 😉 */
 @media only screen and (max-width: 768px) {
   .home,
   .section4 {
     background-size: cover;
     height: auto;
-    padding-top: 40px;
+    padding-top: 50px;
     padding-bottom: 40px;
   }
   .twocol {
@@ -645,5 +665,9 @@
   }
   .benifitsmore{
     width: 90%;
+  }
+  .blogsection{
+    grid-template-columns: 1fr;
+    width: 95%;
   }
 }

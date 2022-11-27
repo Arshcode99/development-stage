@@ -52,27 +52,11 @@ const courses = () => {
       x.style.display = "flex";
     }
   }
-  function SelectThis(){
-    var x = document.getElementById("select");
-    if (x.style.border === "1px solid #ff3000") {
-      x.style.border = "none";
-    } else {
-      x.style.border = "1px solid #ff3000";
-    }
-  }
-  function SelectThisagain(){
-    var x = document.getElementById("select2");
-    if (x.style.border === "1px solid #ff3000") {
-      x.style.border = "none";
-    } else {
-      x.style.border = "1px solid #ff3000";
-    }
-  }
   const [activeSlideIndex, setActiveSlideIndex] = useState(0);
   //FireBase DB:
 
   const [userData, setUserData] = useState({
-    syllabusemail: "",
+    syllabusPhone: "",
   });
 
   let name, value;
@@ -87,7 +71,7 @@ const courses = () => {
   // Connecting With Firebase DB 
   const handleForm = async(event) =>{
   event.preventDefault();
-  const { syllabusemail } = userData;
+  const { syllabusPhone } = userData;
   const res = await fetch(
     "https://nextdb-bfcfc-default-rtdb.firebaseio.com/Syllabus-Download-and-course-selected-NewStudents.json",{
     method: "POST",
@@ -95,12 +79,13 @@ const courses = () => {
       "Content-Type" : "application/json",
     },
     body:JSON.stringify({
-      email:syllabusemail,
+      PhoneNo:syllabusPhone,
     }),
   }
     );
     if (res){
-      alert("Thank You! Our Team will Contact You Soon... 😉")
+      alert("Thank You! click OK to download your syllabus... 😉")
+      window.location.href="https://drive.google.com/file/d/19K2SekhH0DiIxYGQZBLkK4xqTONw6WQy/view";
     }
     else{
       alert("Maybe Something went wrong! Try Again... 🤔")
@@ -123,7 +108,7 @@ const courses = () => {
             <div className={styles.p}>Build real-world projects by mastering React & javascript. Learn the essential frontend development concepts from scratch.</div>
             <div className={styles.blah}>
             <a href="#Knowmore"><button className={styles.btn}>Explore Now</button></a>
-            <Link href="/registration"><button className={styles.btnwithborder}>Try For Free</button></Link>
+            <Link href="/join/selectbatch"><button className={styles.btnwithborder}>Try For Free</button></Link>
             <div className={styles.Reactaddons}>
               <div className={styles.box}>
                 <b className={styles.b}>13k+</b><br />
@@ -134,7 +119,7 @@ const courses = () => {
                 Projects
               </div>
               <div className={styles.box}>
-              <b className={styles.b}>2.5</b><br />
+              <b className={styles.b}>3</b><br />
                 Months
               </div>
               <div className={styles.box}>
@@ -177,7 +162,9 @@ const courses = () => {
             </div>
             <br />
             <br />
+            <Link href="/community">
             <button className={styles.btn}>Know More</button>
+            </Link>
           </div>
         </div>
       </section>
@@ -218,11 +205,11 @@ const courses = () => {
             <div className={styles.purchasetopcard}>
               <div className={styles.topcardbox}>
                 <div className={styles.topcardboximg}></div>
-                <span>13 <br />Months</span>
+                <span>3 <br />Months</span>
               </div>
               <div className={styles.topcardbox}>
                 <div className={styles.topcardboximg1}></div>
-                <span>110+ <br />Hours</span>
+                <span>50+ <br />Hours</span>
               </div>
               <div className={styles.topcardbox}>
                 <div className={styles.topcardboximg2}></div>
@@ -291,7 +278,9 @@ const courses = () => {
             <div className={styles.bottompurchase}>
               <div className={styles.h1blow}>₹44,071/-
               <p className={styles.psmall}>OR EMI ₹3,333/mon*</p></div>
+              <Link href="/join/selectbatch">
               <button className={styles.buybtn}>Enroll Now</button>
+              </Link>
             </div>
             </div>
           </div>
@@ -387,8 +376,8 @@ const courses = () => {
               </div>
               <div className={styles.basicfeatures}>
                 <form className={styles.alignequal} method="POST">
-                  <input type="email" name='syllabusemail' placeholder='Enter Your Email' className={styles.input}
-                  value={userData.syllabusemail}
+                  <input type="tel" name='syllabusPhone' placeholder='Enter Your Email' className={styles.input}
+                  value={userData.syllabusPhone}
                   onChange={postUserData}
                   required />
                   <button className={styles.btn2} type="submit" onClick={handleForm}>Download</button>

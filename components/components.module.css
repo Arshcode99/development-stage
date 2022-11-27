@@ -138,12 +138,17 @@
 .menubox2{
   display: flex;
     flex-direction: column;
-    width: 80%;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    height: 90vh;
     position: fixed;
-    top: 70px;
-    right: 25px;
+    top: 80px;
+    left: 0;
+    right: 0;
     border-radius: 6px;
     background: #fff;
+    box-shadow: 0 5px 24px hsl(0deg 4% 79% / 48%);
     margin: 0 auto;
     z-index: 1000;
     display: none;
@@ -296,6 +301,9 @@
   text-align: center;
   padding: 10px;
 }
+.text{
+  padding: 20px;
+}
 /* Styling Of Our Brand New Mobile View 😉 */
 @media only screen and (max-width: 768px) {
   .navbar {
@@ -327,6 +335,13 @@
     justify-content: center;
     align-items: center;
     text-align: center;
+  }
+  .centerfoot{
+    border-left: 10px solid #020e4a;
+  }
+  .rightfoot{
+    border-right: 10px solid #020e4a;
+    margin-top: 20px;
   }
   .h2{
     text-align: center;
