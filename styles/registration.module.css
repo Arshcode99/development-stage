@@ -11,7 +11,7 @@
 }
 .SelectBatch{
     width: 100%;
-    height: 100vh;
+    height: auto;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -31,7 +31,7 @@
     place-content: center;
     padding: 10px 10px;
     border-radius: 7px;
-    margin: 90px auto;
+    margin: 70px auto;
     color: #fff;
 }
 .h1{

@@ -9,10 +9,12 @@ import styles from '../../styles/registration.module.css';
 const SelectBatch = () => {
 
     const [batch, setBatch] = useState("");
+    const [Emailforbatch, setEmailforbatch] = useState("");
 
     // Connecting With Firebase DB 
   const handleForm = async (event) => {
     event.preventDefault();
+    if( batch && Emailforbatch ){
     const res = await fetch(
       "https://nextdb-bfcfc-default-rtdb.firebaseio.com/NewStudents-joined-with-batch.json", {
       method: "POST",
@@ -21,6 +23,7 @@ const SelectBatch = () => {
       },
       body: JSON.stringify({
         Batch: batch,
+        Email: Emailforbatch,
       }),
     }
     );
@@ -30,6 +33,10 @@ const SelectBatch = () => {
     else {
       alert("Maybe Something went wrong! Try Again... 🤔")
     }
+  }
+  else {
+    alert("Maybe Missed Something To choose! Try Again... 😍🔗")
+  }
   };
 
   return (
@@ -52,10 +59,18 @@ const SelectBatch = () => {
             <Link href="/courses"><button className={styles.btn}>Know More About Current Batch's</button></Link>
             <br />
             <br />
-            <h4>You selcted: {batch}</h4>
+            <h6>You selcted: {batch}</h6>
+            <h6>Your Email: {Emailforbatch}</h6>
           </div>
           <div className={styles.rightside}>
             <form className={styles.alignequal} method="POST">
+              <label htmlFor="Email">Email*</label>
+              <input type="text" name='Email' className={styles.input} placeholder="Enter Your Email..."
+              onChange={(e)=>{
+                const SelectedBatchEmail=e.target.value;
+                setEmailforbatch(SelectedBatchEmail)
+               }}  />
+              <br />
               <label htmlFor="Batch">Select a batch</label>
               <div className={styles.grid2}>
             <div className={styles.basicfeatures} id="select">

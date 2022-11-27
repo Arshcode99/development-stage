@@ -28,6 +28,8 @@ const Registration = () => {
   const handleForm = async (event) => {
     event.preventDefault();
     const { fullName, email, phone, country, collage } = userData;
+
+    if( fullName && email && phone && country && collage ){
     const res = await fetch(
       "https://nextdb-bfcfc-default-rtdb.firebaseio.com/NewStudents.json", {
       method: "POST",
@@ -45,10 +47,21 @@ const Registration = () => {
     );
     if (res) {
       alert("Thank You! Our Team will contact You Soon 😉🎉")
+      setUserData({
+        fullName: "",
+        email: "",
+        phone: "",
+        country: "",
+        collage: "",
+      });
     }
     else {
       alert("Maybe Something went wrong! Try Again... 🤔")
     }
+  }
+  else{
+    alert("Maybe You Missed A Field? Try Again! 😓❤")
+  }
   };
   return (
     <>
