@@ -26,7 +26,7 @@ const Navbar = () => {
       <div className={styles.navbar}>
       <Link href='/'>
         <div className={styles.logo}>
-          <Image src={logo} className={styles.logoimg}/>
+          <Image src={logo} className={styles.logoimg}  alt='REACTJSOFFICIAL'/>
           REACTJS
         <span>OFFICIAL</span>
         </div>
