@@ -10,7 +10,7 @@ import Link from 'next/link'
 import { MdComputer } from 'react-icons/md'
 import { BiSupport } from 'react-icons/bi'
 import { RiCommunityFill } from 'react-icons/ri'
-import { FcMoneyTransfer } from 'react-icons/fc'
+import { GiTakeMyMoney } from 'react-icons/gi'
 import { TbCertificate } from 'react-icons/tb'
 import { MdSupportAgent } from 'react-icons/md'
 
@@ -169,7 +169,7 @@ Skillsets Land a job of 22+ LPA Helped 1000+ Students and many more to go...</di
             <p>Globally Connect through prople with the same goal.</p>
           </div>
           <div className={styles.cardmore}>
-          <div className={styles.iconmock1}><FcMoneyTransfer/></div>
+          <div className={styles.iconmock1}><GiTakeMyMoney/></div>
             <h1 className={styles.hmocks}>JOB ASSISTANCE</h1>
             <p>Exclusive Placement Support Team will you crack job interview.</p>
           </div>
@@ -227,18 +227,18 @@ Skillsets Land a job of 22+ LPA Helped 1000+ Students and many more to go...</di
           <div className={styles.blogsection}>
             <div className={styles.blogcard}>
               <h4><b>TOP 5 PROJECTS TO BUILD IN REACTJS THAT WILL HELP YOU LAND JOBS</b></h4>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil soluta doloremque nesciunt hic, iure tempore aperiam voluptatem deleniti ullam. Doloremque eos eius quam soluta aut! Vel doloremque numquam error quidem!</p>
+              <p>Creating Reactjs projects will allow you to practice your React abilities while also allowing you to express your ideas creatively. It might be unbelievable to...</p>
               <button className={styles.btnwithback}>Read More</button>
               </div>
             <div className={styles.blogcard}>
             <h4><b>TOP 5 REASONS WHY YOU SHOULD LEARN REACTJS TODAY!</b></h4>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil soluta doloremque nesciunt hic, iure tempore aperiam voluptatem deleniti ullam. Doloremque eos eius quam soluta aut! Vel doloremque numquam error quidem!</p>
-              <button className={styles.btnwithback}>Read More</button>
+            <p>Nowadays, every developer wants to hold expertise in a language tech that can run across platforms and Reactjs is one of them. So, despite competing...</p>
+              <a href="https://blogs.reactjsofficial.com/index.php/2022/10/17/top-5-projects-to-build-in-reactjs-that-will-help-you-land-jobs/"><button className={styles.btnwithback}>Read More</button></a>
             </div>
             <div className={styles.blogcard}>
             <h4><b>THE BEST WAY TO LEARN REACTJS IN 2022 - COMPLETE ROADMAP</b></h4>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil soluta doloremque nesciunt hic, iure tempore aperiam voluptatem deleniti ullam. Doloremque eos eius quam soluta aut! Vel doloremque numquam error quidem!</p>
-              <button className={styles.btnwithback}>Read More</button>
+              <p>Reactjs has emerged as one of the most popular JavaScript libraries in recent times. Developers everywhere are beginning to see its potential to learn reactjs...</p>
+              <a href='https://blogs.reactjsofficial.com/index.php/2022/10/17/top-8-reasons-why-you-should-learn-reactjs-now/' className={styles.btnwithback}>Read More</a>
             </div>
           </div>
       </section>

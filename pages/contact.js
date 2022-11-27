@@ -25,6 +25,7 @@ const Contact = () => {
   const handleForm = async(event) =>{
   event.preventDefault();
   const { greatName, greatEmail, message, } = userData;
+  if( greatName && greatEmail && message ){
   const res = await fetch(
     "https://nextdb-bfcfc-default-rtdb.firebaseio.com/Contact-us.json",{
     method: "POST",
@@ -44,6 +45,10 @@ const Contact = () => {
     else{
       alert("Maybe Something went wrong! Try Again... 🤔")
     }
+  }
+  else{
+    alert("Maybe You Missed Something! Try Again... 🤔")
+  }
 }
 
   return (
@@ -63,9 +68,9 @@ const Contact = () => {
                     onChange={postUserData} name="greatName" className={styles.input} placeholder='Enter Your Name' required />
 
 
-                    <label htmlFor="greatgreatEmail">Email*</label>
+                    <label htmlFor="greatEmail">Email*</label>
                     <input type="text" value={userData.greatEmail}
-                    onChange={postUserData} name="greatgreatEmail" className={styles.input} placeholder='Enter Your greatEmail' required />
+                    onChange={postUserData} name="greatEmail" className={styles.input} placeholder='Enter Your greatEmail' required />
 
 
                     <label htmlFor="greatName">Message*</label>

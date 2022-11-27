@@ -167,6 +167,26 @@
     color: #ff3000;
     background: rgba(0, 0, 0, 0.1);
 }
+.btnwithback {
+  padding: 10px 20px;
+  width: 100%;
+  border: none;
+  border-radius: 35px;
+  background: linear-gradient(50deg, yellow, #ff3000);
+  color: white;
+  text-transform: uppercase;
+  cursor: pointer;
+  font-weight: 400;
+  transition: all 0.6s;
+  font-family: "Nunito", sans-serif;
+}
+.btnwithback:hover {
+  backdrop-filter: blur(10px);
+  background: linear-gradient(50deg, yellow, #ff3000);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+}
 .a1{
   padding: 10px;
   width: 100%;
@@ -356,5 +376,9 @@
   .p{
     padding-left: 2px;
     padding-right: 2px;
+  }
+  .btnwithback{
+    padding: 10px;
+    font-size: 14px;
   }
 }

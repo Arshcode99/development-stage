@@ -24,6 +24,7 @@ const MiniStart = () => {
       const handleForm = async(event) =>{
       event.preventDefault();
       const { quickfullName, quickemail, quickphone } = userData;
+      if( quickfullName && quickemail && quickphone ){
       const res = await fetch(
         "https://nextdb-bfcfc-default-rtdb.firebaseio.com/QuickStart-NewStudents.json",{
         method: "POST",
@@ -43,6 +44,10 @@ const MiniStart = () => {
         else{
           alert("Maybe Something went wrong! Try Again... 🤔")
         }
+      }
+      else{
+        alert("Maybe You Missed Something? Don't worry Give another Try ✔😁")
+      }
     }
 
   return (

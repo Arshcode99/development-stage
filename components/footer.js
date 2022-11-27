@@ -23,7 +23,7 @@ const Footer = () => {
           (IST 10:00AM To 06:00PM Only):</b> <br /> +91 7209236123 | +91 7764056669
           <br />
           <br />
-          <b>Find Us At This Address:</b> <br /> Gurugram, Southwest of New Delhi in Northen India.
+          <b>Find Us At This Address:</b> <br /> Sushant Lok Phase-1, Sector 43, Gurgaon <br /> 122009, Haryana, India.
         </p>
         </div>
         <div className={styles.centerfoot}>
@@ -41,7 +41,7 @@ const Footer = () => {
         <div className={styles.free}>
           <Link className={styles.a1} href="/">Home</Link>
           <Link className={styles.a1} href="/courses">React Training</Link>
-          <Link className={styles.a1} href="/community">Community</Link>
+          <Link className={styles.a1} href="/aboutus">About Us</Link>
           <Link className={styles.a1} href="/career">Careers</Link>
           <Link className={styles.a1} href="/legal">Legal</Link>
           </div>

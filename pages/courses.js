@@ -5,7 +5,8 @@ import airbnb from '../public/airbnb.png'
 import cisco from '../public/cisco.png'
 import facebook from '../public/facebook.png'
 import Link from 'next/link';
-import Harshita from '../public/Harshita.jpeg'
+import { Swiper, SwiperSlide } from "swiper/react";
+import { Autoplay, Pagination, Navigation } from "swiper";
 import hashedin from '../public/hashedin.png'
 import No1Img from '../public/apps-with-reactjs.png'
 import Typewriter from 'typewriter-effect';
@@ -13,10 +14,14 @@ import { BsMusicPlayer } from 'react-icons/bs'
 import { AiOutlineDown } from 'react-icons/ai'
 import { BsCart4 } from 'react-icons/bs'
 import { BiMoviePlay } from 'react-icons/bi'
+import { BsPersonCircle } from 'react-icons/bs'
 import { useState } from 'react';
-import ReactSimplyCarousel from 'react-simply-carousel';
 import styles from '../styles/courses.module.css';
 
+// Import Swiper styles
+import "swiper/css";
+import "swiper/css/pagination";
+import "swiper/css/navigation";
 
 const courses = () => {
 
@@ -52,11 +57,10 @@ const courses = () => {
       x.style.display = "flex";
     }
   }
-  const [activeSlideIndex, setActiveSlideIndex] = useState(0);
   //FireBase DB:
 
   const [userData, setUserData] = useState({
-    syllabusPhone: "",
+    syllabusEmail: "",
   });
 
   let name, value;
@@ -71,7 +75,8 @@ const courses = () => {
   // Connecting With Firebase DB 
   const handleForm = async(event) =>{
   event.preventDefault();
-  const { syllabusPhone } = userData;
+  const { syllabusEmail } = userData;
+  if( syllabusEmail ){
   const res = await fetch(
     "https://nextdb-bfcfc-default-rtdb.firebaseio.com/Syllabus-Download-and-course-selected-NewStudents.json",{
     method: "POST",
@@ -79,7 +84,7 @@ const courses = () => {
       "Content-Type" : "application/json",
     },
     body:JSON.stringify({
-      PhoneNo:syllabusPhone,
+      Email:syllabusEmail,
     }),
   }
     );
@@ -90,6 +95,10 @@ const courses = () => {
     else{
       alert("Maybe Something went wrong! Try Again... 🤔")
     }
+  }
+  else{
+    alert("Maybe You Missed Something? Try Agin...")
+  }
 }
 
 
@@ -262,7 +271,7 @@ const courses = () => {
               <b className={styles.b}>5th Dec</b>
               <p>10% Discount on early registraion</p>
               <div className={styles.batchinfo}>
-              Weekday's Batch: Sat-Sun:3hours
+              Weekend's Batch: Mon-Thu: 1.5hours
               </div>
             </div>
             <div className={styles.basicfeatures} id="select2">
@@ -271,7 +280,7 @@ const courses = () => {
               <b className={styles.b}>10th Dec</b>
               <p>10% Discount on early registraion</p>
               <div className={styles.batchinfo}>
-              Weekend's Batch: Mon-Thu: 1.5hours
+              Weekday's Batch: Sat-Sun:3hours
               </div>
             </div>
             </div>
@@ -376,8 +385,8 @@ const courses = () => {
               </div>
               <div className={styles.basicfeatures}>
                 <form className={styles.alignequal} method="POST">
-                  <input type="tel" name='syllabusPhone' placeholder='Enter Your Email' className={styles.input}
-                  value={userData.syllabusPhone}
+                  <input type="email" name='syllabusEmail' placeholder='Enter Your Email' className={styles.input}
+                  value={userData.syllabusEmail}
                   onChange={postUserData}
                   required />
                   <button className={styles.btn2} type="submit" onClick={handleForm}>Download</button>
@@ -394,39 +403,35 @@ const courses = () => {
       <div className={styles.deem3}>FeedBacks</div>
       <div className={styles.thirdh1}>What our students say about this course?</div>
       <div className={styles.projectsbox6}>
-      <ReactSimplyCarousel
-        activeSlideIndex={activeSlideIndex}
-        onRequestChange={setActiveSlideIndex}
-        itemsToShow={3}
-        itemsToScroll={1}
-        forwardBtnProps={{
-          //here you can also pass className, or any other button element attributes
-          style: {
-            display: 'none',
-          },
-          children: <span>{`>`}</span>,
-        }}
-        backwardBtnProps={{
-          //here you can also pass className, or any other button element attributes
-          style: {
-            display: 'none',
-          },
-          children: <span>{`<`}</span>,
-        }}
-        responsiveProps={[
-          {
-            itemsToShow: 1,
-            itemsToScroll: 1,
-            minWidth: 768,
-          },
-        ]}
-        speed={2000}
-        easing="linear"
-        autoplay= 'true'
-        autoplayDirection='forward'
-        infinite= 'true'
-      >
-        <div className={styles.feedbackbox}>
+
+      <div className={styles.allreviews} id='slidemock'>
+          <Swiper
+            slidesPerView={4}
+            spaceBetween={500}
+            autoplay={{
+              delay: 2500,
+              disableOnInteraction: false,
+            }}
+            pagination={{
+              clickable: false,
+            }}
+            breakpoints={{
+              "@0.00": {
+                slidesPerView: 1,
+                spaceBetween: 10,
+              },
+              "@0.75": {
+                slidesPerView: 3,
+                spaceBetween: 500,
+              },
+            }}
+            navigation={false}
+            modules={[Autoplay, Pagination, Navigation]}
+            loop="true"
+            className="mySwiper"
+          >
+            <SwiperSlide className={styles.nextpower}>
+            <div className={styles.feedbackbox}>
           <div className={styles.picandtittle}>
             <div className={styles.ImagePic}>
             </div>
@@ -437,7 +442,9 @@ const courses = () => {
           </div>
           <div className='textaboutfeed'>Absolutely! I've trired learning it from multiple sources, YouTube being one of them but then a friend told me about Reactjsofficial and I started following them on instagram. Later, I enrolled myself with their training program and I must say, it is totally worth it. Go for it guys, without any doubt. 👍</div>
           </div>
-          <div className={styles.feedbackbox}>
+            </SwiperSlide>
+            <SwiperSlide className={styles.nextpower}>
+            <div className={styles.feedbackbox}>
           <div className={styles.picandtittle}>
             <div className={styles.ImagePic2}>
             </div>
@@ -448,7 +455,9 @@ const courses = () => {
           </div>
           <div className='textaboutfeed'>Hi guys, I was trying to learn react by watching youtube or others sources but I was not getting core concepts of react. One day i came across this reactjsofficial instagram page and joined thier training program. The way they teact really inspire me and the way they explain each n every concept was amazing. Thanks to Rajeev</div>
           </div>
-          <div className={styles.feedbackbox}>
+              </SwiperSlide>
+            <SwiperSlide className={styles.nextpower}>
+              <div className={styles.feedbackbox}>
           <div className={styles.picandtittle}>
             <div className={styles.ImagePic3}>
             </div>
@@ -459,7 +468,23 @@ const courses = () => {
           </div>
           <div className='textaboutfeed'>Absolutely.. If you want to learn each and every concept then you can refer there.. there are so much channels on YouTube on which they will try to teach you while building an application but i think this is not the right way ,as the viewer is not getting the basic concept. I will refer Reactjsofficial if an individual seriously wants to make a career in React.</div>
           </div>
-      </ReactSimplyCarousel>
+              </SwiperSlide>
+            <SwiperSlide className={styles.nextpower}>
+            <div className={styles.feedbackbox}>
+          <div className={styles.picandtittle}>
+            <div className={styles.ImagePic4}>
+              <BsPersonCircle/>
+            </div>
+            <div className={styles.abouttext}>
+              <h5>Raushan Choudhary</h5>
+              <p>Recommends Reactjsofficial</p>
+            </div>
+          </div>
+          <div className='textaboutfeed'>Absolutely.. If you want to learn each and every concept then you can refer there.. there are so much channels on YouTube on which they will try to teach you while building an application but i think this is not the right way ,as the viewer is not getting the basic concept. I will refer Reactjsofficial if an individual seriously wants to make a career in React.</div>
+          </div>
+              </SwiperSlide>
+          </Swiper>
+          </div>
       </div>
       </div>
       </section>
