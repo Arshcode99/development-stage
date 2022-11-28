@@ -49,11 +49,11 @@ const SelectBatch = () => {
             </p>
             <hr />
             <p>Follow us on: <br />
-              <a href="https://www.instagram.com/reactjsofficial/"><AiFillInstagram className={styles.icons} /></a>
+              <a className={styles.white} href="https://www.instagram.com/reactjsofficial/"><AiFillInstagram className={styles.icons} /></a>
               {'\u00A0'}
-              <a href="https://www.facebook.com/profile.php?id=100079173533689&mibextid=LQQJ4d"><AiFillFacebook className={styles.icons} /></a>
+              <a className={styles.white} href="https://www.facebook.com/profile.php?id=100079173533689&mibextid=LQQJ4d"><AiFillFacebook className={styles.icons} /></a>
               {'\u00A0'}
-              <a href="https://www.linkedin.com/company/reactjsofficial/"><BsLinkedin className={styles.icons} /></a>
+              <a className={styles.white} href="https://www.linkedin.com/company/reactjsofficial/"><BsLinkedin className={styles.icons} /></a>
             </p>
             <br />
             <Link href="/courses"><button className={styles.btn}>Know More About Current Batch's</button></Link>
