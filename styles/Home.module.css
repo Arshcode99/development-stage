@@ -540,16 +540,17 @@
 .blogsection{
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
+  gap: 10px;
   width: 80%;
   padding: 10px;
 }
 .blogcard{
   width: 90%;
-  margin: 0 auto;
+  margin: 10px auto;
   height: 100%;
-  padding: 10px;
+  padding: 20px;
   border-radius: 7px;
-  box-shadow: 0 5px 24px hsl(0deg 4% 79% / 48%);
+  box-shadow: 0 5px 24px rgba(68, 68, 68, 0.48);
   transition: all 1s;
   background: linear-gradient(90deg, #fff, #fff, rgba(225,225,225,0.9), #fff, #fff);
   animation: bgmove 20s ease-in-out infinite alternate-reverse;

@@ -46,7 +46,7 @@ const MiniStart = () => {
         }
       }
       else{
-        alert("Maybe You Missed Something? Don't worry Give another Try ✔😁")
+        alert("Please Enter All Required Fields! 🤔")
       }
     }
 

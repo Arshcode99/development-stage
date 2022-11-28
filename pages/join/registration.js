@@ -60,7 +60,7 @@ const Registration = () => {
     }
   }
   else{
-    alert("Maybe You Missed A Field? Try Again! 😓❤")
+    alert("Please Enter All Required Fields! 🤔😓❤")
   }
   };
   return (

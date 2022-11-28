@@ -35,7 +35,7 @@ const SelectBatch = () => {
     }
   }
   else {
-    alert("Maybe Missed Something To choose! Try Again... 😍🔗")
+    alert("Please Enter All Required Fields! 🤔🔗")
   }
   };
 

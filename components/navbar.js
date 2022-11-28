@@ -49,7 +49,7 @@ const Navbar = () => {
         <a href="https://www.instagram.com/reactjsofficial/"><BsInstagram className={styles.BsInstagram} /></a>
         <a href="https://chat.whatsapp.com/FWRWiR3mtH49DusKSmDgX6"><BsWhatsapp className={styles.BsWhatsapp} /></a>
         <a href='https://www.linkedin.com/company/reactjsofficial/'><BsLinkedin className={styles.BsLinkedin} /></a>
-        <Link href="/join/selectbatch" className={styles.btnwithback}>Enroll Now</Link>
+        <Link href="/join/selectbatch" className={styles.btnwithback3}>Enroll Now</Link>
         <TbGridDots className={styles.TbGridDots} onClick={myFunction} />
         </div>
       </div>

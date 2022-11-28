@@ -47,7 +47,7 @@ const Contact = () => {
     }
   }
   else{
-    alert("Maybe You Missed Something! Try Again... 🤔")
+    alert("Please Enter All Required Fields! 🤔")
   }
 }
 
@@ -70,7 +70,7 @@ const Contact = () => {
 
                     <label htmlFor="greatEmail">Email*</label>
                     <input type="text" value={userData.greatEmail}
-                    onChange={postUserData} name="greatEmail" className={styles.input} placeholder='Enter Your greatEmail' required />
+                    onChange={postUserData} name="greatEmail" className={styles.input} placeholder='Enter Your Email' required />
 
 
                     <label htmlFor="greatName">Message*</label>

@@ -187,6 +187,27 @@
   -webkit-background-clip: text;
   background-clip: text;
 }
+.btnwithback3 {
+  padding: 10px;
+  border: none;
+  border-radius: 35px;
+  background: linear-gradient(50deg, yellow, #ff3000);
+  color: white;
+  text-transform: uppercase;
+  cursor: pointer;
+  font-weight: 400;
+  font-size: 14px;
+  text-align: center;
+  transition: all 0.6s;
+  font-family: "Nunito", sans-serif;
+}
+.btnwithback3:hover {
+  backdrop-filter: blur(10px);
+  background: linear-gradient(50deg, yellow, #ff3000);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+}
 .a1{
   padding: 10px;
   width: 100%;
@@ -197,6 +218,19 @@
   transition: all 0.6s;
 }
 .a1:hover{
+  color: #ff3000;
+  background: rgba(0, 0, 0, 0.1);
+}
+.amock{
+  padding: 10px;
+  width: 100%;
+  text-align: left;
+  /* margin: 5px; */
+  border-radius: 4px;
+  font-family: 'Nunito', sans-serif;
+  transition: all 0.6s;
+}
+.amock:hover{
   color: #ff3000;
   background: rgba(0, 0, 0, 0.1);
 }
@@ -317,6 +351,9 @@
 .h2{
   padding-left: 10px;
 }
+.h2ff{
+  padding-right: 10px;
+}
 .p{
   text-align: center;
   padding: 10px;
@@ -364,14 +401,19 @@
     margin-top: 20px;
   }
   .h2{
-    text-align: center;
+    text-align: left;
+  }
+  .h2ff{
+    text-align: right;
   }
   .a1{
-    text-align: center;
+    text-align: right;
+  }
+  .amock{
+    text-align: left;
   }
   .free{
-    width: 50%;
-    margin: 0 auto;
+    width: 100%;
   }
   .p{
     padding-left: 2px;
@@ -380,5 +422,8 @@
   .btnwithback{
     padding: 10px;
     font-size: 14px;
+  }
+  .btnwithback3{
+    font-size: 10px;
   }
 }

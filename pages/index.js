@@ -222,7 +222,7 @@ Skillsets Land a job of 22+ LPA Helped 1000+ Students and many more to go...</di
           </div>
           </div>
           <hr />
-          <h2>Our Leatest Blogs</h2>
+          <h2 className={styles.h1heading}>Our Leatest Blogs</h2>
           <hr />
           <div className={styles.blogsection}>
             <div className={styles.blogcard}>
@@ -238,7 +238,7 @@ Skillsets Land a job of 22+ LPA Helped 1000+ Students and many more to go...</di
             <div className={styles.blogcard}>
             <h4><b>THE BEST WAY TO LEARN REACTJS IN 2022 - COMPLETE ROADMAP</b></h4>
               <p>Reactjs has emerged as one of the most popular JavaScript libraries in recent times. Developers everywhere are beginning to see its potential to learn reactjs...</p>
-              <a href='https://blogs.reactjsofficial.com/index.php/2022/10/17/top-8-reasons-why-you-should-learn-reactjs-now/' className={styles.btnwithback}>Read More</a>
+              <a href='https://blogs.reactjsofficial.com/index.php/2022/10/17/top-8-reasons-why-you-should-learn-reactjs-now/' ><button className={styles.btnwithback}>Read More</button></a>
             </div>
           </div>
       </section>

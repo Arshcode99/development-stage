@@ -18,9 +18,9 @@ const Footer = () => {
         </div>
         </Link>
         <p className={styles.text}>
-          <b>Give Us A Ring!
+          <b>Give Us A Ring📞
             <br />
-          (IST 10:00AM To 06:00PM Only):</b> <br /> +91 7209236123 | +91 7764056669
+          (IST 10:00AM To 06:00PM Only)</b> <br /> +91 7209236123 | +91 7764056669
           <br />
           <br />
           <b>Find Us At This Address:</b> <br /> Sushant Lok Phase-1, Sector 43, Gurgaon <br /> 122009, Haryana, India.
@@ -29,15 +29,15 @@ const Footer = () => {
         <div className={styles.centerfoot}>
           <h2 className={styles.h2}>Free Resourses</h2>
           <div className={styles.free}>
-          <a className={styles.a1} href="https://blogs.reactjsofficial.com/">Blogs</a>
-          <a className={styles.a1} href="https://www.instagram.com/reactjsofficial/">Cheatsheets</a>
-          <a className={styles.a1} href="https://www.instagram.com/reactjsofficial/">Instagram</a>
-          <a className={styles.a1} href="https://www.linkedin.com/company/reactjsofficial/">Linkedin</a>
-          <Link className={styles.a1} href="/community">Community</Link>
+          <a className={styles.amock} href="https://blogs.reactjsofficial.com/">Blogs</a>
+          <a className={styles.amock} href="https://www.instagram.com/reactjsofficial/">Cheatsheets</a>
+          <a className={styles.amock} href="https://www.instagram.com/reactjsofficial/">Instagram</a>
+          <a className={styles.amock} href="https://www.linkedin.com/company/reactjsofficial/">Linkedin</a>
+          <Link className={styles.amock} href="/community">Community</Link>
           </div>
         </div>
         <div className={styles.rightfoot}>
-        <h2 className={styles.h2}>Quick Links</h2>
+        <h2 className={styles.h2ff}>Quick Links</h2>
         <div className={styles.free}>
           <Link className={styles.a1} href="/">Home</Link>
           <Link className={styles.a1} href="/courses">React Training</Link>
