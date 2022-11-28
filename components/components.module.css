@@ -374,6 +374,7 @@
   }
   .TbGridDots{
     display: block;
+    font-size: 18px;
   }
   .btn2{
     display: none;
