@@ -35,7 +35,7 @@ function MyApp({ Component, pageProps }) {
   <Header></Header>
   <LoadingBar
   color='#ff3000' 
-  height={3}
+  height={6}
   transitionTime={30}
   continousStart={7}
   progress={progress}
