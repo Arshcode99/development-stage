@@ -170,6 +170,7 @@ const courses = () => {
                 <Image src={hashedin} className={styles.sizeimg} alt="hashedin" />
               </div>
             </div>
+            <br />
             <Link href="/community">
               <button className={styles.btn}>Know More</button>
             </Link>
@@ -479,7 +480,7 @@ const courses = () => {
                         <p>Recommends Reactjsofficial</p>
                       </div>
                     </div>
-                    <div className={styles.textaboutfeed}></div>
+                    <div className={styles.textaboutfeed}>Hi all I was trying to learn react by watching youtube and other links but confused about lifecycle methods and some other concepts.Through linkdin I joined reactjsofficial training program. They teach me each n every concept of react. Thank you so much Rajeev for helping me to learn…</div>
                   </div>
                 </SwiperSlide>
               </Swiper>
