@@ -73,11 +73,11 @@ const Registration = () => {
             </p>
             <hr />
             <p>Follow us on: <br />
-              <AiFillInstagram className={styles.icons} />
+              <a href="https://www.instagram.com/reactjsofficial/"><AiFillInstagram className={styles.icons} /></a>
               {'\u00A0'}
-              <AiFillFacebook className={styles.icons} />
+              <a href="https://www.facebook.com/profile.php?id=100079173533689&mibextid=LQQJ4d"><AiFillFacebook className={styles.icons} /></a>
               {'\u00A0'}
-              <BsLinkedin className={styles.icons} />
+              <a href="https://www.linkedin.com/company/reactjsofficial/"><BsLinkedin className={styles.icons} /></a>
             </p>
           </div>
           <div className={styles.rightside}>
