@@ -35,9 +35,12 @@ function MyApp({ Component, pageProps }) {
   <Header></Header>
   <LoadingBar
   color='#ff3000' 
+  height={3}
+  transitionTime={30}
+  continousStart={7}
   progress={progress}
   onLoaderFinished={() => setProgress(0)} 
-  loaderSpeed={200} />
+  loaderSpeed={9000} />
   <Component {...pageProps} />
   <Footer />
   </> 
