@@ -217,7 +217,7 @@ const Legal = () => {
                   <p>By email: support@reactjsofficial.com</p>
                 </li>
                 <li>
-                  <p>By visiting this page on our website: <a href='https://reactjsofficial.com/#contact' rel='external nofollow noopener'>https://reactjsofficial.com/#contact</a></p>
+                  <p>By visiting this page on our website: <a href='https://reactjsofficial.com/contact' rel='external nofollow noopener'>https://reactjsofficial.com/contact</a></p>
                 </li>
                 <li>
                   <p>By phone number: 7209236123</p>
