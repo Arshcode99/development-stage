@@ -29,7 +29,7 @@ export default function Home() {
           <div className={styles.leftcol}>
             <div className={styles.deem}>10% OFF FOR FIRST 100 STUDENTS</div>
             <div className={styles.h3}><Typewriter options={{
-                strings: ['Welcome To Reactjsofficial', 'Chasing Jobs?', 'Let Us Help You With Our React Traning Course!'],
+                strings: ['Welcome To Reactjsofficial', 'Chasing Jobs?', 'Let Us Help You With Our React Training Course!'],
                 autoStart: true,
                 loop: true,}} /></div>
             <div className={styles.h1}>Become A React.js Developer!</div>
