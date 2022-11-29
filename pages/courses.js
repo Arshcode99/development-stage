@@ -407,7 +407,7 @@ const courses = () => {
             <div className={styles.allreviews} id='slidemock'>
               <Swiper
                 slidesPerView={4}
-                spaceBetween={500}
+                spaceBetween={0}
                 autoplay={{
                   delay: 2500,
                   disableOnInteraction: false,

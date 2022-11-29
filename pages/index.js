@@ -12,7 +12,7 @@ import { BiSupport } from 'react-icons/bi'
 import { RiCommunityFill } from 'react-icons/ri'
 import { GiTakeMyMoney } from 'react-icons/gi'
 import { TbCertificate } from 'react-icons/tb'
-import { MdSupportAgent } from 'react-icons/md'
+import { MdSupportAgent } from 'react-icons/md';
 
 
 

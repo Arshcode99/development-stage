@@ -296,7 +296,7 @@
   display: flex;
   flex-direction: column;
   padding: 10px;
-  width: 70%;
+  width: 100%;
   margin: 0 auto;
 }
 .deem3{
@@ -330,7 +330,7 @@
   padding: 10px;
   gap: 10px;
   width: 100%;
-  margin: 0 auto;
+  overflow: hidden;
 }
 .alignequal{
   display: flex;
@@ -379,8 +379,9 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 365px;
-    height: 186px;
+    width: 100%;
+    height: 100%;
+    padding: 10px;
     box-shadow: 0 2px 10px hsl(0deg 0% 70% / 35%);
     border-radius: 10px;
     background-color: #fff;
@@ -839,6 +840,42 @@ height: 36px;
   display: none;
   background-color: white;
   overflow: hidden;
+}
+@media only screen and (max-width: 1024px) {
+  .courses{
+    height: auto;
+    padding-top: 50px;
+  }
+  .twocol{
+    width: 90%;
+  }
+  .h3{
+    font-size: 25px;
+    color: #ccc;
+  }
+  .deem{
+    font-size: 12px;
+  }
+  .h1{
+    font-size: 30px;
+  }
+  .aligncenter{
+    width: 90%;
+    margin: 0 auto;
+  }
+  .h1next{
+    text-align: center;
+  }
+  .purchaseleft{
+    width: 90%;
+  }
+  .projectsbox5{
+    width: 90%;
+  }
+  .allreviews{
+    width: 90%;
+    margin: 10px auto;
+  }
 }
 @media only screen and (max-width: 768px) {
   .courses{

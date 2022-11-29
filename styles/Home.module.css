@@ -559,6 +559,38 @@
   transform: scale(1.2);
 }
 /* Styling Of Our Brand New Mobile View 😉 */
+@media only screen and (max-width: 1024px) {
+  .twocol{
+    width: 90%;
+  }
+  .h2{
+    text-align: center;
+    font-size: 30px;
+  }
+  .rightcol{
+    animation: none;
+  }
+  .tainingabout{
+    height: auto;
+  }
+  .trainingaboutmaincontainer{
+    width: 90%;
+    padding-bottom: 40px;
+  }
+  .TeamImg{
+    width: 400px;
+    height: 400px;
+  }
+  .rightcol2{
+    padding: 0;
+  }
+  .cardmore{
+    margin: 10px auto;
+  }
+  .blogsection{
+    width: 90%;
+  }
+}
 @media only screen and (max-width: 768px) {
   .home,
   .section4 {
