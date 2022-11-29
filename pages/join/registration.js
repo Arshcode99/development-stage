@@ -68,7 +68,7 @@ const Registration = () => {
       <section className={styles.Registration}>
         <div className={styles.twocol}>
           <div className={styles.leftside}>
-            <h1 className={styles.h1}>Take a flight with React.js Today!</h1>
+            <h1 className={styles.h1}>Take a flight with web development Today!</h1>
             <p>🔗😉, Provide us your Information to connect with you.
             </p>
             <hr />
