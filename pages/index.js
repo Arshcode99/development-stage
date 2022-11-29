@@ -80,7 +80,7 @@ Skillsets Land a job of 22+ LPA Helped 1000+ Students and many more to go...</di
           <li className={styles.li}>Structured Learning Paths</li>
           <li className={styles.li}>Hands on align</li>
           <li className={styles.li}>No Recorded Videos, 100% live Training</li>
-          <li className={styles.li}>Industry Relevent!</li>
+          <li className={styles.li}>Industry Relevant!!</li>
         </ul>
         </div>
           </div>
