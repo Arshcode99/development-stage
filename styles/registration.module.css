@@ -191,4 +191,7 @@
     .rightside{
         width: 90%;
     }
+    .select{
+        right: 10%;
+    }
 }
