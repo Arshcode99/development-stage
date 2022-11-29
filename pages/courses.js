@@ -269,18 +269,18 @@ const courses = () => {
                 <span className={styles.smalltext2}>Earliest Batch</span>
                 <br />
                 <b className={styles.b}>5th Dec</b>
-                <p>10% Discount on early registraion</p>
+                <p>10% Discount on early registration</p>
                 <div className={styles.batchinfo}>
-                  Weekend's Batch: Sat-Sun: 1.5hours
+                  Weekend's Batch: Sat-Sun: 3hours
                 </div>
               </div>
               <div className={styles.basicfeatures} id="select2">
                 <span className={styles.smalltext2}>Next Batch</span>
                 <br />
                 <b className={styles.b}>10th Dec</b>
-                <p>10% Discount on early registraion</p>
+                <p>10% Discount on early registration</p>
                 <div className={styles.batchinfo}>
-                  Weekday's Batch: Mon-Thu:3hours
+                  Weekday's Batch: Mon-Thu: 1.5hours
                 </div>
               </div>
             </div>
@@ -381,7 +381,7 @@ const courses = () => {
             <div className={styles.grid2}>
               <div className={styles.basicfeatures}>
                 <h2>Download Syllabus!</h2>
-                <p>Don't worry! We will not spam your Inbox. we will use this data to provide personlized lerning experience for students</p>
+                <p>Don't worry! We will not spam your Inbox. we will use this data to provide personlized learning experience for students</p>
               </div>
               <div className={styles.basicfeatures}>
                 <form className={styles.alignequal} method="POST">

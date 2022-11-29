@@ -45,7 +45,7 @@ const SelectBatch = () => {
         <div className={styles.twocol}>
           <div className={styles.leftside}>
             <h1 className={styles.h1}>Take a flight with React.js Today!</h1>
-            <p>🔗😉, 1st Step is to choose a batch that fit's your timming and everything will be setup for you!
+            <p>🔗😉, 1st Step is to choose a batch that fit's your timing and everything will be setup for you!
             </p>
             <hr />
             <p>Follow us on: <br />
@@ -59,7 +59,7 @@ const SelectBatch = () => {
             <Link href="/courses"><button className={styles.btn}>Know More About Current Batch's</button></Link>
             <br />
             <br />
-            <h6>You selcted: {batch}</h6>
+            <h6>You selected: {batch}</h6>
             <h6>Your Email: {Emailforbatch}</h6>
           </div>
           <div className={styles.rightside}>
