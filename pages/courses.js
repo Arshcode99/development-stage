@@ -114,7 +114,7 @@ const courses = () => {
               autoStart: true,
               loop: true,
             }} /></div>
-            <div className={styles.h1}>FRONTEND DEVELOPMENT WITH REACT SPECIALIZATION - TRANING PROGRAM</div>
+            <div className={styles.h1}>FRONTEND DEVELOPMENT WITH REACT SPECIALIZATION - TRAINING PROGRAM</div>
             <div className={styles.p}>Build real-world projects by mastering React & javascript. Learn the essential frontend development concepts from scratch.</div>
             <div className={styles.blah}>
               <a href="#Knowmore"><button className={styles.btn}>Explore Now</button></a>
