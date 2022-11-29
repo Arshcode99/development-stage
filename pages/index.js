@@ -202,7 +202,7 @@ Skillsets Land a job of 22+ LPA Helped 1000+ Students and many more to go...</di
           <div className={styles.textbox}>
             <div className={styles.iconmock1}>2</div>
             <div className={styles.textboxright}>
-            <div className={styles.h2text}>Industry-level Coding Assigenment.</div>
+            <div className={styles.h2text}>Industry-level Coding Assignment.</div>
             <div className={styles.text2}>Practice Coding Questions That adopts based on your progress.</div>
             </div>
           </div>
@@ -222,25 +222,6 @@ Skillsets Land a job of 22+ LPA Helped 1000+ Students and many more to go...</di
           </div>
           </div>
           <hr />
-          <h2 className={styles.h1heading}>Our Leatest Blogs</h2>
-          <hr />
-          <div className={styles.blogsection}>
-            <div className={styles.blogcard}>
-              <h4><b>TOP 5 PROJECTS TO BUILD IN REACTJS THAT WILL HELP YOU LAND JOBS</b></h4>
-              <p>Creating Reactjs projects will allow you to practice your React abilities while also allowing you to express your ideas creatively. It might be unbelievable to...</p>
-              <button className={styles.btnwithback}>Read More</button>
-              </div>
-            <div className={styles.blogcard}>
-            <h4><b>TOP 5 REASONS WHY YOU SHOULD LEARN REACTJS TODAY!</b></h4>
-            <p>Nowadays, every developer wants to hold expertise in a language tech that can run across platforms and Reactjs is one of them. So, despite competing...</p>
-              <a href="https://blogs.reactjsofficial.com/index.php/2022/10/17/top-5-projects-to-build-in-reactjs-that-will-help-you-land-jobs/"><button className={styles.btnwithback}>Read More</button></a>
-            </div>
-            <div className={styles.blogcard}>
-            <h4><b>THE BEST WAY TO LEARN REACTJS IN 2022 - COMPLETE ROADMAP</b></h4>
-              <p>Reactjs has emerged as one of the most popular JavaScript libraries in recent times. Developers everywhere are beginning to see its potential to learn reactjs...</p>
-              <a href='https://blogs.reactjsofficial.com/index.php/2022/10/17/top-8-reasons-why-you-should-learn-reactjs-now/' ><button className={styles.btnwithback}>Read More</button></a>
-            </div>
-          </div>
       </section>
       {/* 5th section Page Ends  */}
       {/* ============================================ */}

@@ -29,7 +29,6 @@ const Footer = () => {
         <div className={styles.centerfoot}>
           <h2 className={styles.h2}>Free Resourses</h2>
           <div className={styles.free}>
-          <a className={styles.amock} href="https://blogs.reactjsofficial.com/">Blogs</a>
           <a className={styles.amock} href="https://www.instagram.com/reactjsofficial/">Cheatsheets</a>
           <a className={styles.amock} href="https://www.instagram.com/reactjsofficial/">Instagram</a>
           <a className={styles.amock} href="https://www.linkedin.com/company/reactjsofficial/">Linkedin</a>
