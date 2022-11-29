@@ -476,7 +476,7 @@ const courses = () => {
                         <BsPersonCircle />
                       </div>
                       <div className={styles.abouttext}>
-                        <h5>Raushan Choudhary</h5>
+                        <h5>Sirisha Kotha</h5>
                         <p>Recommends Reactjsofficial</p>
                       </div>
                     </div>
