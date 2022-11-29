@@ -285,7 +285,7 @@ const courses = () => {
               </div>
             </div>
             <div className={styles.bottompurchase}>
-              <div className={styles.h1blow}>₹44,071/-
+              <div className={styles.h1blow}>₹38,099/-
                 <p className={styles.psmall}>OR EMI ₹3,333/mon*</p></div>
               <Link href="/join/selectbatch">
                 <button className={styles.buybtn}>Enroll Now</button>
