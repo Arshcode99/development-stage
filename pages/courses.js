@@ -269,7 +269,7 @@ const courses = () => {
                 <span className={styles.smalltext2}>Earliest Batch</span>
                 <br />
                 <b className={styles.b}>5th Dec</b>
-                <p>10% Discount on early registration</p>
+                <p>52% Discount on early registration</p>
                 <div className={styles.batchinfo}>
                 Weekday's Batch: Mon-Thu: 1.5hours
                 </div>
@@ -278,7 +278,7 @@ const courses = () => {
                 <span className={styles.smalltext2}>Next Batch</span>
                 <br />
                 <b className={styles.b}>10th Dec</b>
-                <p>10% Discount on early registration</p>
+                <p>52% Discount on early registration</p>
                 <div className={styles.batchinfo}>
                   Weekend's Batch: Sat-Sun: 3hours
                 </div>
