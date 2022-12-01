@@ -591,6 +591,17 @@
     width: 90%;
   }
 }
+@media only screen and (max-width: 820px) {
+  .trainingaboutmaincontainer{
+    grid-template-columns: 1fr;
+  }
+  .TeamImg{
+    margin: 10px auto;
+  }
+  .twocol{
+    grid-template-columns: 1fr;
+  }
+}
 @media only screen and (max-width: 768px) {
   .home,
   .section4 {

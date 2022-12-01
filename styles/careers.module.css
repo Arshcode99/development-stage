@@ -133,6 +133,17 @@
     width: 100%;
     height: 200px;
 }
+@media only screen and (max-width: 820px) {
+    .btn{
+        width: 100%;
+    }
+    .twocol{
+        grid-template-columns: 1fr;
+    }
+    .NextImgDex{
+        margin: 20px auto;
+    }
+  }
 @media only screen and (max-width: 768px) {
     .twocol, .threecol{
         grid-template-columns: 1fr;

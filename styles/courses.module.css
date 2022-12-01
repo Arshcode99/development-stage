@@ -841,6 +841,23 @@ height: 36px;
   background-color: white;
   overflow: hidden;
 }
+@media only screen and (max-width: 820px) {
+  .twocol{
+    grid-template-columns: 1fr;
+    width: 90%;
+  }
+  .twocolnext{
+    grid-template-columns: 1fr;
+    width: 80%;
+    padding-bottom: 40px;
+  }
+  .h2purchase{
+    width: 90%;
+  }
+  .grid3, .grid4{
+    grid-template-columns: 1fr;
+  }
+}
 @media only screen and (max-width: 1024px) {
   .courses{
     height: auto;
