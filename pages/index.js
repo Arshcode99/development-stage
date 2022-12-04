@@ -14,13 +14,7 @@ import { GiTakeMyMoney } from 'react-icons/gi'
 import { TbCertificate } from 'react-icons/tb'
 import { MdSupportAgent } from 'react-icons/md';
 
-
-
 export default function Home() {
-  
-
-
-
   return (
     <>
       {/* Main Home Page Starts  */}
