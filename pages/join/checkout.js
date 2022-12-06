@@ -124,7 +124,7 @@ const Checkout = () => {
                             <hr />
                             <h3>Amount Payable</h3>
                         <h6>₹44,956/-</h6>
-                        <button type='submit' onClick={makePayment} className={styles.btn}>Pay Now</button>
+                        <button onClick={makePayment} className={styles.btn}>Pay Now</button>
                         </form>
                     </div>
                 </div>
