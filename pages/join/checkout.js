@@ -114,18 +114,18 @@ const Checkout = () => {
                                 <th className={styles.th}>Total</th>
                                 </tr>
                                 <tr>
-                                    <td className={styles.td}>FRONTEND DEVELOPMENT <br /> WITH REACT SPECIALIZATION - TRAINING PROGRAM</td>
-                                    <td className={styles.td}>{today}</td>
-                                    <td className={styles.td}>{time.toLocaleString('en-US', {
+                                    <td  className={styles.td}>FRONTEND DEVELOPMENT <br /> WITH REACT SPECIALIZATION - TRAINING PROGRAM</td>
+                                    <td  className={styles.td}>{today}</td>
+                                    <td  className={styles.td}>{time.toLocaleString('en-US', {
                                         hour: 'numeric',
                                         minute: 'numeric',
                                         hour12: true,
                                     })}</td>
-                                    <td className={styles.td}>₹57,910/-</td>
-                                    <td className={styles.td}>18%</td>
-                                    <td className={styles.td}>N/A</td>
-                                    <td className={styles.td}>52%</td>
-                                    <td className={styles.td}>₹32,800/-</td>
+                                    <td  className={styles.td}>₹57,910/-</td>
+                                    <td  className={styles.td}>18%</td>
+                                    <td  className={styles.td}>N/A</td>
+                                    <td  className={styles.td}>52%</td>
+                                    <td  className={styles.td}>₹32,800/-</td>
                                 </tr>
                             </table>
                             </div>
