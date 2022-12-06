@@ -120,11 +120,11 @@ const Checkout = () => {
                                         minute: 'numeric',
                                         hour12: true,
                                     })}</td>
-                                    <td className={styles.td}>₹38,099/-</td>
+                                    <td className={styles.td}>₹57,910/-</td>
                                     <td className={styles.td}>18%</td>
                                     <td className={styles.td}>N/A</td>
                                     <td className={styles.td}>52%</td>
-                                    <td className={styles.td}>₹44,956/-</td>
+                                    <td className={styles.td}>₹32,800/-</td>
                                 </tr>
                             </table>
                             </div>
@@ -134,7 +134,7 @@ const Checkout = () => {
                             </b>
                             <hr />
                             <h3>Amount Payable</h3>
-                        <h6>₹44,956/-</h6>
+                        <h6>₹32,800/-</h6>
                         <button onClick={makePayment} className={styles.btn}>Pay Now</button>
                         </form>
                     </div>
