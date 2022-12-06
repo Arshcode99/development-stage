@@ -85,6 +85,17 @@ const Checkout = () => {
                             <input type="text" name="Address" required className={styles.input} placeholder="Enter Your Address" />
                             <label htmlFor="Phone">Phone*</label>
                             <input type="tel" name="Phone" required className={styles.input} placeholder="Enter Your Phone No." />
+                            <label htmlFor="country">Country*</label>
+                            <input type="text" name="country" required className={styles.input} placeholder="Enter Your Country" />
+                            <label htmlFor="Aboutus">From Where Did You Hear About Us?*</label>
+                            <select name="Aboutus" className={styles.input}>
+                                <option>YouTube</option>
+                                <option>Google</option>
+                                <option>Instagram</option>
+                                <option>Linkdin</option>
+                                <option>Random Browsing</option>
+                                <option>Whatsapp</option>
+                            </select>
                             <label htmlFor="CupponCode">Cuppon Code*</label>
                             <input type="text" name="CupponCode" className={styles.input} placeholder="N/A" disabled />
                             <hr />
