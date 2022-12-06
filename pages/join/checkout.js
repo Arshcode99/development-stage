@@ -89,6 +89,7 @@ const Checkout = () => {
                             <input type="text" name="country" required className={styles.input} placeholder="Enter Your Country" />
                             <label htmlFor="Aboutus">From Where Did You Hear About Us?*</label>
                             <select name="Aboutus" className={styles.input}>
+                                <option>Select*</option>
                                 <option>YouTube</option>
                                 <option>Google</option>
                                 <option>Instagram</option>
