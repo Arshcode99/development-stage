@@ -6,9 +6,11 @@ import { AiFillFacebook } from 'react-icons/ai';
 import { BsLinkedin } from 'react-icons/bs';
 import Script from 'next/script';
 import styles from '../../styles/registration.module.css';
+import { useRouter } from 'next/router';
 
 const SelectBatch = () => {
 
+  const router = useRouter()
     const [batch, setBatch] = useState("");
     const [Emailforbatch, setEmailforbatch] = useState("");
 
@@ -29,7 +31,7 @@ const SelectBatch = () => {
     }
     );
     if (res) {
-      window.location.href = "https://pages.razorpay.com/reactjsofficial-payment";
+      router.push('/join/checkout')
     }
     else {
       alert("Maybe Something went wrong! Try Again... 🤔")
@@ -42,7 +44,7 @@ const SelectBatch = () => {
 
   return (
     <>
-    <Script src="https://checkout.razorpay.com/v1/checkout.js"></Script>
+
       <section className={styles.SelectBatch}>
         <div className={styles.twocol}>
           <div className={styles.leftside}>

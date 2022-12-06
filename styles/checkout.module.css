@@ -1,0 +1,51 @@
+.Checkout{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.twocol{
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 90%;
+    padding: 10px;
+    border: none;
+    border-radius: 12px;
+    background: white;
+    box-shadow: -1px -1px 60px 17px rgba(0,0,0,0.1);
+}
+.left, .right{
+    width: 100%;
+    padding: 10px;
+}
+.table{
+    width: 100%;
+    padding: 10px;
+}
+.td, .th{
+    padding: 10px;
+    border: 0.1px solid silver;
+}
+.btn{
+    padding: 10px 20px;
+    border: none;
+    width: 20%;
+    border-radius: 34px;
+    background: linear-gradient(90deg, gold, #ff3000);
+    color: #fff;
+}
+.btn:active{
+    background: #000;
+    color: #ff3000;
+}
+@media only screen and (max-width: 768px) {
+    .left{
+        overflow: scroll;
+    }
+    .btn{
+        width: 90%;
+        margin: 0 auto;
+    }
+}
