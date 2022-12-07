@@ -29,39 +29,39 @@ const Registration = () => {
     event.preventDefault();
     const { fullName, email, phone, country, collage } = userData;
 
-    if( fullName && email && phone && country && collage ){
-    const res = await fetch(
-      "https://nextdb-bfcfc-default-rtdb.firebaseio.com/NewStudents.json", {
-      method: "POST",
-      headers: {
-        "Content-Type": "application/json",
-      },
-      body: JSON.stringify({
-        fullName: fullName,
-        email: email,
-        phone: phone,
-        country: country,
-        collage: collage,
-      }),
-    }
-    );
-    if (res) {
-      alert("Thank You! Our Team will contact You Soon 😉🎉")
-      setUserData({
-        fullName: "",
-        email: "",
-        phone: "",
-        country: "",
-        collage: "",
-      });
+    if (fullName && email && phone && country && collage) {
+      const res = await fetch(
+        "https://nextdb-bfcfc-default-rtdb.firebaseio.com/NewStudents.json", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({
+          fullName: fullName,
+          email: email,
+          phone: phone,
+          country: country,
+          collage: collage,
+        }),
+      }
+      );
+      if (res) {
+        alert("Thank You! Our Team will contact You Soon 😉🎉")
+        setUserData({
+          fullName: "",
+          email: "",
+          phone: "",
+          country: "",
+          collage: "",
+        });
+      }
+      else {
+        alert("Maybe Something went wrong! Try Again... 🤔")
+      }
     }
     else {
-      alert("Maybe Something went wrong! Try Again... 🤔")
+      alert("Please Enter All Required Fields! 🤔😓❤")
     }
-  }
-  else{
-    alert("Please Enter All Required Fields! 🤔😓❤")
-  }
   };
   return (
     <>
@@ -129,7 +129,16 @@ const Registration = () => {
                 onChange={postUserData}
                 required />
 
-
+              <label htmlFor="Aboutus">From Where Did You Hear About Us?*</label>
+              <select name="Aboutus" className={styles.input}>
+                <option>Select*</option>
+                <option>YouTube</option>
+                <option>Google</option>
+                <option>Instagram</option>
+                <option>Linkdin</option>
+                <option>Random Browsing</option>
+                <option>Whatsapp</option>
+              </select>
 
               <label htmlFor="collage">collage name*</label>
               <input
@@ -142,9 +151,9 @@ const Registration = () => {
                 required />
 
               <br />
-              <div  className={styles.Padd}>
-              <input type="checkbox" name='Terms' id='Terms' value="YES" className={styles.Padd} required />{'\u00A0'}
-              <label for='Terms'>Agree Our Privacy, Terms of services & Refund Policy*</label>
+              <div className={styles.Padd}>
+                <input type="checkbox" name='Terms' id='Terms' value="YES" className={styles.Padd} required />{'\u00A0'}
+                <label for='Terms'>Agree Our Privacy, Terms of services & Refund Policy*</label>
               </div>
               <button
                 type="submit"

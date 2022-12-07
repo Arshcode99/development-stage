@@ -12,7 +12,7 @@
 }
 .twocol{
     display: grid;
-    grid-template-columns: 1fr;
+    grid-template-columns: 30% 70%;
     width: 80%;
     padding: 10px;
     border: none;
@@ -23,6 +23,15 @@
 }
 .overflow{
     overflow: scroll;
+}
+.space{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+    gap: 5px;
+    padding: 7px 0px;
+    width: 100%;
 }
 .left, .right{
     width: 100%;
@@ -52,7 +61,7 @@
     background: linear-gradient(90deg, gold, #ff3000);
     color: #fff;
 }
-.btn:active{
+.btn:active, .btn:hover{
     background: #000;
     color: #ff3000;
 }
