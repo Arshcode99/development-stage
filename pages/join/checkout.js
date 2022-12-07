@@ -150,9 +150,9 @@ const Checkout = () => {
                   <th className={styles.th}>Date</th>
                   <th className={styles.th}>Time</th>
                   <th className={styles.th}>Price</th>
-                  <th className={styles.th}>GST</th>
-                  <th className={styles.th}>Cuppon Discount</th>
                   <th className={styles.th}>Discount</th>
+                  <th className={styles.th}>Cuppon Discount</th>
+                  <th className={styles.th}>GST</th>
                   <th className={styles.th}>Total</th>
                 </tr>
                 <tr>
@@ -163,11 +163,11 @@ const Checkout = () => {
                     minute: 'numeric',
                     hour12: true,
                   })}</td>
-                  <td className={styles.td}>₹57,910/-</td>
-                  <td className={styles.td}>18%</td>
-                  <td className={styles.td}>N/A</td>
+                  <td className={styles.td}>₹38,099/-</td>
                   <td className={styles.td}>52%</td>
-                  <td className={styles.td}>₹32,800/-</td>
+                  <td className={styles.td}>N/A</td>
+                  <td className={styles.td}>18%</td>
+                  <td className={styles.td}>₹21,579/-  <br />(GST Included)</td>
                 </tr>
               </table>
             </div>
