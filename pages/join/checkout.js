@@ -50,7 +50,7 @@ const Checkout = () => {
       image: "https://cdn.razorpay.com/logos/KnpjU4FBX4UW0r_medium.png",
       handler: function (response) {
         // Validate payment at server - using webhooks is a better idea.
-        alert("Thank You! You Will Be Redirected To Our Pro Slack Community Now! Sit Back And Relax😉...")
+        alert("Thank You! You Will Be Redirected To Your Invoice Page Now! Sit Back And Relax😉...")
         // alert(response.razorpay_payment_id);
         // alert(response.razorpay_order_id);
         // alert(response.razorpay_signature);
