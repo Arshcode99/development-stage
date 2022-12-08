@@ -1,9 +1,13 @@
 import React from 'react';
-import PayImg from '../../public/firewire.svg';
+import { useRouter } from 'next/router';
 import { useState, useEffect } from 'react';
 import styles from '../../styles/checkout.module.css';
 
 const Checkout = () => {
+
+  //Defining UseRouter
+  const router = useRouter();
+
 
   // initialize Razorpay Payment SDK
   const initializeRazorpay = () => {
@@ -25,16 +29,37 @@ const Checkout = () => {
   //Make Payment With Razorpay Payment
   const makePayment = async () => {
     if( batch && fullName && fullEmail && fullPhoneNo && fullAddress && fullPincode && fullCountry ){
+      const resbase = await fetch(
+        "https://nextdb-bfcfc-default-rtdb.firebaseio.com/students-paid-for-course.json", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({
+          BatchName: batch,
+          Email: fullEmail,
+          Name: fullEmail,
+          Country: fullCountry,
+          Phone: fullPhoneNo,
+          Pincode: fullPincode,
+          Address: fullAddress,
+        }),
+      }
+      );
+      if (resbase) {
+        console.log("Sent!")
+      }
+      else {
+        alert("Maybe Something went wrong! Try Again... 🤔")
+      }
     const res = await initializeRazorpay();
-
     if (!res) {
       alert("It Seems Like You're Offline Or Something Wrong From Our Side, If You're ONLINE and still seeing this message than please contact us at our contact page!");
       return;
     }
-  }
-  else{
-    alert("Please Fill All Required Data! 🤔")
-  }
+    else{
+      console.log("Success")
+    }
     // Make API call to the serverless API
     const data = await fetch("/api/razorpay", { method: "POST" }).then((t) =>
       t.json()
@@ -50,7 +75,7 @@ const Checkout = () => {
       image: "https://cdn.razorpay.com/logos/KnpjU4FBX4UW0r_medium.png",
       handler: function (response) {
         // Validate payment at server - using webhooks is a better idea.
-        alert("Thank You! You Will Be Redirected To Your Invoice Page Now! Sit Back And Relax😉...")
+        router.push('/join/success')
         // alert(response.razorpay_payment_id);
         // alert(response.razorpay_order_id);
         // alert(response.razorpay_signature);
@@ -61,9 +86,12 @@ const Checkout = () => {
         contact: fullPhoneNo,
       },
     };
-
     const paymentObject = new window.Razorpay(options);
     paymentObject.open();
+  }
+    else{
+      alert("Please Fill All Required Data! 🤔")
+    }
   };
 
   //Let's Take fetch data Dynamically!

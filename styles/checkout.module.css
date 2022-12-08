@@ -10,6 +10,30 @@
     background-repeat: no-repeat;
     background-size: cover;
 }
+.Success{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: url(../public/animated-bg.gif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.Successbox{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 80%;
+    padding: 10px;
+    place-items: center;
+    border: none;
+    border-radius: 12px;
+    background: white;
+    margin: 100px auto;
+    box-shadow: -1px -1px 60px 0px rgba(0,0,0,0.1);
+}
 .twocol{
     display: grid;
     grid-template-columns: 30% 70%;
@@ -20,6 +44,9 @@
     background: white;
     margin: 100px auto;
     box-shadow: -1px -1px 60px 0px rgba(0,0,0,0.1);
+}
+.green{
+    color: green;
 }
 .overflow{
     overflow: scroll;
@@ -38,8 +65,8 @@
     padding: 10px;
 }
 .PayImg{
-    width: 40%;
-    height: 40%;
+    width: 80%;
+    height: 80%;
     margin: 20px auto;
 }
 .form{
@@ -56,7 +83,6 @@
 .btn{
     padding: 10px 20px;
     border: none;
-    width: 20%;
     border-radius: 34px;
     background: linear-gradient(90deg, gold, #ff3000);
     color: #fff;
