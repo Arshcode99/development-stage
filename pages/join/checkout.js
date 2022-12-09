@@ -201,7 +201,7 @@ const Checkout = () => {
             <hr />
             <h3>Amount Payable</h3>
             <p><strong>Good News😍🎉:</strong> You Can Take Benifits Of Current Offers In Checkout Page, Just Click on PAY NOW Button and a popup will be open, In the bootom you can find offers tab, Just Click it and offer will be applied... </p>
-            <h6>₹21,579/-</h6>
+            <h4>₹21,579/-</h4>
             <button onClick={makePayment} className={styles.btn}>Pay Now</button>
             <hr />
             <h2>Your Information:</h2>
