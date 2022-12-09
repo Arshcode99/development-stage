@@ -205,6 +205,7 @@ const Checkout = () => {
             <button onClick={makePayment} className={styles.btn}>Pay Now</button>
             <hr />
             <h2>Your Information:</h2>
+            <div className={styles.overflow}>
             <table className={styles.table}>
                 <tr>
                   <th className={styles.th}>Name</th>
@@ -225,6 +226,7 @@ const Checkout = () => {
                   <td className={styles.td}>{batch}</td>
                 </tr>
               </table>
+              </div>
           </div>
         </div>
       </section>
