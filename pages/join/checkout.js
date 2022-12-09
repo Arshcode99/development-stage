@@ -67,12 +67,12 @@ const Checkout = () => {
     console.log(data);
     var options = {
       key: process.env.RAZORPAY_KEY, // Enter the Key ID generated from the Dashboard
-      name: "Arshcode",
+      name: "Reactjsofficial",
       currency: data.currency,
       amount: data.amount,
       order_id: data.id,
-      description: "Thankyou for your test donation",
-      image: "https://cdn.razorpay.com/logos/KnpjU4FBX4UW0r_medium.png",
+      description: "This TRANSACTION is taking place between you and our company for the digital product(Course)",
+      image: "https://www.reactjsofficial.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Ffavicon.df443803.png&w=2048&q=75",
       handler: function (response) {
         // Validate payment at server - using webhooks is a better idea.
         router.push('/join/success')
@@ -165,8 +165,6 @@ const Checkout = () => {
                   setBatch(fullBatchInt)
                 }} name='Batch' required type="radio" value="Next Batch" /> Next Batch
               </div>
-              <label htmlFor="CupponCode">Cuppon Code*</label>
-              <input type="text" name="CupponCode" className={styles.input} placeholder="N/A" disabled />
             </form>
           </div>
           <div className={styles.right}>
@@ -179,7 +177,6 @@ const Checkout = () => {
                   <th className={styles.th}>Time</th>
                   <th className={styles.th}>Price</th>
                   <th className={styles.th}>Discount</th>
-                  <th className={styles.th}>Cuppon Discount</th>
                   <th className={styles.th}>GST</th>
                   <th className={styles.th}>Total</th>
                 </tr>
@@ -193,7 +190,6 @@ const Checkout = () => {
                   })}</td>
                   <td className={styles.td}>₹38,099/-</td>
                   <td className={styles.td}>52%</td>
-                  <td className={styles.td}>N/A</td>
                   <td className={styles.td}>18%</td>
                   <td className={styles.td}>₹21,579/-  <br />(GST Included)</td>
                 </tr>
@@ -201,21 +197,34 @@ const Checkout = () => {
             </div>
             <b>Note* : Any False Information Can Result in Conflict and if found Your Course purchase will Be terminated!
               <br />
-              You Will Be Redirected To Invoice Page After Successfull Payment!
             </b>
             <hr />
             <h3>Amount Payable</h3>
-            <h6>₹32,800/-</h6>
+            <p><strong>Good News😍🎉:</strong> You Can Take Benifits Of Current Offers In Checkout Page, Just Click on PAY NOW Button and a popup will be open, In the bootom you can find offers tab, Just Click it and offer will be applied... </p>
+            <h6>₹21,579/-</h6>
             <button onClick={makePayment} className={styles.btn}>Pay Now</button>
             <hr />
             <h2>Your Information:</h2>
-            <b>Name:</b> {fullName}<br />
-            <b>Email:</b> {fullEmail} <br />
-            <b>Phone:</b> {fullPhoneNo}<br />
-            <b>Address:</b> {fullAddress}<br />
-            <b>Pincode:</b> {fullPincode}<br />
-            <b>Country:</b> {fullCountry}<br />
-            <b>Batch:</b> {batch}
+            <table className={styles.table}>
+                <tr>
+                  <th className={styles.th}>Name</th>
+                  <th className={styles.th}>Email</th>
+                  <th className={styles.th}>Phone</th>
+                  <th className={styles.th}>Address</th>
+                  <th className={styles.th}>Pincode</th>
+                  <th className={styles.th}>Country</th>
+                  <th className={styles.th}>Batch</th>
+                </tr>
+                <tr>
+                  <td className={styles.td}>{fullName}</td>
+                  <td className={styles.td}>{fullEmail}</td>
+                  <td className={styles.td}>{fullPhoneNo}</td>
+                  <td className={styles.td}>{fullAddress}</td>
+                  <td className={styles.td}>{fullPincode}</td>
+                  <td className={styles.td}>{fullCountry}</td>
+                  <td className={styles.td}>{batch}</td>
+                </tr>
+              </table>
           </div>
         </div>
       </section>
